@@ -1,0 +1,19 @@
+Intervention_Name,Perception,Delta_Score
+Built Elements,beautiful,-0.1520682030286103
+Built Elements,boring,0.028294402955944764
+Built Elements,depressing,-0.06984336794099284
+Built Elements,lively,0.082362062956686
+Built Elements,safe,0.13527164988810877
+Built Elements,wealthy,0.2233490647626221
+Natural Elements,beautiful,2.8250757777987614
+Natural Elements,boring,-0.9027017848576031
+Natural Elements,depressing,-1.774667586322461
+Natural Elements,lively,0.5188584339239041
+Natural Elements,safe,0.9378687075234657
+Natural Elements,wealthy,0.6206560603848936
+Traffic Elements,beautiful,0.07539261725867477
+Traffic Elements,boring,-0.6765525580349192
+Traffic Elements,depressing,-0.5623329872996186
+Traffic Elements,lively,0.7323741578818458
+Traffic Elements,safe,0.1494668414273705
+Traffic Elements,wealthy,0.5889554981349445

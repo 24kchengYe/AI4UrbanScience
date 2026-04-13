@@ -1,0 +1,28 @@
+
+prompt = f"""
+[Task] Analyze the provided extreme urban samples to synthesize a "Scientific Generation Blueprint": 
+{samples_json}
+
+[Context] These samples define the boundary constraints of an empirical urban system. Your goal is to extract the underlying generative logic to guide the synthesis of high-fidelity independent samples. To avoid "mirage cities" with biased parameters or numerical streaks, you must prioritize distributional continuity over fixed values.
+
+[Instructions] 
+Reason and synthesize the blueprint by integrating these three dimensions:
+
+1. Universal Urban Observations (Macro-Hierarchy & Continuity):
+   - Fundamental Hierarchy: Infer the universal city-size distribution principles (e.g., the Rank-Size Rule). 
+   - CRITICAL: Instruct that city scales must form a **continuous spectrum**. Independent generation should sample from the entire probability density rather than clustering around round numbers or specific anchor points.
+   - Data Space Partitioning: Define how the latent space is partitioned to ensure a heterogeneous urban system that maintains structural stability across 4-5 orders of magnitude.
+
+2. Task-Specific Tactical Analysis (Dynamic Scaling & Stochasticity):
+   - Inter-urban Dynamics (Zipf's Law): Observe the numerical gaps. Infer the hierarchy and instruct the LLM to maintain this "long-tail" gaps even when sampling individual cities.
+   - Intra-urban Dynamics (Scaling Laws): Calculate the scaling relationships between Population (tPOPsum) and attributes ({', '.join(COLS[1:])}). Explicitly define the super-linear growth (beta > 1) for GDP and sub-linear growth (beta < 1) for Infrastructure.
+   - STOCHASTICITY CONSTRAINT: Emphasize that these laws are **statistical, not deterministic**. Each city must exhibit "local variance" (residuals). For a given population, the attributes should vary within a ±15% range to reflect real-world complexity and prevent "linear streaks" in scatter plots.
+
+3. Empirical Range & Scale Calibration (Distribution Envelopes):
+   - Magnitude Mapping: Identify the actual numerical magnitudes and orders of magnitude from the samples. 
+   - Range Envelopes: Instead of fixed "Numerical Anchors," provide **"Numerical Envelopes" (Intervals)** for Small, Medium, and Mega cities. 
+   - GRANULARITY REQUIREMENT: Explicitly command the use of **high-precision decimals** (e.g., 5-6 significant digits) for all generated values. Strictly forbid the repetition of round numbers (e.g., avoid using exactly 1,000,000 or 50,000).
+
+[Output] 
+Output a concise scientific 'Blueprint' in English. It must act as a strict probabilistic logic constraint for independent city generation, ensuring the resulting dataset's aggregate q and beta values align with empirical observations while maintaining natural scatter diversity.
+"""

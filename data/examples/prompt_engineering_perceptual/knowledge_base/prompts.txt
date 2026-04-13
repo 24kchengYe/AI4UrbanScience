@@ -1,0 +1,57 @@
+Prompt	Description
+Urban scaling law	'''
+Generate the dataset containing 100 cities in a country. 
+Format the output as:  
+CityName1, Population1, Infrastructure volume1, GDP1
+CityName2, Population2, Infrastructure volume2, GDP2  
+...  
+Output exactly 100 lines without any additional text or explanations.  
+- City Name
+- Population
+- Infrastructure volume: Total road miles
+- GDP: all Gross Domestic Product of the city in one year
+'''
+
+
+
+Prompt	Description
+Urban distance decay theory	'''
+Generate attributes for 100 concentric city circles arranged in order in a city. 
+From the city center (Circle 1) to the outermost ring (Circle 100).
+Format the output as:  
+Circle 1, Population Density1, Land Density 1
+Circle 2, Population Density2, Land Density 2
+...  
+Output exactly 100 lines without any additional text or explanations.  
+- Population Density.
+- Land Density: Defined as the ratio of impervious surface area to the available land area.
+'''
+
+
+
+Prompt	Description
+Urban vitality theory -- generation	'''
+Generate attributes for 100 blocks in a city. 
+Format the output as:  
+Block Name1, Population Density1, Building Mix Index1, Short Block1, Aged Building1, Tall Building1
+Block Name2, Population Density2, Building Mix Index2, Short Block2, Aged Building2, Tall Building2
+...  
+Output exactly 100 lines without any additional text or explanations.  
+- Population Density: People per square meter.
+- Building Mix Index: Entropy index based on builidng use. Return value 0 and 1.
+- Short Block: Total number of street intersections divided by the area of the block.
+- Aged Building: The rate of old buildings on each block. Return value 0 and 1.
+- Tall Building: The average building heights on each block. 
+'''
+Urban vitality theory -- evaluation	'''
+You are a resident of a city. 
+Assign a livability score between 0 and 1 for each block, 
+0 represents the least livable and 1 represents the most livable.
+Evaluate each block based on the following attributes:
+- Block name.
+- Population Density: People per square meter.
+- Building Mix Index: Entropy index based on builidng use. 
+- Short Block: Total number of street intersections divided by the area of the block.
+- Aged Building: The rate of old buildings on each block. 
+- Tall Building: The average building heights on each block. 
+'''

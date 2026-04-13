@@ -1,0 +1,137 @@
+# Perceptual Mapping Blueprint
+
+## Safety
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Clean streets, presence of streetlights, maintained buildings, visible sidewalks.
+- **Typical Low**: Less lighting, dilapidated structures, narrow or absent sidewalks, graffiti.
+- **Ambiguous**: Mixed elements, well-lit but aged structures, unclear visibility due to obstructions.
+
+**Visual Switches**:
+- Lighting conditions
+- Building maintenance
+- Sidewalk clarity
+- Presence of graffiti or vandalism
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 2
+  - Negative correlation: Dim 5
+- **Interpretation**: High safety often corresponds to well-maintained and brightly-lit environments as suggested by positive Dim 2 scores.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: CLIP vectors with low variation in Dim 2 and Dim 5 combined with mixed visual cues.
+- **'Equal' Rule**: Use "Equal" if CLIP signal delta between images is < 0.20, and the images lack strong safety indicators like lighting.
+
+## Beautiful
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Lush vegetation, aesthetic architecture, clean and organized spaces.
+- **Typical Low**: Sparse vegetation, industrial zones, lacking aesthetic appeal.
+- **Ambiguous**: Urban areas with some greenery but mixed structural appeal.
+
+**Visual Switches**:
+- Vegetation density
+- Architectural appeal
+- Cleanliness
+- Presence of artistic elements
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 4
+  - Negative correlation: Dim 7
+- **Interpretation**: High scores relate to areas with high vegetation or appealing architecture.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: Instances where vegetation and architecture are balanced.
+- **'Equal' Rule**: Choose "Equal" if CLIP signal delta is < 0.15 with mixed aesthetic and minimal vegetation indicators.
+
+## Lively
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Busy streets, presence of shops and cafes, visible human activity.
+- **Typical Low**: Quiet residential streets, lack of commercial activity.
+- **Ambiguous**: Some activity, but not clearly commercial or residential.
+
+**Visual Switches**:
+- Human presence
+- Commercial signage
+- Activity level
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 6
+  - Negative correlation: Dim 3
+- **Interpretation**: High human interaction and commercial presence increase liveliness perception.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: Areas with balanced human activity and commercial presence.
+- **'Equal' Rule**: Implement "Equal" if CLIP signal delta is < 0.18 and no clear commercial or social indicators.
+
+## Wealthy
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Well-kept residential areas, luxury vehicles, landscaped gardens.
+- **Typical Low**: Older, less maintained infrastructure, absence of luxury signs.
+- **Ambiguous**: Maintained areas lacking luxury markers.
+
+**Visual Switches**:
+- Condition of infrastructure
+- Vehicles present
+- Landscaping quality
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 1
+  - Negative correlation: Dim 4
+- **Interpretation**: Wealthy areas correlate with high values in infrastructure and landscaping.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: Well-maintained without clear luxury markers.
+- **'Equal' Rule**: Use "Equal" if delta in CLIP is < 0.22 and lacks distinct markers of wealth like luxury vehicles.
+
+## Boring
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Monotonous industrial areas, lack of activity, uniformity.
+- **Typical Low**: Dynamic areas with various elements.
+- **Ambiguous**: Areas with neutral elements but lacking engaging features.
+
+**Visual Switches**:
+- Lack of activity
+- Uniformity in structures
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 8
+  - Negative correlation: Dim 3
+- **Interpretation**: High uniformity and low human presence drive the perception of boredom.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: Neutral areas without engaging features.
+- **'Equal' Rule**: Identify as "Equal" if CLIP delta is < 0.17 with minimal variation in landscape.
+
+## Depressing
+
+### Step 1: Dimension-Specific Qualitative Archetypes
+- **Typical High**: Rundown areas, neglected spaces, visible poverty.
+- **Typical Low**: Maintained areas with positive cues.
+- **Ambiguous**: Areas with neglected elements mixed with care indicators.
+
+**Visual Switches**:
+- Neglect in maintenance
+- Visible signs of decay
+
+### Step 2: Dimension-Specific Quantitative Scaling
+- **Semantic Signatures**:
+  - Positive correlation: Dim 7
+  - Negative correlation: Dim 2
+- **Interpretation**: Unmaintained or neglected spaces contribute to a sense of depression.
+
+### Step 3: Precise Boundary Logic & The 'Equal' Threshold
+- **Zone of Indifference**: Areas that have mixed signs of maintenance and neglect.
+- **'Equal' Rule**: Apply "Equal" when CLIP signal delta is < 0.19 and lacks prominent markers of neglect.
+
+---
+
+This blueprint provides structured insights into urban perception through qualitative archetypes and quantitative scaling using CLIP signals.

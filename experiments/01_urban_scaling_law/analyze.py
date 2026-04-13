@@ -58,13 +58,37 @@ def _to_numeric(series: pd.Series) -> pd.Series:
     )
 
 
+INFRA_ALIASES = ("Infrastructure", "Infra", "Infrastructure volume",
+                 "Infrastructure Volume", "infra")
+
+def _pick_infra_column(df: pd.DataFrame) -> str | None:
+    """Return the first column in df that looks like the infrastructure field."""
+    for name in INFRA_ALIASES:
+        if name in df.columns:
+            return name
+    # Fall back: any column whose header starts with 'infra' (case-insensitive)
+    for col in df.columns:
+        if isinstance(col, str) and col.lower().startswith("infra"):
+            return col
+    return None
+
+
 def fit_one_replicate(df: pd.DataFrame) -> dict:
     """Run all three fits on a single replicate. Returns a flat dict."""
     df = df.copy()
+    infra_col = _pick_infra_column(df)
+    if infra_col is None or "Population" not in df.columns or "GDP" not in df.columns:
+        # Unexpected schema — return NaNs so the caller can skip this row.
+        return {
+            "n_rows": len(df),
+            "zipf_beta": np.nan, "zipf_r2": np.nan,
+            "infra_beta": np.nan, "infra_r2": np.nan,
+            "gdp_beta": np.nan, "gdp_r2": np.nan,
+        }
     df["Population"] = _to_numeric(df["Population"])
-    df["Infrastructure"] = _to_numeric(df["Infrastructure"])
+    df[infra_col] = _to_numeric(df[infra_col])
     df["GDP"] = _to_numeric(df["GDP"])
-    df = df.dropna(subset=["Population", "Infrastructure", "GDP"])
+    df = df.dropna(subset=["Population", infra_col, "GDP"])
 
     out: dict = {"n_rows": len(df)}
 
@@ -79,7 +103,7 @@ def fit_one_replicate(df: pd.DataFrame) -> dict:
     # Infra scaling: infrastructure ~ population^beta
     try:
         fit = fitting.fit_power_law(df["Population"].values,
-                                    df["Infrastructure"].values)
+                                    df[infra_col].values)
         out.update(infra_beta=fit.beta, infra_r2=fit.r_squared)
     except ValueError:
         out.update(infra_beta=np.nan, infra_r2=np.nan)

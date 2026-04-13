@@ -1,0 +1,21 @@
+    hierarchical_prompt = """
+    [Task] Synthesize a "Perceptual Calibration Blueprint" based on the provided REAL samples (3 images per tier provided).
+
+    [Instructions] Provide a comprehensive analysis across three hierarchical levels. You must explicitly analyze 'TYPICAL HIGH', 'TYPICAL LOW', and 'AMBIGUOUS' states for ALL SIX dimensions ('safety', 'beautiful', 'lively', 'wealthy', 'boring', 'depressing').
+
+    1. Universal Visual Grammar of Reality (Systemic Observations):
+       - Summarize the fundamental "Reality Anchors" (e.g., material weathering, non-uniform lighting, organic clutter) observed across all provided authentic samples.
+       - Explain how these systemic features constitute the visual "Ground Truth" of a real urban environment.
+
+    2. Tactical Perceptual Logic (Three-Tier Comparative Analysis):
+       - For EACH of the six dimensions (Safety, Beautiful, Lively, Wealthy, Boring, Depressing), perform a detailed analysis of all three states:
+         - Contrast 'Typical High' vs 'Typical Low': Identify the decisive "Visual Switches" (e.g., specific objects, maintenance levels, lighting conditions) that drive human consensus.
+         - Analyze 'Ambiguous' (Difficult to distinguish) samples: Identify the specific visual contradictions or paradoxes that cause human disagreement and perceptual uncertainty.
+
+    3. Parametric Envelopes per Judgment (Numerical Calibration):
+       - For EACH of the six dimensions, define the observed **Numerical Envelopes** for the elements associated with 'Typical High', 'Typical Low', and 'Ambiguous' states:
+         - Specify observed element intervals (e.g., Vegetation Ratio, Infrastructure Density, Sky Visibility) for each of the three tiers within each dimension.
+         - Define the "Messiness Budget" or "Complexity Threshold" observed in real samples to maintain realistic heterogeneity for each state.
+
+    [Output] Output a detailed scientific manual in English. Organize the response strictly by the three hierarchical levels defined above. Do NOT use JSON format.
+    """
