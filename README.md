@@ -233,6 +233,49 @@ Every prompt has a stable slug. Scripts pick one via `--prompt <slug>`.
 
 ---
 
+## Data availability
+
+All data that support the findings of this study are openly available.
+
+**External benchmark datasets** (all public, cited in the manuscript):
+
+| Dataset | Used by | Source |
+|---|---|---|
+| MIT Place Pulse 2.0               | Exp. 04 | https://www.kaggle.com/datasets/ericpdavies/place-pulse-2-0 |
+| BCL China City Boundary           | Exp. 06 | https://www.beijingcitylab.com/data-released-1/ |
+| PopSE China 2020 100 m            | Exp. 06 | https://doi.org/10.11888/Geogra.tpdc.271936 |
+| Global real GDP 1992-2019         | Exp. 06 | https://doi.org/10.6084/m9.figshare.17004523 |
+| OSM 2018 China roads              | Exp. 06 | http://download.geofabrik.de/asia/china.html |
+| CMAB 2024 building footprints     | Exp. 06 | https://zenodo.org/record/11170381 |
+| GAIA impervious surface (China)   | Exp. 06 | http://data.ess.tsinghua.edu.cn/ |
+| geohey 2020 natural blocks        | Exp. 06 | https://geohey.com/ |
+
+**Generated datasets** produced by the GenAI models in our experiments
+(symbolic replicates for scaling-law / distance-decay / vitality; street-view
+images and perception scores for the perceptual experiments) are archived
+at:
+
+- **Figshare:** https://doi.org/10.6084/m9.figshare.28910084
+
+No data in this study are subject to restrictions. No personal, sensitive,
+or proprietary data are used.
+
+---
+
+## Code availability
+
+All code used to produce the results in the manuscript is released under
+an MIT License in this repository:
+
+- **GitHub (primary):** https://github.com/24kchengYe/AI4UrbanScience
+- **Figshare (mirror with persistent DOI):** https://doi.org/10.6084/m9.figshare.28910084
+
+Dependencies are declared in `requirements.txt` and `pyproject.toml`.
+Installation and step-by-step reproduction instructions for every figure
+are in the relevant `experiments/*/README.md` files.
+
+---
+
 ## License
 
 MIT (see `LICENSE`).
@@ -242,11 +285,13 @@ MIT (see `LICENSE`).
 ## Citation
 
 ```bibtex
-@article{ai4us2025,
-  title  = {GenAI Models Capture Urban Science but Oversimplify Complexity},
-  author = {Long, Ying and collaborators},
-  journal= {Nature Communications},
-  year   = {under review},
+@article{long2026ai4us,
+  title   = {GenAI Models Capture Urban Science but Oversimplify Complexity},
+  author  = {Long, Ying and Zhang, Yecheng and Zhao, Rong and Huang, Zimu
+             and Wang, Xinyu and Ma, Yue},
+  journal = {Nature Communications},
+  year    = {2026},
+  note    = {Manuscript NCOMMS-26-026691-T, under review},
 }
 ```
 
