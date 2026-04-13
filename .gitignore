@@ -1,0 +1,58 @@
+# ============================================================
+# AI4UrbanScience — gitignore
+# ============================================================
+
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Experiment outputs (large and regenerable)
+data/generated/
+data/place_pulse/
+data/real_world/
+data/street_view/
+data/perception_images/
+results/
+*.log
+logs/
+
+# Large geospatial artifacts
+*.tif
+*.tiff
+*.gdb/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx

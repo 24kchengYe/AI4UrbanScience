@@ -1,0 +1,37 @@
+# Experiment 08: SynAlign — blueprint-prompting pipeline
+
+experiment: prompt_engineering
+
+# ---- Shared ----
+primary_model: gpt-4o
+n_samples_per_stage: 100
+
+# ---- Symbolic pipeline (scaling law / vitality) ----
+symbolic:
+  stage1_discovery_prompt: |
+    [Task] Synthesize a "Statistical Blueprint" for generating 100 cities in
+    a country. Analyze the real-world city data provided and produce:
+      1. Numeric anchors for Population, Infrastructure, and GDP (min / median / max).
+      2. The expected scaling exponents (infrastructure ~ population^β and GDP ~ population^β).
+      3. A few explicit "do not" rules describing common failure modes (duplicate city names,
+         impossible population-to-infrastructure ratios, etc.).
+    Output a structured JSON blueprint.
+
+  stage2_base_prompt: scaling_law.baseline
+  stage2_blueprint_prompt: scaling_law.with_real_and_theory
+
+  stage3_target: infra_r2              # metric used to gate stage-4 alignment
+  stage4_acceptance_threshold: 0.85    # fraction of replicates that must hit the target
+
+# ---- Perceptual pipeline (Place Pulse) ----
+perceptual:
+  stage1_prompt: synalign.perceptual.stage1_discovery
+  stage1_samples_per_category: 300
+  stage2_prompt_template: |
+    Using the following Perceptual Mapping Blueprint:
+
+    {blueprint}
+
+    decide whether the LEFT or the RIGHT image scores higher on {dimension}.
+    Reply with exactly one token: LEFT, RIGHT, or EQUAL.
+  stage3_kappa_target: 0.25

@@ -1,0 +1,34 @@
+# Experiment 05: Synthetic intervention via controlled image generation
+
+experiment: synthetic_intervention
+
+# Multimodal model used for scoring the generated street-views.
+scoring_model: gpt-4o-vision
+
+# Generator + editor used to synthesize baseline and intervention images.
+image_generator: nano-banana
+image_editor: nano-banana-edit
+
+# Number of baseline images to generate in total.
+n_baseline_images: 100
+
+# Number of baseline/variant pairs created for each intervention category.
+n_pairs_per_category: 10
+
+# Intervention categories map to prompt slugs registered in ai4us/prompts.py.
+intervention_categories:
+  natural: image.intervention_natural
+  traffic: image.intervention_traffic
+  built:   image.intervention_built
+
+# Baseline generation: choose which prompt to start from.
+baseline_prompt: image.structured_diverse
+
+# Six Place Pulse dimensions used for scoring.
+perception_dimensions:
+  - safety
+  - beautiful
+  - lively
+  - wealthy
+  - depressing
+  - boring

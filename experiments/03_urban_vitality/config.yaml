@@ -1,0 +1,42 @@
+# Experiment 03: Urban Vitality (Jacobs, micro-scale)
+
+experiment: urban_vitality
+
+primary_model: gpt-4o
+
+all_models:
+  - gpt-4o
+  - claude-3.5-sonnet
+  - deepseek-v3
+  - gemini-2.0-flash
+  - chatglm-4
+
+# Step 1: block attribute generation
+primary_attribute_prompt: vitality_attributes.jacobs_five
+attribute_prompt_variants:
+  - vitality_attributes.jacobs_five
+  - vitality_attributes.street_density_scale_age
+
+# Step 2: livability scoring (the model takes its own generated blocks
+# and assigns a score for each).
+primary_scoring_prompt: vitality_scoring.direct_json
+scoring_prompt_variants:
+  - vitality_scoring.direct_json
+  - vitality_scoring.as_resident
+  - vitality_scoring.jacobs_theory
+  - vitality_scoring.resident_plus_theory
+  - vitality_scoring.resident_with_weights
+
+n_replicates: 100
+n_blocks_per_replicate: 100
+request_delay_s: 3
+temperature: 0.0
+
+# Columns emitted by the primary Jacobs-five attribute prompt.
+attribute_columns:
+  - Block Name
+  - Population Density
+  - Building Mix Index
+  - Short Block
+  - Aged Building
+  - Tall Building

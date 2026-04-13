@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai4us"
+version = "1.0.0"
+description = "AI for Urban Science: evaluate, calibrate and extend GenAI-synthesized urban data across symbolic and perceptual domains."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Ying Long and collaborators" },
+]
+keywords = [
+    "urban science",
+    "generative ai",
+    "urban scaling laws",
+    "urban vitality",
+    "urban perception",
+    "distance decay",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "pyyaml",
+    "requests",
+    "python-dotenv",
+    "matplotlib",
+    "seaborn",
+    "statsmodels",
+    "scikit-learn",
+    "Pillow",
+    "tqdm",
+    "openpyxl",
+]
+
+[project.optional-dependencies]
+geo = [
+    "geopandas",
+    "shapely",
+    "rasterio",
+    "rasterstats",
+    "pyproj",
+]
+ot  = ["POT"]
+perception = [
+    "trueskill",
+    "opencv-python",
+    "scikit-image",
+]
+
+[project.urls]
+Homepage   = "https://github.com/24kchengYe/AI4UrbanScience"
+Repository = "https://github.com/24kchengYe/AI4UrbanScience"
+
+[tool.setuptools]
+packages = ["ai4us"]

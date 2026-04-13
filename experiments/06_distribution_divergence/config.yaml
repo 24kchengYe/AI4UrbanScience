@@ -1,0 +1,27 @@
+# Experiment 06: Distribution divergence (Fig. 4)
+
+experiment: distribution_divergence
+
+# Model whose generated data we compare against the real-world baseline.
+primary_model: gpt-4o
+
+# Prompt variants to test for the three R/G/GC/GA scenarios.
+scenarios:
+  G:
+    prompt: scaling_law.baseline          # country-agnostic baseline
+    label: baseline
+  GC:
+    prompt: scaling_law.china              # 'in china'
+    label: China anchor
+  GA:
+    prompt: scaling_law.baseline           # 'in a country' but we post-filter to USA
+    label: USA anchor
+
+# Columns shared across real + generated data.
+columns:
+  - Population
+  - GDP
+  - Infrastructure
+
+# Number of equal-width bins used for MAE / Overlap Ratio.
+n_bins: 30

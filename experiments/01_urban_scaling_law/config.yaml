@@ -1,0 +1,75 @@
+# Experiment 01: Urban Scaling Law
+# This file holds the parameters used to produce Fig. 1 of the manuscript.
+# Override any field from the command line, e.g.:
+#   python generate.py --model claude-3.5-sonnet --prompt scaling_law.with_theory --n-replicates 100
+
+experiment: urban_scaling_law
+
+# ---------------------------------------------------------------------------
+# Generation parameters
+# ---------------------------------------------------------------------------
+
+# Primary model reported in the paper. See ai4us/models.py for the full list.
+primary_model: gpt-4o
+
+# All models evaluated for the cross-model comparison figure (supplementary).
+all_models:
+  - gpt-4o
+  - claude-3.5-sonnet
+  - deepseek-v3
+  - gemini-2.0-flash
+  - chatglm-4
+  - qwen-plus
+  - doubao-pro
+  - hunyuan-large
+  - o1-preview
+
+# Primary prompt used for the headline result in Fig. 1.
+primary_prompt: scaling_law.baseline
+
+# Additional prompt variants explored in the sensitivity analysis
+# (see ai4us/prompts.py for the full registry of 11 scaling-law prompts).
+prompt_variants:
+  - scaling_law.baseline
+  - scaling_law.china
+  - scaling_law.china_2020
+  - scaling_law.with_real_reference
+  - scaling_law.with_theory
+  - scaling_law.with_real_and_theory
+  - scaling_law.detailed_schema
+
+# Number of independent replicate datasets per (model, prompt) combination.
+# The paper reports 100 replicates.
+n_replicates: 100
+
+# Number of cities per replicate.
+n_cities_per_replicate: 100
+
+# Sleep between requests (seconds). Used to avoid rate-limit bursts.
+request_delay_s: 3
+
+# Sampling temperature for generation. 0 keeps runs deterministic modulo
+# server-side randomness.
+temperature: 0.0
+
+# ---------------------------------------------------------------------------
+# Expected columns in the generated data
+# ---------------------------------------------------------------------------
+
+columns:
+  - City Name
+  - Population
+  - Infrastructure
+  - GDP
+
+# ---------------------------------------------------------------------------
+# Empirical benchmarks (Bettencourt 2013)
+# ---------------------------------------------------------------------------
+
+benchmarks:
+  infrastructure:
+    beta: 0.849
+    beta_sd: 0.038
+  gdp:
+    beta: 1.126
+    beta_sd: 0.023

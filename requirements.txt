@@ -1,0 +1,45 @@
+# Core
+numpy
+pandas
+scipy
+pyyaml
+
+# API + environment
+requests
+python-dotenv
+requests-toolbelt
+
+# Plotting & stats
+matplotlib
+seaborn
+statsmodels
+scikit-learn
+
+# Geospatial (Experiment 06)
+geopandas
+shapely
+rasterio
+rasterstats
+pyproj
+
+# Optimal transport (Experiment 07)
+POT
+
+# Image & perception (Experiment 05)
+Pillow
+opencv-python
+scikit-image
+
+# Perception scoring
+trueskill
+
+# Utilities
+tqdm
+openpyxl
+xlrd
+
+# Optional:
+#   CLIP (for clip_diversity.py)  — install separately:
+#     pip install git+https://github.com/openai/CLIP.git
+#   Semantic segmentation (for segment_and_analyze.py --step segment):
+#     pip install mmsegmentation torch torchvision

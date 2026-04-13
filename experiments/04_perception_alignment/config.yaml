@@ -1,0 +1,26 @@
+# Experiment 04: Perception alignment against MIT Place Pulse 2.0
+
+experiment: perception_alignment
+
+primary_model: gpt-4o-vision
+
+# The six Place Pulse perceptual dimensions.
+dimensions:
+  - safety
+  - beautiful
+  - lively
+  - wealthy
+  - depressing
+  - boring
+
+# Number of random image pairs to sample per dimension.
+n_pairs_per_dimension: 1000
+
+# Where to find the Place Pulse 2.0 dataset (override via PLACE_PULSE_DIR).
+# Expected layout:
+#   <place_pulse_dir>/votes.csv
+#   <place_pulse_dir>/images/<image_id>.jpg
+place_pulse_subdir: place_pulse
+
+# Seed used when sampling pairs; keeps results reproducible.
+random_seed: 42

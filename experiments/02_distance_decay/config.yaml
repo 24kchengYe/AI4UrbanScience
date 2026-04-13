@@ -1,0 +1,32 @@
+# Experiment 02: Distance Decay (meso-scale)
+
+experiment: distance_decay
+
+primary_model: gpt-4o
+
+all_models:
+  - gpt-4o
+  - claude-3.5-sonnet
+  - deepseek-v3
+  - gemini-2.0-flash
+  - chatglm-4
+
+primary_prompt: distance_decay.baseline_100
+
+prompt_variants:
+  - distance_decay.baseline_100
+  - distance_decay.baseline_100_detailed_instructions
+  - distance_decay.city_150rings_2010
+  - distance_decay.with_real_reference
+  - distance_decay.with_theory
+  - distance_decay.with_real_and_theory
+
+n_replicates: 100
+n_rings_per_replicate: 100
+request_delay_s: 3
+temperature: 0.0
+
+columns:
+  - Circle Layer
+  - Population Density
+  - Land Density

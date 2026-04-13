@@ -1,0 +1,23 @@
+# Experiment 07: Calibration of generated distributions via Optimal Transport
+
+experiment: calibration_ot
+
+primary_model: gpt-4o
+primary_prompt: scaling_law.baseline
+
+# Columns to calibrate.
+columns:
+  - Population
+  - GDP
+  - Infrastructure
+
+# Ablation methods (turn on/off each calibration step).
+methods:
+  - raw                # LLM output, no calibration
+  - ot_marginal        # 1-D Optimal Transport, column by column
+  - ot_joint           # joint OT on all columns at once
+  - quantile_match     # simple quantile alignment baseline
+
+ot:
+  regularization: 0.05
+  max_iterations: 2000
