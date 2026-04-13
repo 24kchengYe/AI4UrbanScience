@@ -86,6 +86,25 @@ _SCALING_LAW: list[Prompt] = [
         """),
     ),
     Prompt(
+        slug="scaling_law.usa",
+        description=(
+            "Anchored to the United States (the 'GA' geographic-anchor scenario "
+            "in Fig. 4 of the manuscript)."
+        ),
+        body=dedent("""\
+            Generate the dataset containing 100 cities in the USA.
+            Format the output as:
+            CityName1, Population1, Infrastructure volume1, GDP1
+            CityName2, Population2, Infrastructure volume2, GDP2
+            ...
+            Output exactly 100 lines without any additional text or explanations.
+            - City Name
+            - Population
+            - Infrastructure volume: total road miles
+            - GDP: all Gross Domestic Product of the city in one year
+        """),
+    ),
+    Prompt(
         slug="scaling_law.with_real_reference",
         description="Baseline + 'refer to real-world city data'.",
         body=dedent("""\

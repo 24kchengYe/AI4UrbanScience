@@ -45,15 +45,31 @@ def _to_numeric(s: pd.Series) -> np.ndarray:
     ).dropna().values
 
 
+COLUMN_ALIASES = {
+    "Infrastructure": ("Infrastructure", "Infra", "Infrastructure volume",
+                        "Infrastructure Volume", "infra"),
+    "Population":     ("Population",),
+    "GDP":            ("GDP",),
+}
+
+
+def _resolve_col(df: pd.DataFrame, logical: str) -> str | None:
+    for name in COLUMN_ALIASES.get(logical, (logical,)):
+        if name in df.columns:
+            return name
+    return None
+
+
 def _load_pool(model: str, prompt: str, columns: list[str]) -> dict[str, np.ndarray]:
     in_dir = config.paths.model_dir("scaling_law", model, prompt)
     out: dict[str, list] = {c: [] for c in columns}
     for f in sorted(in_dir.glob("run_*.xlsx")):
         try:
             df = pd.read_excel(f)
-            for c in columns:
-                if c in df.columns:
-                    out[c].append(_to_numeric(df[c]))
+            for logical in columns:
+                real_col = _resolve_col(df, logical)
+                if real_col is not None:
+                    out[logical].append(_to_numeric(df[real_col]))
         except Exception:
             pass
     return {c: np.concatenate(v) if v else np.empty(0) for c, v in out.items()}
@@ -137,7 +153,11 @@ def main(argv: list[str] | None = None) -> None:
     if real_df.empty:
         raise SystemExit(f"no real-world data at {args.real_csv}; "
                          f"run experiments/06_distribution_divergence/extract_real_data.py first")
-    real = {c: _to_numeric(real_df[c]) for c in columns if c in real_df.columns}
+    real = {}
+    for logical in columns:
+        real_col = _resolve_col(real_df, logical)
+        if real_col is not None:
+            real[logical] = _to_numeric(real_df[real_col])
     scenarios = {name: _load_pool(args.model, spec["prompt"], columns)
                  for name, spec in cfg["scenarios"].items()}
 

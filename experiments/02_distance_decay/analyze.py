@@ -74,11 +74,27 @@ def fit_one_replicate(df: pd.DataFrame) -> dict:
     return out
 
 
-def aggregate(model: str, prompt: str) -> pd.DataFrame:
-    in_dir = config.paths.model_dir("distance_decay", model, prompt)
-    files = sorted(in_dir.glob("run_*.xlsx"))
+def aggregate(model: str, prompt: str, variant: str | None = None) -> pd.DataFrame:
+    """Load and fit every replicate under the (model, prompt[, variant]) path.
+
+    For the Supplementary Experiment 3 datasets the prompt slug
+    ``distance_decay.city_150rings_2010`` is followed by a variant subfolder
+    such as ``shanghai_1990_50km``; pass that name via ``variant``.
+    Without ``variant``, the function searches the whole prompt tree
+    recursively and groups replicates by their variant subdirectory
+    automatically.
+    """
+    base = config.paths.model_dir("distance_decay", model, prompt)
+    if variant:
+        in_dir = base / variant
+        files = sorted(in_dir.glob("run_*.xlsx"))
+    else:
+        in_dir = base
+        files = sorted(base.rglob("run_*.xlsx"))
+
     if not files:
         raise FileNotFoundError(f"No replicates under {in_dir}")
+
     rows = []
     for f in files:
         try:
@@ -86,10 +102,19 @@ def aggregate(model: str, prompt: str) -> pd.DataFrame:
             result = fit_one_replicate(df)
             result["replicate"] = int(f.stem.split("_")[-1])
             result["file"] = f.name
+            # Store the variant path (relative to `base`) so the summary can
+            # be grouped without re-aggregating.
+            try:
+                rel_parent = f.parent.relative_to(base).as_posix()
+            except ValueError:
+                rel_parent = ""
+            result["variant"] = rel_parent or "_default_"
             rows.append(result)
         except Exception as e:
             log.warning("skipping %s: %s", f.name, e)
-    return pd.DataFrame(rows).sort_values("replicate").reset_index(drop=True)
+    return (pd.DataFrame(rows)
+              .sort_values(["variant", "replicate"])
+              .reset_index(drop=True))
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -97,6 +122,14 @@ def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--model", default=cfg["primary_model"])
     parser.add_argument("--prompt", default=cfg["primary_prompt"])
+    parser.add_argument(
+        "--variant",
+        default=None,
+        help="For prompts that have per-city / per-year sub-experiments "
+             "(e.g. distance_decay.city_150rings_2010), pass the sub-directory "
+             "name such as 'shanghai_1990_50km'. Omit to aggregate every "
+             "sub-variant under the prompt recursively.",
+    )
     parser.add_argument("--output", type=Path, default=None)
     parser.add_argument("--log-level", default="INFO")
     args = parser.parse_args(argv)
@@ -104,16 +137,29 @@ def main(argv: list[str] | None = None) -> None:
     logging.basicConfig(level=getattr(logging, args.log_level),
                         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s")
 
-    df = aggregate(args.model, args.prompt)
+    df = aggregate(args.model, args.prompt, variant=args.variant)
     print()
-    print("=" * 60)
-    print(f"Inverse-S fits across {len(df)} replicates")
-    print(f"  mean r0       = {df['r0'].mean():.3f}")
-    print(f"  mean alpha    = {df['alpha'].mean():.3f}")
-    print(f"  mean beta     = {df['beta'].mean():.3f}")
-    print(f"  mean R²       = {df['r_squared'].mean():.3f}")
-    print(f"  successful    = {df['r_squared'].notna().sum()}/{len(df)}")
-    print("=" * 60)
+    print("=" * 72)
+    print(f"Inverse-S fits — {args.model} / {args.prompt}"
+          f"{' / ' + args.variant if args.variant else ''}")
+    print("=" * 72)
+
+    variants = df["variant"].unique() if "variant" in df.columns else ["_default_"]
+    if len(variants) > 1:
+        print(f"{'variant':<28s} {'n':>4s} {'r0':>8s} {'alpha':>8s} "
+              f"{'beta':>8s} {'R²':>8s}")
+        print("-" * 72)
+        for v in sorted(variants):
+            sub = df[df["variant"] == v]
+            n_ok = sub["r_squared"].notna().sum()
+            print(f"{v[:28]:<28s} {n_ok:>4d} "
+                  f"{sub['r0'].mean():>8.2f} {sub['alpha'].mean():>8.2f} "
+                  f"{sub['beta'].mean():>8.3f} {sub['r_squared'].mean():>8.3f}")
+        print("-" * 72)
+    print(f"Total replicates: {len(df)}, successful fits: "
+          f"{df['r_squared'].notna().sum()}")
+    print(f"Overall mean R² = {df['r_squared'].mean():.3f}")
+    print("=" * 72)
 
     out = args.output or (
         config.paths.results / "distance_decay" / args.model / f"{args.prompt}.csv"

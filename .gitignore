@@ -35,12 +35,18 @@ Thumbs.db
 *.swp
 *~
 
-# Experiment outputs (large and regenerable)
+# Experiment outputs — the full generated dataset is archived on Figshare;
+# only a small `data/examples/` subset is committed to the repo so that
+# reviewers can run the analysis scripts without an API key.
 data/generated/
 data/place_pulse/
 data/real_world/
 data/street_view/
 data/perception_images/
+# But DO commit the curated example replicates for quick reproduction:
+!data/examples/
+!data/examples/**
+
 results/
 *.log
 logs/

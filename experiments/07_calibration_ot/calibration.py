@@ -177,24 +177,65 @@ def main(argv: list[str] | None = None) -> None:
 
     columns = cfg["columns"]
     real = pd.read_csv(args.real_csv)
-    real_num = real[columns].apply(lambda s: pd.to_numeric(s, errors="coerce")).dropna()
+
+    # Resolve column aliases (Infra / Infrastructure) on the real data first.
+    ALIASES = {
+        "Infrastructure": ("Infrastructure", "Infra", "Infrastructure volume",
+                            "Infrastructure Volume", "infra"),
+        "Population":     ("Population",),
+        "GDP":            ("GDP",),
+    }
+
+    def _resolve(df: pd.DataFrame, logical: str) -> str | None:
+        for name in ALIASES.get(logical, (logical,)):
+            if name in df.columns:
+                return name
+        return None
+
+    def _normalise(df: pd.DataFrame) -> pd.DataFrame | None:
+        """Return a copy with canonical column names; None if any column missing."""
+        rename: dict[str, str] = {}
+        for logical in columns:
+            real_col = _resolve(df, logical)
+            if real_col is None:
+                return None
+            if real_col != logical:
+                rename[real_col] = logical
+        df2 = df.rename(columns=rename).copy()
+        for logical in columns:
+            df2[logical] = pd.to_numeric(
+                df2[logical].astype(str).str.replace(r"[^\d.\-eE]", "", regex=True),
+                errors="coerce",
+            )
+        return df2[columns].dropna()
+
+    real_norm = _normalise(real)
+    if real_norm is None or real_norm.empty:
+        raise SystemExit(
+            f"real-world CSV {args.real_csv} is missing one or more columns: {columns}"
+        )
+    real_num = real_norm
 
     # Aggregate all generated replicates into one big table
     gen_dir = config.paths.model_dir("scaling_law", args.model, args.prompt)
     frames: list[pd.DataFrame] = []
+    skip_reasons: dict[str, int] = {}
     for f in sorted(gen_dir.glob("run_*.xlsx")):
         try:
             df = pd.read_excel(f)
-            for c in columns:
-                df[c] = pd.to_numeric(
-                    df[c].astype(str).str.replace(r"[^\d.\-eE]", "", regex=True),
-                    errors="coerce",
-                )
-            frames.append(df[columns].dropna())
-        except Exception:
-            pass
+            norm = _normalise(df)
+            if norm is None or norm.empty:
+                skip_reasons["schema_mismatch"] = skip_reasons.get("schema_mismatch", 0) + 1
+                continue
+            frames.append(norm)
+        except Exception as e:
+            skip_reasons[str(type(e).__name__)] = skip_reasons.get(str(type(e).__name__), 0) + 1
     if not frames:
-        raise SystemExit(f"no replicates in {gen_dir}")
+        raise SystemExit(
+            f"no replicates in {gen_dir}"
+            + (f" (skip_reasons={skip_reasons})" if skip_reasons else "")
+        )
+    log.info("loaded %d replicate files (skipped %s)", len(frames), skip_reasons or "none")
     gen_all = pd.concat(frames, ignore_index=True)
 
     result = run_ablation(

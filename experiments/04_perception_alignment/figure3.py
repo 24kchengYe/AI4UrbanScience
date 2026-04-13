@@ -43,12 +43,13 @@ def _load_config() -> dict:
         return yaml.safe_load(fh)
 
 
-def _confusion_matrix(df: pd.DataFrame) -> np.ndarray:
+def _confusion_matrix(df: pd.DataFrame,
+                      human_col: str, ai_col: str) -> np.ndarray:
     cm = np.zeros((3, 3), dtype=int)
     mapping = {"LEFT": 0, "RIGHT": 1, "EQUAL": 2}
     for _, row in df.iterrows():
-        h = mapping.get(str(row["human_choice"]).upper())
-        a = mapping.get(str(row["ai_choice"]).upper())
+        h = mapping.get(str(row[human_col]).upper())
+        a = mapping.get(str(row[ai_col]).upper())
         if h is not None and a is not None:
             cm[h, a] += 1
     return cm
@@ -63,6 +64,29 @@ def _cohens_kappa(cm: np.ndarray) -> float:
     return (po - pe) / (1 - pe) if pe < 1 else float("nan")
 
 
+def _load_per_dim_dataframes(model: str, dims: list[str]) -> dict[str, pd.DataFrame] | None:
+    """Try to load the `<model>/<dim>.csv` layout produced by pairwise_eval."""
+    in_dir = config.paths.experiment_dir("perception_alignment") / model
+    if not in_dir.exists():
+        return None
+    out: dict[str, pd.DataFrame] = {}
+    for dim in dims:
+        f = in_dir / f"{dim}.csv"
+        if f.exists():
+            df = pd.read_csv(f)
+            if "human_choice" in df.columns and "ai_choice" in df.columns:
+                out[dim] = df
+    return out or None
+
+
+def _load_unified() -> pd.DataFrame | None:
+    """Fall back to the research-time unified CSV."""
+    root = config.paths.experiment_dir("perception_alignment")
+    for candidate in sorted(root.rglob("ai_vs_human_choices_unified*.csv")):
+        return pd.read_csv(candidate)
+    return None
+
+
 def main(argv: list[str] | None = None) -> None:
     cfg = _load_config()
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
@@ -72,23 +96,39 @@ def main(argv: list[str] | None = None) -> None:
     args = parser.parse_args(argv)
 
     viz.use_paper_style(font_size=11)
-    in_dir = config.paths.experiment_dir("perception_alignment") / args.model
-    if not in_dir.exists():
-        raise SystemExit(f"no judgments at {in_dir}; run pairwise_eval.py first")
-
     dims = cfg["dimensions"]
+
+    # Decide the data source: prefer per-dim outputs from pairwise_eval,
+    # otherwise fall back to the unified CSV shipped with the Figshare archive.
+    per_dim = _load_per_dim_dataframes(args.model, dims)
+    unified = None
+    if per_dim is None:
+        unified = _load_unified()
+        if unified is None:
+            raise SystemExit(
+                "No perception alignment input found. Expected either "
+                f"data/generated/perception_alignment/{args.model}/<dim>.csv "
+                "(from pairwise_eval.py) or the unified research-time CSV "
+                "data/generated/perception_alignment/correlational/"
+                "ai_vs_human_validation/ai_vs_human_choices_unified*.csv."
+            )
+
     fig, axes = plt.subplots(2, 4, figsize=(18, 9))
 
     kappas: list[float] = []
     for i, dim in enumerate(dims):
         ax = axes[i // 3, i % 3]
-        f = in_dir / f"{dim}.csv"
-        if not f.exists():
+        if per_dim is not None and dim in per_dim:
+            df = per_dim[dim]
+            h_col, a_col = "human_choice", "ai_choice"
+        elif unified is not None:
+            df = unified[unified["category"].str.lower() == dim.lower()]
+            h_col, a_col = "human_winner", "ai_winner"
+        else:
             ax.set_title(f"{dim}\n(missing)")
             kappas.append(float("nan"))
             continue
-        df = pd.read_csv(f)
-        cm = _confusion_matrix(df)
+        cm = _confusion_matrix(df, h_col, a_col)
         k = _cohens_kappa(cm)
         kappas.append(k)
         ax.imshow(cm, cmap="Blues")

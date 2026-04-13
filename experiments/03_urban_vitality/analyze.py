@@ -42,9 +42,30 @@ def _load_config() -> dict:
         return yaml.safe_load(fh)
 
 
+LIVABILITY_ALIASES = (
+    "Livability",
+    "Livability Score",
+    "livability",
+    "livability_score",
+    "Score",
+)
+
+def _pick_livability_column(df: pd.DataFrame) -> str | None:
+    for name in LIVABILITY_ALIASES:
+        if name in df.columns:
+            return name
+    for col in df.columns:
+        if isinstance(col, str) and "livability" in col.lower():
+            return col
+    return None
+
+
 def _numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
     out = df.copy()
     for c in cols:
+        if c not in out.columns:
+            out[c] = np.nan
+            continue
         out[c] = pd.to_numeric(
             out[c].astype(str).str.replace(r"[^\d.\-eE]", "", regex=True),
             errors="coerce",
@@ -53,36 +74,53 @@ def _numeric(df: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
 
 
 def fit_replicate(df: pd.DataFrame, attributes: list[str]) -> dict | None:
-    df = _numeric(df, [*attributes, "Livability"]).dropna(subset=[*attributes, "Livability"])
-    if len(df) < len(attributes) + 5:
+    y_col = _pick_livability_column(df)
+    if y_col is None:
         return None
-    fit = fitting.fit_ols(df, "Livability", attributes)
+    # Only keep attributes that actually appear in this replicate.
+    present_attrs = [a for a in attributes if a in df.columns]
+    if len(present_attrs) < 2:
+        return None
+    df = _numeric(df, [*present_attrs, y_col]).dropna(subset=[*present_attrs, y_col])
+    if len(df) < len(present_attrs) + 5:
+        return None
+    # Rename to canonical name so fitting.fit_ols produces stable column names.
+    df = df.rename(columns={y_col: "Livability"})
+    fit = fitting.fit_ols(df, "Livability", present_attrs)
     row: dict = {"n_rows": fit.n, "r_squared": fit.r_squared, "intercept": fit.intercept}
-    for attr, b in fit.coefficients.items():
-        row[f"beta__{attr}"] = b
-        row[f"p__{attr}"] = fit.p_values[attr]
+    for attr in attributes:
+        row[f"beta__{attr}"] = fit.coefficients.get(attr, np.nan)
+        row[f"p__{attr}"] = fit.p_values.get(attr, np.nan)
     return row
 
 
 def aggregate(model: str, scoring_prompt: str,
               attributes: list[str]) -> pd.DataFrame:
-    in_dir = (config.paths.experiment_dir("vitality_scored")
-              / model / scoring_prompt)
-    files = sorted(in_dir.glob("run_*.xlsx"))
+    base = (config.paths.experiment_dir("vitality_scored")
+            / model / scoring_prompt)
+    # Search recursively so batch-size sub-directories like ``n100/`` are
+    # included automatically.
+    files = sorted(base.rglob("run_*.xlsx"))
     if not files:
-        raise FileNotFoundError(f"No scored replicates under {in_dir}")
+        raise FileNotFoundError(f"No scored replicates under {base}")
     rows = []
     for f in files:
         try:
             result = fit_replicate(pd.read_excel(f), attributes)
             if result is None:
-                log.warning("skipping %s (insufficient data)", f.name)
+                log.warning("skipping %s (insufficient data or missing columns)", f.name)
                 continue
             result["replicate"] = int(f.stem.split("_")[-1])
+            try:
+                result["variant"] = f.parent.relative_to(base).as_posix() or "_default_"
+            except ValueError:
+                result["variant"] = "_default_"
             rows.append(result)
         except Exception as e:
             log.warning("skipping %s: %s", f.name, e)
-    return pd.DataFrame(rows).sort_values("replicate").reset_index(drop=True)
+    return (pd.DataFrame(rows)
+              .sort_values(["variant", "replicate"])
+              .reset_index(drop=True))
 
 
 def print_summary(df: pd.DataFrame, attributes: list[str]) -> None:

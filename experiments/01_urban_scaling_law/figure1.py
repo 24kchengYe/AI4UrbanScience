@@ -53,12 +53,33 @@ def _load_config() -> dict:
 # Data loading
 # ---------------------------------------------------------------------------
 
+_INFRA_ALIASES = ("Infrastructure", "Infra", "Infrastructure volume",
+                  "Infrastructure Volume", "infra")
+
+
+def _pick_infra(df: pd.DataFrame) -> str | None:
+    for name in _INFRA_ALIASES:
+        if name in df.columns:
+            return name
+    for col in df.columns:
+        if isinstance(col, str) and col.lower().startswith("infra"):
+            return col
+    return None
+
+
 def _load_replicates(model: str, prompt: str) -> list[pd.DataFrame]:
     in_dir = config.paths.model_dir("scaling_law", model, prompt)
     frames: list[pd.DataFrame] = []
     for f in sorted(in_dir.glob("run_*.xlsx")):
         try:
             df = pd.read_excel(f)
+            infra_col = _pick_infra(df)
+            if infra_col is None or "Population" not in df.columns or "GDP" not in df.columns:
+                continue
+            # Normalise to canonical column name so downstream panels can
+            # reference df["Infrastructure"] unconditionally.
+            if infra_col != "Infrastructure":
+                df = df.rename(columns={infra_col: "Infrastructure"})
             for col in ("Population", "Infrastructure", "GDP"):
                 df[col] = pd.to_numeric(
                     df[col].astype(str).str.replace(r"[^\d.\-eE]", "", regex=True),

@@ -5,17 +5,17 @@ experiment: distribution_divergence
 # Model whose generated data we compare against the real-world baseline.
 primary_model: gpt-4o
 
-# Prompt variants to test for the three R/G/GC/GA scenarios.
+# Prompt variants to test for the three R/G/GC/GA scenarios from Fig. 4.
 scenarios:
   G:
-    prompt: scaling_law.baseline          # country-agnostic baseline
-    label: baseline
+    prompt: scaling_law.baseline
+    label: baseline ('in a country')
   GC:
-    prompt: scaling_law.china              # 'in china'
-    label: China anchor
+    prompt: scaling_law.china
+    label: China anchor ('in china')
   GA:
-    prompt: scaling_law.baseline           # 'in a country' but we post-filter to USA
-    label: USA anchor
+    prompt: scaling_law.usa
+    label: USA anchor ('in the USA')
 
 # Columns shared across real + generated data.
 columns:

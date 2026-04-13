@@ -40,14 +40,39 @@ def _load_config() -> dict:
         return yaml.safe_load(fh)
 
 
+_LIVABILITY_ALIASES = (
+    "Livability", "Livability Score", "livability", "livability_score", "Score",
+)
+
+
+def _pick_livability(df: pd.DataFrame) -> str | None:
+    for name in _LIVABILITY_ALIASES:
+        if name in df.columns:
+            return name
+    for col in df.columns:
+        if isinstance(col, str) and "livability" in col.lower():
+            return col
+    return None
+
+
 def _load_replicates(model: str, scoring_prompt: str) -> list[pd.DataFrame]:
     in_dir = (config.paths.experiment_dir("vitality_scored")
               / model / scoring_prompt)
     frames: list[pd.DataFrame] = []
-    for f in sorted(in_dir.glob("run_*.xlsx")):
+    for f in sorted(in_dir.rglob("run_*.xlsx")):  # recurse into batch sub-dirs
         try:
             df = pd.read_excel(f)
-            cols_to_num = [*theories.VITALITY_ATTRIBUTES, "Livability"]
+            y_col = _pick_livability(df)
+            if y_col is None:
+                continue
+            # Normalise the column name so downstream panels always use
+            # "Livability" regardless of how the replicate labelled it.
+            if y_col != "Livability":
+                df = df.rename(columns={y_col: "Livability"})
+            present_attrs = [a for a in theories.VITALITY_ATTRIBUTES if a in df.columns]
+            if not present_attrs:
+                continue
+            cols_to_num = [*present_attrs, "Livability"]
             for c in cols_to_num:
                 df[c] = pd.to_numeric(
                     df[c].astype(str).str.replace(r"[^\d.\-eE]", "", regex=True),

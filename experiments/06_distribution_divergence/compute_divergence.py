@@ -48,15 +48,30 @@ def _to_numeric(s: pd.Series) -> np.ndarray:
     ).dropna().values
 
 
+COLUMN_ALIASES = {
+    "Infrastructure": ("Infrastructure", "Infra", "Infrastructure volume",
+                        "Infrastructure Volume", "infra"),
+    "Population":     ("Population",),
+    "GDP":            ("GDP",),
+}
+
+def _resolve_col(df: pd.DataFrame, logical: str) -> str | None:
+    for name in COLUMN_ALIASES.get(logical, (logical,)):
+        if name in df.columns:
+            return name
+    return None
+
+
 def _load_generated_pool(model: str, prompt: str, columns: list[str]) -> dict[str, np.ndarray]:
     in_dir = config.paths.model_dir("scaling_law", model, prompt)
     pools: dict[str, list[np.ndarray]] = {c: [] for c in columns}
     for f in sorted(in_dir.glob("run_*.xlsx")):
         try:
             df = pd.read_excel(f)
-            for c in columns:
-                if c in df.columns:
-                    pools[c].append(_to_numeric(df[c]))
+            for logical in columns:
+                real_col = _resolve_col(df, logical)
+                if real_col is not None:
+                    pools[logical].append(_to_numeric(df[real_col]))
         except Exception as e:
             log.warning("skip %s: %s", f.name, e)
     return {c: np.concatenate(v) if v else np.empty(0) for c, v in pools.items()}
@@ -64,7 +79,12 @@ def _load_generated_pool(model: str, prompt: str, columns: list[str]) -> dict[st
 
 def _load_real(path: Path, columns: list[str]) -> dict[str, np.ndarray]:
     df = pd.read_csv(path)
-    return {c: _to_numeric(df[c]) for c in columns if c in df.columns}
+    out: dict[str, np.ndarray] = {}
+    for logical in columns:
+        real_col = _resolve_col(df, logical)
+        if real_col is not None:
+            out[logical] = _to_numeric(df[real_col])
+    return out
 
 
 def main(argv: list[str] | None = None) -> None:
