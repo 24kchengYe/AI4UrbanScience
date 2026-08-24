@@ -1,0 +1,85 @@
+{
+  "schema_version": "2.0",
+  "reader_role": "current supplementary source-table and renderer index",
+  "figure_count": 12,
+  "figures": [
+    {
+      "figure": "S01",
+      "source_table": "data/figure_sources/supplementary/FigS01/FigS01.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS01/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S02",
+      "source_table": "data/figure_sources/supplementary/FigS02/FigS02.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS02/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S03",
+      "source_table": "data/figure_sources/supplementary/FigS03/FigS03.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS03/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S04",
+      "source_table": "data/figure_sources/supplementary/FigS04/FigS04.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS04/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S05",
+      "source_table": "data/figure_sources/supplementary/FigS05/FigS05.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS05/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S06",
+      "source_table": "data/figure_sources/supplementary/FigS06/FigS06.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS06/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S07",
+      "source_table": "data/figure_sources/supplementary/FigS07/FigS07.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS07/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S08",
+      "source_table": "data/figure_sources/supplementary/FigS08/FigS08.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS08/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S09",
+      "source_table": "data/figure_sources/supplementary/FigS09/FigS09.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS09/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S10",
+      "source_table": "data/figure_sources/supplementary/FigS10/FigS10.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS10/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S11",
+      "source_table": "data/figure_sources/supplementary/FigS11/FigS11.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS11/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S12",
+      "source_table": "data/figure_sources/supplementary/FigS12/FigS12.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS12/manifest.json",
+      "renderer": "ai4us.figures.supplementary"
+    }
+  ],
+  "author_side_lineage": {
+    "artifact_id": "ai4us-artifact-sha256-939ecb26ddf13f7e9c1fbd6727060fce10867c88606937e765a4c1e2338ccdf7",
+    "sha256": "939ecb26ddf13f7e9c1fbd6727060fce10867c88606937e765a4c1e2338ccdf7",
+    "availability": "not_bundled",
+    "role": "author-side identity retained by hash"
+  }
+}

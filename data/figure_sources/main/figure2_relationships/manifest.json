@@ -1,0 +1,29 @@
+{
+  "schema_version": "2.0",
+  "figure": "2",
+  "reader_role": "released source table with diagnostic public rerender",
+  "source_table": {
+    "path": "data/figure_sources/main/figure2_relationships/Fig02_relationships_v07.source.csv",
+    "sha256": "3b7194eb272671d71387b0e33d5c97f64aced3a3350cca6f4189feb9ae14022a",
+    "bytes": 196182,
+    "data_rows": 1233
+  },
+  "renderer": {
+    "module": "ai4us.figures.relationships",
+    "command": "python scripts/reproduce_figures.py --figures 2 --output-dir <new-output-dir>",
+    "output_identity": "public_source_table_rerender"
+  },
+  "reference_output": {
+    "path": "reference_outputs/main/figure2_relationships.pdf",
+    "sha256": "723acc513c236d95a6737a479303fb0d967413eb5f95d5965aa04318c73b52d3",
+    "bytes": 410314,
+    "role": "byte-exact frozen publication reference"
+  },
+  "publication_rebuild_claim": "none; the renderer produces a diagnostic view and does not claim publication-layout byte or pixel identity",
+  "author_side_lineage": {
+    "artifact_id": "ai4us-artifact-sha256-1a7928bc54acad4f72fb5c5830230db0bcc6e9bea5d906bf509b31e335518f64",
+    "sha256": "1a7928bc54acad4f72fb5c5830230db0bcc6e9bea5d906bf509b31e335518f64",
+    "availability": "not_bundled",
+    "role": "author-side identity retained by hash"
+  }
+}

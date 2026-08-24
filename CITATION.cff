@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article."
+title: "GenAI Models Capture Urban Science but Oversimplify Complexity"
+type: software
+version: 2.0.0
+authors:
+  - family-names: Zhang
+    given-names: Yecheng
+    affiliation: "School of Architecture, Tsinghua University"
+  - family-names: Zhao
+    given-names: Rong
+    affiliation: "School of Architecture, Tsinghua University"
+  - family-names: Huang
+    given-names: Zimu
+    affiliation: "School of Architecture, Tsinghua University"
+  - family-names: Wang
+    given-names: Xinyu
+    affiliation: "School of Architecture, Tsinghua University"
+  - family-names: Ma
+    given-names: Yue
+    affiliation: "School of Architecture, Tsinghua University"
+  - family-names: Long
+    given-names: Ying
+    email: ylong@tsinghua.edu.cn
+    affiliation: "School of Architecture, Tsinghua University"
+license: MIT

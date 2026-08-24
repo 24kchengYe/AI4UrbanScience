@@ -1,0 +1,163 @@
+panel,theory,series,cell_id,closed_value,closed_ci_low,closed_ci_high,open_value,open_ci_low,open_ci_high,metric,n_carriers,n_scenes,decoder_block,estimate,selected,ci_low,ci_high,condition,theme,dimension
+a,Urban Scaling,gdp,C02,0.8318922577951201,0.6691563446869636,1.0088937065997676,1.4871097165873997,1.242453324894,1.6094379124340998,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C03,1.7947860197449597,1.5469697810384753,2.0796462633950967,2.187060562900721,1.9560115027140723,2.302585092994045,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C04,2.597027162778036,2.2010145656291136,3.030832774884316,3.63697968760242,3.086893051950968,3.912023005428146,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C05,3.324619395215245,2.8730479683698564,3.7942951029043392,4.309844045666112,3.719191765022153,4.605170185988091,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C06,3.965335411031122,3.447293936076765,4.526182906186715,5.134845824379416,4.349757374105096,5.756462732485114,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C07,4.637524519923812,4.020103868983631,5.284354889866425,5.946368446349841,5.063315551925169,6.561181688702163,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C08,5.380163389828041,4.738781428836515,6.0506362815879084,6.755040157003111,5.64489095682801,7.712474235199186,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C09,6.139328416547024,5.408075035880223,6.932182279913396,7.4135807767666835,6.234218454998832,8.405621415759134,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C10,6.78861023223931,6.015987980841867,7.580071482757907,8.36447806943721,6.907755278982137,9.66848573791326,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C11,7.279280390316194,6.433828070029771,8.142766964773749,9.009678237921865,7.457061423316193,10.361632918473209,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,gdp,C12,7.771442610396153,6.871456345055719,8.628904253307178,11.971070830907308,9.66848573791326,13.122363377404328,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C02,0.5863926621156148,0.4789998260505294,0.6937854981807002,0.5173624092915374,0.5108256237659905,0.5304359803426313,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C03,1.217237444355524,1.014840812574474,1.4612533218912291,1.0180198448974276,0.9808292530117256,1.0924010286688308,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C04,1.718058706722008,1.499936556776755,1.9524748847949096,1.637754418566666,1.5505463946059086,1.7532789486599905,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C05,2.2378521490714545,1.966449752733392,2.5449042942712103,2.345836958908226,2.1769278788535926,2.5579979048770403,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C06,2.7852315555416536,2.4416928834663194,3.212200941648211,2.8772427588027205,2.6583332526081165,3.1599843070400087,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C07,3.343192226280056,2.925568128967107,3.960757401895009,3.36855194996677,3.08068179195169,3.7415597119428496,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C08,3.8225630178112944,3.3796379971632065,4.495060592261866,4.007917029578739,3.59771867571696,4.514009407591114,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C09,4.314677293707625,3.832103986931749,5.134478147100424,4.670677284006358,4.199705077879926,5.207156588151059,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C10,4.805323781390773,4.274572596884522,5.679213258593536,5.220021527932914,4.734925783730634,5.809142990314026,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C11,5.183584122345303,4.55230755321739,6.1319439969325815,5.761403256699606,5.19592016022503,6.502290170873972,Δ log outcome,6.0,,,,,,,,,
+a,Urban Scaling,road,C12,5.452826299703211,4.741376641475398,6.361998657407876,7.623195791238669,6.646131207099863,8.111728083308073,Δ log outcome,6.0,,,,,,,,,
+a,Distance Decay,density,D01,0.8666666666666666,0.85,0.8833333333333334,0.8416666666666667,0.8249999999999998,0.85,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D02,0.7683333333333334,0.715,0.8133333333333334,0.7000000000000001,0.65,0.7416666666666667,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D03,0.6316666666666666,0.5433333333333333,0.7000000000000001,0.5583333333333332,0.475,0.6333333333333333,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D04,0.5083333333333333,0.4166666666666667,0.5783333333333334,0.4416666666666667,0.35,0.525,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D05,0.3783333333333333,0.3,0.445,0.35,0.2666666666666666,0.425,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D06,0.265,0.1966666666666666,0.3333333333333333,0.2666666666666666,0.1999999999999999,0.325,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D07,0.1783333333333333,0.1216666666666666,0.2366666666666666,0.1916666666666666,0.1416666666666666,0.2333333333333333,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D08,0.12,0.0833333333333333,0.1583333333333333,0.12,0.0933333333333333,0.1416666666666667,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D09,0.0666666666666666,0.0483333333333333,0.085,0.0483333333333333,0.045,0.0499999999999999,Land density,6.0,,,,,,,,,
+a,Distance Decay,density,D10,0.03,0.0183333333333333,0.0416666666666666,0.015,0.0116666666666666,0.0183333333333333,Land density,6.0,,,,,,,,,
+a,Vitality,activity,M02,0.6900738581813527,0.6891444090218998,0.6910029654618882,0.2860250712441514,0.2860250712441514,0.2860250712441514,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M03,1.0945121012477297,1.0931990744426667,1.095752227420226,0.5081731023168592,0.5081731023168592,0.5081731023168592,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M04,1.3816802848388552,1.380202732301445,1.383076404165555,0.6898304279339511,0.6898304279339511,0.6898304279339511,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M05,1.6045153565772672,1.603025063492904,1.6059947139474406,0.8435063866509411,0.8435063866509411,0.8435063866509411,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M06,1.78663119932576,1.784988526344191,1.788183006388414,0.976681590491645,0.976681590491645,0.976681590491645,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M07,1.9406349106571796,1.9389450253620488,1.9422579013620325,1.0941875026877543,1.0941875026877543,1.0941875026877543,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M08,2.0740560605562077,2.0723307557953103,2.075696908525801,1.1993262642699405,1.1993262642699405,1.1993262642699405,Δ log activity,6.0,,,,,,,,,
+a,Vitality,activity,M09,2.191753342176668,2.1900004828773203,2.1934091903731296,1.2944549723379906,1.2944549723379906,1.2944549723379906,Δ log activity,6.0,,,,,,,,,
+a,Perception,natural_elements,Beautiful,2.2333333333333334,,,7.907552083333333,,,Theme effect,,,,,,,,,,
+a,Perception,natural_elements,Depressing,-2.775,,,-6.598958333333333,,,Theme effect,,,,,,,,,,
+a,Perception,natural_elements,Lively,1.1916666666666669,,,4.9296875,,,Theme effect,,,,,,,,,,
+a,Perception,natural_elements,Safe,1.0916666666666666,,,3.052083333333333,,,Theme effect,,,,,,,,,,
+a,Perception,natural_elements,Wealthy,1.35,,,3.47265625,,,Theme effect,,,,,,,,,,
+a,Perception,natural_elements,Boring,-1.1916666666666669,,,-5.52734375,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Beautiful,-0.7666666666666666,,,-1.0208333333333333,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Depressing,0.0833333333333333,,,-1.0950520833333333,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Lively,1.4583333333333333,,,5.700520833333333,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Safe,-0.4083333333333334,,,-2.4296875,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Wealthy,0.2416666666666667,,,0.29296875,,,Theme effect,,,,,,,,,,
+a,Perception,traffic_elements,Boring,-0.375,,,-3.501302083333333,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Beautiful,0.4833333333333333,,,1.1927083333333333,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Depressing,-1.0666666666666669,,,-0.58203125,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Lively,0.15,,,0.3684895833333333,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Safe,0.3416666666666666,,,1.78125,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Wealthy,0.975,,,1.6145833333333333,,,Theme effect,,,,,,,,,,
+a,Perception,built_elements,Boring,0.0583333333333333,,,-0.5078125,,,Theme effect,,,,,,,,,,
+a uncertainty,Perception,natural_elements,Beautiful,,1.65,2.7916666666666665,,5.407552083333333,10.30859375,,,12.0,,,,,,,,
+a uncertainty,Perception,natural_elements,Depressing,,-3.5666666666666664,-2.025,,-8.197949218749999,-5.009114583333333,,,12.0,,,,,,,,
+a uncertainty,Perception,natural_elements,Lively,,0.7333333333333334,1.6583333333333332,,3.725227864583333,6.272135416666667,,,12.0,,,,,,,,
+a uncertainty,Perception,natural_elements,Safe,,0.7166666666666667,1.4333333333333331,,2.1744791666666665,3.8697916666666665,,,12.0,,,,,,,,
+a uncertainty,Perception,natural_elements,Wealthy,,0.9166666666666666,1.85,,1.9908854166666667,4.87890625,,,12.0,,,,,,,,
+a uncertainty,Perception,natural_elements,Boring,,-1.5,-0.9166666666666666,,-6.768229166666667,-4.346354166666667,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Beautiful,,-1.25,-0.3416666666666667,,-1.640625,-0.3450520833333333,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Depressing,,-0.3,0.475,,-2.7955729166666665,0.6393229166666666,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Lively,,0.9583333333333334,2.0083333333333333,,4.199186197916667,7.322916666666667,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Safe,,-0.8666666666666667,0.0499999999999999,,-3.083365885416667,-1.79296875,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Wealthy,,-0.0499999999999999,0.5083333333333334,,-0.4583333333333333,1.0989908854166637,,,12.0,,,,,,,,
+a uncertainty,Perception,traffic_elements,Boring,,-0.8583333333333334,0.0833333333333333,,-4.536490885416667,-2.359375,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Beautiful,,-0.0416666666666666,0.9833333333333334,,-0.2409179687499999,2.619824218749997,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Depressing,,-1.775,-0.4166666666666667,,-2.169270833333333,1.0442708333333333,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Lively,,-0.0583333333333333,0.375,,-0.2421875,0.9088541666666666,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Safe,,-0.1166666666666667,0.725,,0.2552083333333333,3.3776041666666665,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Wealthy,,0.6416666666666667,1.2916666666666667,,0.27734375,3.0182291666666665,,,12.0,,,,,,,,
+a uncertainty,Perception,built_elements,Boring,,-0.2333333333333333,0.35,,-1.3190104166666667,0.3802083333333333,,,12.0,,,,,,,,
+b,Scaling,,,,,,,,,confirmation AUC,,,17.0,0.9444444444444444,True,,,,,
+b,Scaling,,,,,,,,,confirmation AUC,,,33.0,1.0,False,,,,,
+b,Scaling,,,,,,,,,confirmation AUC,,,49.0,1.0,False,,,,,
+b,Scaling,,,,,,,,,confirmation AUC,,,65.0,1.0,False,,,,,
+b,Distance Decay,,,,,,,,,confirmation AUC,,,17.0,0.6388888888888888,False,,,,,
+b,Distance Decay,,,,,,,,,confirmation AUC,,,33.0,0.75,True,,,,,
+b,Distance Decay,,,,,,,,,confirmation AUC,,,49.0,0.8611111111111112,False,,,,,
+b,Distance Decay,,,,,,,,,confirmation AUC,,,65.0,1.0,False,,,,,
+b,Vitality,,,,,,,,,confirmation AUC,,,17.0,0.6111111111111112,False,,,,,
+b,Vitality,,,,,,,,,confirmation AUC,,,33.0,1.0,False,,,,,
+b,Vitality,,,,,,,,,confirmation AUC,,,49.0,1.0,True,,,,,
+b,Vitality,,,,,,,,,confirmation AUC,,,65.0,1.0,False,,,,,
+c,Road,,,,,,,,,Dose response,,,,0.2450683587470849,,0.22713215915552304,0.26119791552788224,,,
+c,Road,,,,,,,,,Target − Population,,,,0.2286295585354916,,0.21360677699278008,0.24222819433805856,,,
+c,Road,,,,,,,,,Target − non-city,,,,0.19929198991825006,,0.1862955786023213,0.21139322247240674,,,
+c,Road,,,,,,,,,Target − random,,,,0.2296956389356637,,0.21303710976674664,0.24452311134985097,,,
+c,GDP,,,,,,,,,Dose response,,,,0.11347656213705098,,0.09943034630996406,0.12716470973931487,,,
+c,GDP,,,,,,,,,Target − Population,,,,0.09992674710495825,,0.0843912671727594,0.11512063974926298,,,
+c,GDP,,,,,,,,,Target − non-city,,,,0.09960124066953235,,0.08081849644274976,0.1151285792567008,,,
+c,GDP,,,,,,,,,Target − random,,,,0.09386392659350044,,0.07999674356185096,0.10701517894061298,,,
+c,Activity,,,,,,,,,Dose,,,,0.04218749146024413,,0.039296860655776145,0.044921877388295596,,,
+c,Activity,,,,,,,,,T − R,,,,0.017499967680422796,,0.014628880848850223,0.020390621134180144,,,
+c,Activity,,,,,,,,,Erase,,,,0.020312506803657017,,0.01816401006908791,0.022851620085468767,,,
+c,Activity,,,,,,,,,E − R,,,,0.00630854508930497,,0.0036717831592250143,0.009316398284199069,,,
+c,Activity,,,,,,,,,Reverse,,,,0.0374999617197318,,0.03437500933086085,0.041210904702256815,,,
+c,Scaling,,,,,,,,,complete-table target effect,6.0,,,0.0,,0.0,0.0,,,
+c,Vitality,,,,,,,,,complete-table target effect,6.0,,,0.0,,0.0,0.0,,,
+d,,,,,,,,,,signed theme answer-logit effect,,,,7.907552083333333,,,,Clean,natural_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-6.598958333333333,,,,Clean,natural_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,4.9296875,,,,Clean,natural_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,3.052083333333333,,,,Clean,natural_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,3.47265625,,,,Clean,natural_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-5.52734375,,,,Clean,natural_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.0208333333333333,,,,Clean,traffic_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.0950520833333333,,,,Clean,traffic_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,5.700520833333333,,,,Clean,traffic_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,-2.4296875,,,,Clean,traffic_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.29296875,,,,Clean,traffic_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-3.501302083333333,,,,Clean,traffic_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.1927083333333333,,,,Clean,built_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.58203125,,,,Clean,built_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.3684895833333333,,,,Clean,built_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.78125,,,,Clean,built_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.6145833333333333,,,,Clean,built_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.5078125,,,,Clean,built_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.5234375,,,,Target patch,natural_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.9010416666666667,,,,Target patch,natural_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.03125,,,,Target patch,natural_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.2604166666666667,,,,Target patch,natural_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.0520833333333333,,,,Target patch,natural_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.60546875,,,,Target patch,natural_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.3684895833333333,,,,Target patch,traffic_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.1653645833333333,,,,Target patch,traffic_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.1002604166666666,,,,Target patch,traffic_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.265625,,,,Target patch,traffic_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.8776041666666666,,,,Target patch,traffic_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.5885416666666667,,,,Target patch,traffic_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.82421875,,,,Target patch,built_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.75390625,,,,Target patch,built_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.3424479166666667,,,,Target patch,built_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.9166666666666666,,,,Target patch,built_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.5247395833333334,,,,Target patch,built_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.81640625,,,,Target patch,built_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,5.260416666666667,,,,Random patch,natural_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-5.319010416666667,,,,Random patch,natural_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,2.98046875,,,,Random patch,natural_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,2.078125,,,,Random patch,natural_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.5598958333333333,,,,Random patch,natural_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-5.015625,,,,Random patch,natural_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.8619791666666667,,,,Random patch,traffic_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.33203125,,,,Random patch,traffic_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,4.518229166666667,,,,Random patch,traffic_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,-2.3385416666666665,,,,Random patch,traffic_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.0247395833333333,,,,Random patch,traffic_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-3.434895833333333,,,,Random patch,traffic_elements,Boring
+d,,,,,,,,,,signed theme answer-logit effect,,,,0.5169270833333334,,,,Random patch,built_elements,Beautiful
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.4908854166666667,,,,Random patch,built_elements,Depressing
+d,,,,,,,,,,signed theme answer-logit effect,,,,-0.01953125,,,,Random patch,built_elements,Lively
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.16015625,,,,Random patch,built_elements,Safe
+d,,,,,,,,,,signed theme answer-logit effect,,,,1.0690104166666667,,,,Random patch,built_elements,Wealthy
+d,,,,,,,,,,signed theme answer-logit effect,,,,-1.1588541666666667,,,,Random patch,built_elements,Boring
+d,,,,,,,,,,attenuation,,,,3.711685078886608,,3.083726296605097,4.312267859719728,All states,,
+d,,,,,,,,,,attenuation,,,,1.472529983324782,,1.2033665267712073,1.745287497194074,High-change,,
+d,,,,,,,,,,specificity,,,,1.0944955746536686,,0.8455342349709253,1.3589698443111853,vs random,,
+d,,,,,,,,,,specificity,,,,1.3295720561826576,,1.0676609666281853,1.596625239171797,vs low-change,,
+d,,,,,,,,,,specificity,,,,-2.9742328917978154,,-3.7404754220919467,-2.2367876612917876,vs text,,

@@ -1,0 +1,24 @@
+{
+  "schema_version": "2.0",
+  "figure": "S10",
+  "reader_role": "released source table with diagnostic public rerender",
+  "source_table": {
+    "path": "data/figure_sources/supplementary/FigS10/FigS10.source.csv",
+    "sha256": "688599bc5abef5852cd28f4a89b795ce124b18427a49c4f062788781674ac505",
+    "bytes": 4377,
+    "data_rows": 58
+  },
+  "renderer": {
+    "module": "ai4us.figures.supplementary",
+    "command": "python scripts/reproduce_figures.py --figures S10 --output-dir <new-output-dir>",
+    "output_identity": "public_source_table_rerender"
+  },
+  "reference_output": null,
+  "publication_rebuild_claim": "none; no exact supplementary publication output is bundled in this repository",
+  "author_side_lineage": {
+    "artifact_id": "ai4us-artifact-sha256-81df941cfab5a94f715fc02887055af3886df71385b8420429653238bf072cd5",
+    "sha256": "81df941cfab5a94f715fc02887055af3886df71385b8420429653238bf072cd5",
+    "availability": "not_bundled",
+    "role": "author-side identity retained by hash"
+  }
+}

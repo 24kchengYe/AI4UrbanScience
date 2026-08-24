@@ -1,0 +1,8 @@
+analysis,metric,mean,ci_low,ci_high
+size_matched_full_minus_baseline,real_to_generated_nn_similarity,-0.0248776924312114,-0.0332085609436035,-0.0173120334744453
+size_matched_full_minus_baseline,generated_to_real_nn_similarity,-0.0704922508001327,-0.0899264156818389,-0.0538125410676002
+size_matched_full_minus_baseline,centroid_cosine_distance_to_real,0.0347947967350482,0.0274531960487365,0.0424398258328437
+real_real_split_half,d_clip,0.2859124658575856,0.2738523034996717,0.2984294368879913
+real_real_split_half,real_to_generated_nn_similarity,0.8757605221569538,0.8670398980379105,0.8844835251569748
+real_real_split_half,generated_to_real_nn_similarity,0.8755955013632775,0.8664270922541618,0.8840169623494148
+real_real_split_half,centroid_cosine_distance_to_real,0.0040126802027225,0.0025408923625946,0.0063635498285293

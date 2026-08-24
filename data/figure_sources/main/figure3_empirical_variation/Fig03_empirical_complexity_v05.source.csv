@@ -1,0 +1,58 @@
+benchmark,reference,metric,variable,condition,estimate,ci_low,ci_high,q025,q975,n,precision
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),population,Empirical,0.1804183511398148,0.1708867734608814,0.1911175236875146,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),road,Empirical,0.2040095257906279,0.1932687064851237,0.2158140117372854,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),gdp,Empirical,0.2006450157524909,0.190686082350453,0.2110131657780635,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),population,Baseline,0.6256350794866243,0.6142177516729368,0.6363520722160059,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),road,Baseline,0.6257521668718454,0.6165703265457436,0.6346206874756772,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),gdp,Baseline,0.8037825187425953,0.7911554751881139,0.8155957616571428,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),population,Blueprint,0.193497203497244,0.1829426755000225,0.2056487430385959,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),road,Blueprint,0.3375548701684352,0.3162639952236422,0.3590255329764529,,,,
+Urban Scaling,"3,525 Chinese physical cities",Distribution distance (lower = closer),gdp,Blueprint,0.3883206452493832,0.3574945469646316,0.4193981735596485,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,population,Empirical,3.858287325335046,3.7357336545136928,3.984579061142994,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,road,Empirical,3.806033943447036,3.667444313565936,3.9468866270970433,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,gdp,Empirical,4.316207963710177,4.234491762370653,4.396884389491157,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,population,Baseline,0.8619108960025337,0.8007270012033354,0.9244361980382844,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,road,Baseline,0.7106818427339041,0.6579147761162971,0.7661326785659912,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,gdp,Baseline,0.9357393562089794,0.8569236352791354,1.0228263660935546,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,population,Blueprint,2.6653455563395245,2.6284889625038748,2.71165827158301,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,road,Blueprint,2.007776178736381,1.9101504449174929,2.104101912266332,,,,
+Urban Scaling,"3,525 Chinese physical cities",Within-table value range,gdp,Blueprint,2.5121032226201256,2.41119675534578,2.618023543763822,,,,
+Distance Decay,,Value resolution,Radial profile,Empirical reference,0.32,,,0.21225,0.50325,50.0,rounded_2dp
+Distance Decay,,Value resolution,Radial profile,Baseline prompt,0.4,,,0.28,0.54675,94.0,rounded_2dp
+Distance Decay,,Value resolution,Radial profile,Blueprint prompt,0.55,,,0.42,0.7164999999999999,95.0,rounded_2dp
+Distance Decay,,Local curve variation,Radial profile,Empirical reference,0.0177345818217472,,,0.009226284050049943,0.02848897627422945,50.0,rounded_2dp
+Distance Decay,,Local curve variation,Radial profile,Baseline prompt,0.0032798833819242,,,0.001847167438403895,0.0052301331412193995,94.0,rounded_2dp
+Distance Decay,,Local curve variation,Radial profile,Blueprint prompt,0.0047946889599213,,,0.0029154518950437,0.006657230998711704,95.0,rounded_2dp
+Distance Decay,,Local reversals,Radial profile,Empirical reference,19.0,,,8.45,29.775,50.0,rounded_2dp
+Distance Decay,,Local reversals,Radial profile,Baseline prompt,0.0,,,0.0,0.0,94.0,rounded_2dp
+Distance Decay,,Local reversals,Radial profile,Blueprint prompt,0.0,,,0.0,9.249999999999957,95.0,rounded_2dp
+Vitality,,SD relative to empirical,Residential Density,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Residential Density,Baseline,0.7583803960192672,0.4942328197970964,1.2354818253219098,,,100.0,
+Vitality,,SD relative to empirical,Residential Density,Blueprint,0.9381239516027664,0.7304197860728501,1.1696349629147818,,,100.0,
+Vitality,,SD relative to empirical,Functional Mix,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Functional Mix,Baseline,5.52310188525153,4.000923627032311,7.299003790831712,,,100.0,
+Vitality,,SD relative to empirical,Functional Mix,Blueprint,1.7905627336858427,1.5130713751813378,2.2257496514825355,,,100.0,
+Vitality,,SD relative to empirical,Short Blocks,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Short Blocks,Baseline,0.5631172450105455,0.32441141534378914,0.8761463782782083,,,100.0,
+Vitality,,SD relative to empirical,Short Blocks,Blueprint,1.1203653884337248,0.4033908110579922,1.711307368864494,,,100.0,
+Vitality,,SD relative to empirical,Aged Buildings,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Aged Buildings,Baseline,0.8563111275179119,0.5809374726393194,1.1225329671949518,,,100.0,
+Vitality,,SD relative to empirical,Aged Buildings,Blueprint,0.8744853224669937,0.6570812925100309,1.1067513062243237,,,100.0,
+Vitality,,SD relative to empirical,Tall Buildings,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Tall Buildings,Baseline,1.3286670440114916,0.6916716462328789,2.565161431608606,,,100.0,
+Vitality,,SD relative to empirical,Tall Buildings,Blueprint,1.2168056554939504,0.8857539098815005,1.527841954063045,,,100.0,
+Vitality,,SD relative to empirical,Pedestrian Activity,Empirical,1.0,,,,,52.0,
+Vitality,,SD relative to empirical,Pedestrian Activity,Baseline,0.8174671084144555,0.4918068373461715,1.4027047732106293,,,100.0,
+Vitality,,SD relative to empirical,Pedestrian Activity,Blueprint,1.1616519140955566,0.7821658077790794,1.5958771728496954,,,100.0,
+Perception,,Within-set diversity,,Empirical,0.2859124658575856,,,,,,
+Perception,,Within-set diversity,,Baseline,0.21217066086708058,,,,,,
+Perception,,Within-set diversity,,Blueprint,0.24975051226896894,,,,,,
+Perception,,Place Pulse coverage,,Empirical,0.8757605221569538,,,,,,
+Perception,,Place Pulse coverage,,Baseline,0.7090520858764648,,,,,,
+Perception,,Place Pulse coverage,,Blueprint,0.6844387054443359,,,,,,
+Perception,,Generated-scene similarity,,Empirical,0.8755955013632775,,,,,,
+Perception,,Generated-scene similarity,,Baseline,0.7930037379264832,,,,,,
+Perception,,Generated-scene similarity,,Blueprint,0.7119078040122986,,,,,,
+Perception,,Centroid shift,,Empirical,0.0040126802027225,,,,,,
+Perception,,Centroid shift,,Baseline,0.20091617107391357,,,,,,
+Perception,,Centroid shift,,Blueprint,0.23563557863235474,,,,,,

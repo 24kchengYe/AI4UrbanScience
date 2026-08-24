@@ -1,0 +1,33 @@
+{
+  "schema_version": "2.0",
+  "reader_role": "identifier-free parsed-model-output release binding",
+  "external_archive": {
+    "artifact_id": "ai4us-artifact-sha256-5b0820e2f0745b1a1ee11d7a627cc6acf62d86e013f901eb784614b1a38e163f",
+    "sha256": "5b0820e2f0745b1a1ee11d7a627cc6acf62d86e013f901eb784614b1a38e163f",
+    "bytes": 1167276,
+    "availability": "not_bundled",
+    "role": "submitted Supplementary Data 3 archive identified by hash"
+  },
+  "external_member_manifest": {
+    "artifact_id": "ai4us-artifact-sha256-5c0ddb5cd57a1b2af22192dc30a3b38ece1903b03d91efc66e0cb6c0d8963613",
+    "sha256": "5c0ddb5cd57a1b2af22192dc30a3b38ece1903b03d91efc66e0cb6c0d8963613",
+    "bytes": 6835,
+    "records": 54,
+    "availability": "not_bundled",
+    "role": "author-side member ledger identified by hash"
+  },
+  "public_extract": {
+    "directory": "data/processed/model_outputs",
+    "csv_count": 32,
+    "manifest": {
+      "path": "data/release_manifests/parsed_model_outputs_manifest.csv",
+      "sha256": "1e73c3767de944567e7afd0347ecab7c5916d003f958a306699f8829daf1b930",
+      "bytes": 7481
+    }
+  },
+  "author_side_reference": {
+    "artifact_id": "ai4us-artifact-sha256-c965bf043456c54e92d0863f4498b5b00592ddd8350c474e70f1e1f352a9e976",
+    "sha256": "c965bf043456c54e92d0863f4498b5b00592ddd8350c474e70f1e1f352a9e976",
+    "availability": "not_bundled"
+  }
+}

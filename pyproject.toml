@@ -1,69 +1,34 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai4us"
-version = "1.0.0"
-description = "AI for Urban Science: evaluate, calibrate and extend GenAI-synthesized urban data across symbolic and perceptual domains."
+name = "ai4urban-science"
+version = "2.0.0"
+description = "Released source tables, figure rerenders, and open-model analysis for AI4US"
 readme = "README.md"
-requires-python = ">=3.8"
-license = { text = "MIT" }
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
 authors = [
-    { name = "Ying Long and collaborators" },
+  {name = "Yecheng Zhang"},
+  {name = "Rong Zhao"},
+  {name = "Zimu Huang"},
+  {name = "Xinyu Wang"},
+  {name = "Yue Ma"},
+  {name = "Ying Long"},
 ]
-keywords = [
-    "urban science",
-    "generative ai",
-    "urban scaling laws",
-    "urban vitality",
-    "urban perception",
-    "distance decay",
-]
-classifiers = [
-    "Development Status :: 4 - Beta",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.11",
-    "Topic :: Scientific/Engineering",
-]
-
 dependencies = [
-    "numpy",
-    "pandas",
-    "scipy",
-    "pyyaml",
-    "requests",
-    "python-dotenv",
-    "matplotlib",
-    "seaborn",
-    "statsmodels",
-    "scikit-learn",
-    "Pillow",
-    "tqdm",
-    "openpyxl",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.0,<3",
 ]
 
 [project.optional-dependencies]
-geo = [
-    "geopandas",
-    "shapely",
-    "rasterio",
-    "rasterstats",
-    "pyproj",
-]
-ot  = ["POT"]
-perception = [
-    "trueskill",
-    "opencv-python",
-    "scikit-image",
-]
+test = ["pytest>=8,<9"]
 
-[project.urls]
-Homepage   = "https://github.com/24kchengYe/AI4UrbanScience"
-Repository = "https://github.com/24kchengYe/AI4UrbanScience"
+[tool.setuptools.packages.find]
+where = ["src"]
 
-[tool.setuptools]
-packages = ["ai4us"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

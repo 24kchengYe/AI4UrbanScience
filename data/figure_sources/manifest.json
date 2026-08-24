@@ -1,0 +1,149 @@
+{
+  "schema_version": "2.0",
+  "reader_role": "current figure-source, renderer and reference index",
+  "figure_count": 17,
+  "figures": [
+    {
+      "figure": "1",
+      "role": "author-supplied conceptual artwork",
+      "source_table": null,
+      "reader_manifest": null,
+      "reference_output": "reference_outputs/main/figure1_conceptual.pdf",
+      "renderer": null
+    },
+    {
+      "figure": "2",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/main/figure2_relationships/Fig02_relationships_v07.source.csv",
+      "reader_manifest": "data/figure_sources/main/figure2_relationships/manifest.json",
+      "reference_output": "reference_outputs/main/figure2_relationships.pdf",
+      "renderer": "ai4us.figures.relationships"
+    },
+    {
+      "figure": "3",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/main/figure3_empirical_variation/Fig03_empirical_complexity_v05.source.csv",
+      "reader_manifest": "data/figure_sources/main/figure3_empirical_variation/manifest.json",
+      "reference_output": "reference_outputs/main/figure3_empirical_variation.pdf",
+      "renderer": "ai4us.figures.empirical_variation"
+    },
+    {
+      "figure": "4",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/main/figure4_conditional_interventions/Fig04_conditional_interventions_v10.source.csv",
+      "reader_manifest": "data/figure_sources/main/figure4_conditional_interventions/manifest.json",
+      "reference_output": "reference_outputs/main/figure4_conditional_interventions.pdf",
+      "renderer": "ai4us.figures.conditional_interventions"
+    },
+    {
+      "figure": "5",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/main/figure5_open_model_analysis/Fig05_mechanism_evidence_v13.source.csv",
+      "reader_manifest": "data/figure_sources/main/figure5_open_model_analysis/manifest.json",
+      "reference_output": "reference_outputs/main/figure5_open_model_analysis.pdf",
+      "renderer": "ai4us.figures.open_model_analysis"
+    },
+    {
+      "figure": "S01",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS01/FigS01.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS01/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S02",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS02/FigS02.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS02/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S03",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS03/FigS03.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS03/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S04",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS04/FigS04.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS04/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S05",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS05/FigS05.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS05/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S06",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS06/FigS06.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS06/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S07",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS07/FigS07.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS07/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S08",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS08/FigS08.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS08/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S09",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS09/FigS09.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS09/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S10",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS10/FigS10.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS10/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S11",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS11/FigS11.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS11/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    },
+    {
+      "figure": "S12",
+      "role": "released source table with diagnostic public rerender",
+      "source_table": "data/figure_sources/supplementary/FigS12/FigS12.source.csv",
+      "reader_manifest": "data/figure_sources/supplementary/FigS12/manifest.json",
+      "reference_output": null,
+      "renderer": "ai4us.figures.supplementary"
+    }
+  ],
+  "author_side_lineage": {
+    "artifact_id": "ai4us-artifact-sha256-6cb48c6c13c4c36b244c20a9ba9bbe8ef3483db36594a884f7488d9e74a3498c",
+    "sha256": "6cb48c6c13c4c36b244c20a9ba9bbe8ef3483db36594a884f7488d9e74a3498c",
+    "availability": "not_bundled",
+    "role": "author-side identity retained by hash"
+  }
+}

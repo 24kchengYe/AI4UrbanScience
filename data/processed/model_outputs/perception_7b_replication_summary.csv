@@ -1,0 +1,4 @@
+metric,metric_definition,analysis_unit,n_units,registered_pair_units,usable_pair_units,estimate,ci95_low,ci95_high,bootstrap_resamples,bootstrap_seed,exact_two_sided_signflip_p,decision
+clean_profile_reference_correlation,Pearson correlation between the 18-cell mean clean profile and the frozen reference profile.,scene,12,216,216,0.8474393841800834,0.7596620243503294,0.8752305094274548,30000,20260818,,behavioral_gate_passed
+target_profile_attenuation,"Reference-weighted clean-minus-state-replacement profile change, divided by the sum of absolute reference effects.",scene,12,216,216,0.2719196275867966,0.16653046233645458,0.36691343784740027,30000,20260908,0.00146484375,target_attenuation_above_zero
+target_minus_absolute_random_specificity,Target profile attenuation minus the absolute reference-weighted random-control profile change.,scene,12,216,216,-0.5942129778091328,-0.7666624577774926,-0.42981471868586457,30000,20260909,0.00048828125,specificity_gate_not_passed

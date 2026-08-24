@@ -1,0 +1,2101 @@
+setting_id,intervention_grid,annulus_start_km,annulus_end_km,annulus_midpoint_km,request_status,land_density_ratio
+decay_setting_071,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_088,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_007,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_021,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_069,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_007,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_035,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_040,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_010,Five 1-km annuli,15.0,16.0,15.5,valid,0.62
+decay_setting_078,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_091,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_015,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_042,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_039,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_061,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_076,Five 1-km annuli,5.0,6.0,5.5,valid,0.54
+decay_setting_096,Five 1-km annuli,30.0,31.0,30.5,valid,0.25
+decay_setting_049,Five 1-km annuli,60.0,61.0,60.5,valid,0.02
+decay_setting_082,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_098,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_099,Five 1-km annuli,5.0,6.0,5.5,valid,0.48
+decay_setting_079,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_084,Five 1-km annuli,5.0,6.0,5.5,valid,0.35
+decay_setting_054,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_018,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_059,Five 1-km annuli,5.0,6.0,5.5,valid,0.76
+decay_setting_068,Five 1-km annuli,15.0,16.0,15.5,valid,0.63
+decay_setting_093,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_068,Five 1-km annuli,30.0,31.0,30.5,valid,0.54
+decay_setting_063,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_008,Five 1-km annuli,0.0,1.0,0.5,valid,0.74
+decay_setting_001,Five 1-km annuli,5.0,6.0,5.5,valid,0.67
+decay_setting_077,Five 1-km annuli,5.0,6.0,5.5,valid,0.37
+decay_setting_050,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_044,Five 1-km annuli,0.0,1.0,0.5,valid,0.82
+decay_setting_043,Five 1-km annuli,15.0,16.0,15.5,valid,0.55
+decay_setting_021,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_049,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_036,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_052,Five 1-km annuli,5.0,6.0,5.5,valid,0.62
+decay_setting_025,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_049,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_099,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_010,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_047,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_051,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_063,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_075,Five 1-km annuli,0.0,1.0,0.5,valid,0.83
+decay_setting_081,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_037,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_077,Five 1-km annuli,60.0,61.0,60.5,valid,0.04
+decay_setting_045,Five 1-km annuli,30.0,31.0,30.5,valid,0.22
+decay_setting_076,Five 1-km annuli,0.0,1.0,0.5,valid,0.82
+decay_setting_088,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_048,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_088,Five 1-km annuli,5.0,6.0,5.5,valid,0.54
+decay_setting_092,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_045,Five 1-km annuli,5.0,6.0,5.5,valid,0.65
+decay_setting_053,Five 1-km annuli,30.0,31.0,30.5,valid,0.14
+decay_setting_005,Five 1-km annuli,5.0,6.0,5.5,valid,0.54
+decay_setting_070,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_015,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_029,Five 1-km annuli,5.0,6.0,5.5,valid,0.74
+decay_setting_023,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_029,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_091,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_100,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_027,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_023,Five 1-km annuli,5.0,6.0,5.5,valid,0.56
+decay_setting_096,Five 1-km annuli,5.0,6.0,5.5,valid,0.37
+decay_setting_011,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_007,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_066,Five 1-km annuli,60.0,61.0,60.5,valid,0.05
+decay_setting_019,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_098,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_089,Five 1-km annuli,60.0,61.0,60.5,valid,0.08
+decay_setting_048,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_049,Five 1-km annuli,30.0,31.0,30.5,valid,0.14
+decay_setting_097,Five 1-km annuli,5.0,6.0,5.5,valid,0.36
+decay_setting_044,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_042,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_028,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_027,Five 1-km annuli,60.0,61.0,60.5,valid,0.17
+decay_setting_056,Five 1-km annuli,30.0,31.0,30.5,valid,0.25
+decay_setting_098,Five 1-km annuli,5.0,6.0,5.5,valid,0.45
+decay_setting_086,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_039,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_050,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_013,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_038,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_097,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_002,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_026,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_050,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_012,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_012,Five 1-km annuli,5.0,6.0,5.5,valid,0.73
+decay_setting_015,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_058,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_087,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_019,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_062,Five 1-km annuli,0.0,1.0,0.5,valid,0.76
+decay_setting_084,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_046,Five 1-km annuli,15.0,16.0,15.5,valid,0.24
+decay_setting_055,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_011,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_031,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_060,Five 1-km annuli,30.0,31.0,30.5,valid,0.18
+decay_setting_075,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_025,Five 1-km annuli,0.0,1.0,0.5,valid,0.88
+decay_setting_044,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_020,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_068,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_043,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_022,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_042,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_073,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_090,Five 1-km annuli,15.0,16.0,15.5,valid,0.28
+decay_setting_020,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_085,Five 1-km annuli,30.0,31.0,30.5,valid,0.24
+decay_setting_028,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_053,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_031,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_085,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_097,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_036,Five 1-km annuli,5.0,6.0,5.5,valid,0.58
+decay_setting_092,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_078,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_034,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_080,Five 1-km annuli,15.0,16.0,15.5,valid,0.45
+decay_setting_030,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_064,Five 1-km annuli,60.0,61.0,60.5,valid,0.14
+decay_setting_026,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_098,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_067,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_045,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_062,Five 1-km annuli,60.0,61.0,60.5,valid,0.05
+decay_setting_040,Five 1-km annuli,30.0,31.0,30.5,valid,0.43
+decay_setting_002,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_014,Five 1-km annuli,5.0,6.0,5.5,valid,0.43
+decay_setting_003,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_014,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_034,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_063,Five 1-km annuli,0.0,1.0,0.5,valid,0.87
+decay_setting_085,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_084,Five 1-km annuli,30.0,31.0,30.5,valid,0.06
+decay_setting_086,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_094,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_099,Five 1-km annuli,0.0,1.0,0.5,valid,0.74
+decay_setting_095,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_031,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_078,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_022,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_001,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_003,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_023,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_061,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_094,Five 1-km annuli,30.0,31.0,30.5,valid,0.17
+decay_setting_005,Five 1-km annuli,15.0,16.0,15.5,valid,0.47
+decay_setting_012,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_022,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_020,Five 1-km annuli,5.0,6.0,5.5,valid,0.45
+decay_setting_093,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_027,Five 1-km annuli,15.0,16.0,15.5,valid,0.72
+decay_setting_080,Five 1-km annuli,60.0,61.0,60.5,valid,0.07
+decay_setting_085,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_018,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_042,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_099,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_002,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_092,Five 1-km annuli,0.0,1.0,0.5,valid,0.78
+decay_setting_059,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_071,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_017,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_002,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_071,Five 1-km annuli,60.0,61.0,60.5,valid,0.13
+decay_setting_039,Five 1-km annuli,30.0,31.0,30.5,valid,0.45
+decay_setting_054,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_040,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_056,Five 1-km annuli,60.0,61.0,60.5,valid,0.42
+decay_setting_065,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_072,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_059,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_061,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_018,Five 1-km annuli,30.0,31.0,30.5,valid,0.17
+decay_setting_054,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_004,Five 1-km annuli,5.0,6.0,5.5,valid,0.73
+decay_setting_058,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_091,Five 1-km annuli,15.0,16.0,15.5,valid,0.72
+decay_setting_018,Five 1-km annuli,60.0,61.0,60.5,valid,0.07
+decay_setting_038,Five 1-km annuli,60.0,61.0,60.5,valid,0.05
+decay_setting_067,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_044,Five 1-km annuli,5.0,6.0,5.5,valid,0.67
+decay_setting_084,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_082,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_008,Five 1-km annuli,15.0,16.0,15.5,valid,0.62
+decay_setting_030,Five 1-km annuli,30.0,31.0,30.5,valid,0.24
+decay_setting_031,Five 1-km annuli,15.0,16.0,15.5,valid,0.26
+decay_setting_075,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_086,Five 1-km annuli,30.0,31.0,30.5,valid,0.37
+decay_setting_018,Five 1-km annuli,5.0,6.0,5.5,valid,0.52
+decay_setting_052,Five 1-km annuli,60.0,61.0,60.5,valid,0.08
+decay_setting_020,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_079,Five 1-km annuli,5.0,6.0,5.5,valid,0.78
+decay_setting_047,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_009,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_036,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_036,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_060,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_009,Five 1-km annuli,5.0,6.0,5.5,valid,0.37
+decay_setting_041,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_014,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_007,Five 1-km annuli,30.0,31.0,30.5,valid,0.46
+decay_setting_062,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_096,Five 1-km annuli,0.0,1.0,0.5,valid,0.68
+decay_setting_096,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_058,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_056,Five 1-km annuli,0.0,1.0,0.5,valid,0.78
+decay_setting_032,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_090,Five 1-km annuli,5.0,6.0,5.5,valid,0.35
+decay_setting_014,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_045,Five 1-km annuli,15.0,16.0,15.5,valid,0.72
+decay_setting_082,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_038,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_016,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_069,Five 1-km annuli,5.0,6.0,5.5,valid,0.54
+decay_setting_030,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_079,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_083,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_008,Five 1-km annuli,30.0,31.0,30.5,valid,0.13
+decay_setting_090,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_051,Five 1-km annuli,0.0,1.0,0.5,valid,0.78
+decay_setting_004,Five 1-km annuli,15.0,16.0,15.5,valid,0.47
+decay_setting_033,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_058,Five 1-km annuli,15.0,16.0,15.5,valid,0.67
+decay_setting_051,Five 1-km annuli,60.0,61.0,60.5,valid,0.17
+decay_setting_003,Five 1-km annuli,30.0,31.0,30.5,valid,0.18
+decay_setting_028,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_054,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_076,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_090,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_072,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_091,Five 1-km annuli,5.0,6.0,5.5,valid,0.78
+decay_setting_020,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_033,Five 1-km annuli,5.0,6.0,5.5,valid,0.45
+decay_setting_013,Five 1-km annuli,60.0,61.0,60.5,valid,0.02
+decay_setting_048,Five 1-km annuli,60.0,61.0,60.5,valid,0.08
+decay_setting_017,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_039,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_072,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_001,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_065,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_027,Five 1-km annuli,0.0,1.0,0.5,valid,0.86
+decay_setting_095,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_004,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_046,Five 1-km annuli,30.0,31.0,30.5,valid,0.28
+decay_setting_040,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_032,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_032,Five 1-km annuli,60.0,61.0,60.5,valid,0.13
+decay_setting_011,Five 1-km annuli,30.0,31.0,30.5,valid,0.08
+decay_setting_084,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_028,Five 1-km annuli,30.0,31.0,30.5,valid,0.35
+decay_setting_028,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_051,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_074,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_094,Five 1-km annuli,5.0,6.0,5.5,valid,0.37
+decay_setting_042,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_079,Five 1-km annuli,15.0,16.0,15.5,valid,0.52
+decay_setting_019,Five 1-km annuli,0.0,1.0,0.5,valid,0.83
+decay_setting_041,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_024,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_030,Five 1-km annuli,5.0,6.0,5.5,valid,0.57
+decay_setting_087,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_048,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_058,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_052,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_016,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_062,Five 1-km annuli,5.0,6.0,5.5,valid,0.32
+decay_setting_092,Five 1-km annuli,30.0,31.0,30.5,valid,0.34
+decay_setting_053,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_094,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_001,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_037,Five 1-km annuli,0.0,1.0,0.5,valid,0.68
+decay_setting_079,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_095,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_075,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_032,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_021,Five 1-km annuli,5.0,6.0,5.5,valid,0.54
+decay_setting_048,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_009,Five 1-km annuli,60.0,61.0,60.5,valid,0.02
+decay_setting_081,Five 1-km annuli,30.0,31.0,30.5,valid,0.14
+decay_setting_082,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_043,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_003,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_045,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_066,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_082,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_097,Five 1-km annuli,0.0,1.0,0.5,valid,0.78
+decay_setting_055,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_061,Five 1-km annuli,15.0,16.0,15.5,valid,0.48
+decay_setting_006,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_041,Five 1-km annuli,30.0,31.0,30.5,valid,0.22
+decay_setting_073,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_006,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_006,Five 1-km annuli,30.0,31.0,30.5,valid,0.16
+decay_setting_074,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_036,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_070,Five 1-km annuli,15.0,16.0,15.5,valid,0.62
+decay_setting_073,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_077,Five 1-km annuli,15.0,16.0,15.5,valid,0.25
+decay_setting_064,Five 1-km annuli,30.0,31.0,30.5,valid,0.35
+decay_setting_071,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_089,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_025,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_089,Five 1-km annuli,30.0,31.0,30.5,valid,0.43
+decay_setting_026,Five 1-km annuli,5.0,6.0,5.5,valid,0.65
+decay_setting_085,Five 1-km annuli,5.0,6.0,5.5,valid,0.65
+decay_setting_017,Five 1-km annuli,5.0,6.0,5.5,valid,0.62
+decay_setting_059,Five 1-km annuli,30.0,31.0,30.5,valid,0.18
+decay_setting_072,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_081,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_007,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_076,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_051,Five 1-km annuli,5.0,6.0,5.5,valid,0.65
+decay_setting_013,Five 1-km annuli,5.0,6.0,5.5,valid,0.35
+decay_setting_022,Five 1-km annuli,60.0,61.0,60.5,valid,0.02
+decay_setting_055,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_017,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_073,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_074,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_009,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_087,Five 1-km annuli,0.0,1.0,0.5,valid,0.73
+decay_setting_089,Five 1-km annuli,15.0,16.0,15.5,valid,0.45
+decay_setting_004,Five 1-km annuli,30.0,31.0,30.5,valid,0.35
+decay_setting_055,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_093,Five 1-km annuli,15.0,16.0,15.5,valid,0.63
+decay_setting_081,Five 1-km annuli,5.0,6.0,5.5,valid,0.43
+decay_setting_038,Five 1-km annuli,5.0,6.0,5.5,valid,0.57
+decay_setting_053,Five 1-km annuli,60.0,61.0,60.5,valid,0.02
+decay_setting_044,Five 1-km annuli,30.0,31.0,30.5,valid,0.35
+decay_setting_060,Five 1-km annuli,0.0,1.0,0.5,valid,0.87
+decay_setting_073,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_078,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_100,Five 1-km annuli,30.0,31.0,30.5,valid,0.18
+decay_setting_035,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_064,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_017,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_083,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_037,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_015,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_016,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_080,Five 1-km annuli,5.0,6.0,5.5,valid,0.37
+decay_setting_074,Five 1-km annuli,15.0,16.0,15.5,valid,0.47
+decay_setting_095,Five 1-km annuli,60.0,61.0,60.5,valid,0.05
+decay_setting_060,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_047,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_021,Five 1-km annuli,30.0,31.0,30.5,valid,0.14
+decay_setting_016,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_022,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_038,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_033,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_089,Five 1-km annuli,5.0,6.0,5.5,valid,0.63
+decay_setting_033,Five 1-km annuli,30.0,31.0,30.5,valid,0.52
+decay_setting_029,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_090,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_008,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_041,Five 1-km annuli,5.0,6.0,5.5,valid,0.75
+decay_setting_063,Five 1-km annuli,15.0,16.0,15.5,valid,0.63
+decay_setting_025,Five 1-km annuli,15.0,16.0,15.5,valid,0.62
+decay_setting_024,Five 1-km annuli,15.0,16.0,15.5,valid,0.74
+decay_setting_067,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_043,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_088,Five 1-km annuli,15.0,16.0,15.5,valid,0.38
+decay_setting_066,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_074,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_057,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_019,Five 1-km annuli,5.0,6.0,5.5,valid,0.65
+decay_setting_016,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_025,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_011,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_078,Five 1-km annuli,60.0,61.0,60.5,valid,0.04
+decay_setting_056,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_009,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_088,Five 1-km annuli,30.0,31.0,30.5,valid,0.34
+decay_setting_100,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_077,Five 1-km annuli,30.0,31.0,30.5,valid,0.07
+decay_setting_100,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_014,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_094,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_072,Five 1-km annuli,30.0,31.0,30.5,valid,0.18
+decay_setting_034,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_029,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_091,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_004,Five 1-km annuli,60.0,61.0,60.5,valid,0.17
+decay_setting_006,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_067,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_087,Five 1-km annuli,30.0,31.0,30.5,valid,0.36
+decay_setting_052,Five 1-km annuli,15.0,16.0,15.5,valid,0.32
+decay_setting_064,Five 1-km annuli,5.0,6.0,5.5,valid,0.52
+decay_setting_024,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_013,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_057,Five 1-km annuli,15.0,16.0,15.5,valid,0.38
+decay_setting_056,Five 1-km annuli,15.0,16.0,15.5,valid,0.35
+decay_setting_033,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_053,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_065,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_002,Five 1-km annuli,5.0,6.0,5.5,valid,0.73
+decay_setting_099,Five 1-km annuli,60.0,61.0,60.5,valid,0.04
+decay_setting_012,Five 1-km annuli,30.0,31.0,30.5,valid,0.15
+decay_setting_024,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_003,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_060,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_069,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_068,Five 1-km annuli,5.0,6.0,5.5,valid,0.75
+decay_setting_068,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_012,Five 1-km annuli,15.0,16.0,15.5,valid,0.47
+decay_setting_005,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_064,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_006,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_063,Five 1-km annuli,30.0,31.0,30.5,valid,0.45
+decay_setting_008,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_098,Five 1-km annuli,15.0,16.0,15.5,valid,0.37
+decay_setting_040,Five 1-km annuli,60.0,61.0,60.5,valid,0.18
+decay_setting_046,Five 1-km annuli,0.0,1.0,0.5,valid,0.75
+decay_setting_011,Five 1-km annuli,15.0,16.0,15.5,valid,0.47
+decay_setting_049,Five 1-km annuli,15.0,16.0,15.5,valid,0.27
+decay_setting_021,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_057,Five 1-km annuli,0.0,1.0,0.5,valid,0.67
+decay_setting_080,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_023,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_083,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_093,Five 1-km annuli,60.0,61.0,60.5,valid,0.27
+decay_setting_047,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_061,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_100,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_037,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_050,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_026,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_043,Five 1-km annuli,60.0,61.0,60.5,valid,0.15
+decay_setting_057,Five 1-km annuli,60.0,61.0,60.5,valid,0.04
+decay_setting_034,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_070,Five 1-km annuli,30.0,31.0,30.5,valid,0.47
+decay_setting_019,Five 1-km annuli,30.0,31.0,30.5,valid,0.23
+decay_setting_087,Five 1-km annuli,60.0,61.0,60.5,valid,0.37
+decay_setting_070,Five 1-km annuli,5.0,6.0,5.5,valid,0.72
+decay_setting_026,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_027,Five 1-km annuli,30.0,31.0,30.5,valid,0.47
+decay_setting_062,Five 1-km annuli,30.0,31.0,30.5,valid,0.14
+decay_setting_077,Five 1-km annuli,0.0,1.0,0.5,valid,0.72
+decay_setting_050,Five 1-km annuli,60.0,61.0,60.5,valid,0.03
+decay_setting_096,Five 1-km annuli,60.0,61.0,60.5,valid,0.07
+decay_setting_030,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_041,Five 1-km annuli,15.0,16.0,15.5,valid,0.46
+decay_setting_076,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_069,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_015,Five 1-km annuli,30.0,31.0,30.5,valid,0.28
+decay_setting_080,Five 1-km annuli,30.0,31.0,30.5,valid,0.27
+decay_setting_029,Five 1-km annuli,15.0,16.0,15.5,valid,0.62
+decay_setting_086,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_066,Five 1-km annuli,5.0,6.0,5.5,valid,0.64
+decay_setting_010,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_097,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_047,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_070,Five 1-km annuli,60.0,61.0,60.5,empty,
+decay_setting_023,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_005,Five 1-km annuli,30.0,31.0,30.5,valid,0.35
+decay_setting_093,Five 1-km annuli,30.0,31.0,30.5,empty,
+decay_setting_031,Five 1-km annuli,0.0,1.0,0.5,valid,0.65
+decay_setting_010,Five 1-km annuli,5.0,6.0,5.5,valid,0.62
+decay_setting_046,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_095,Five 1-km annuli,5.0,6.0,5.5,valid,0.45
+decay_setting_035,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_005,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_037,Five 1-km annuli,60.0,61.0,60.5,valid,0.06
+decay_setting_057,Five 1-km annuli,5.0,6.0,5.5,empty,
+decay_setting_034,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_046,Five 1-km annuli,5.0,6.0,5.5,valid,0.62
+decay_setting_066,Five 1-km annuli,15.0,16.0,15.5,valid,0.28
+decay_setting_032,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_086,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_055,Five 1-km annuli,5.0,6.0,5.5,valid,0.47
+decay_setting_081,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_071,Five 1-km annuli,15.0,16.0,15.5,valid,0.42
+decay_setting_035,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_083,Five 1-km annuli,15.0,16.0,15.5,valid,0.34
+decay_setting_065,Five 1-km annuli,0.0,1.0,0.5,valid,0.82
+decay_setting_067,Five 1-km annuli,5.0,6.0,5.5,valid,0.67
+decay_setting_039,Five 1-km annuli,60.0,61.0,60.5,valid,0.14
+decay_setting_083,Five 1-km annuli,0.0,1.0,0.5,valid,0.85
+decay_setting_075,Five 1-km annuli,15.0,16.0,15.5,valid,0.43
+decay_setting_065,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_092,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_054,Five 1-km annuli,5.0,6.0,5.5,valid,0.42
+decay_setting_059,Five 1-km annuli,15.0,16.0,15.5,empty,
+decay_setting_001,Five 1-km annuli,60.0,61.0,60.5,valid,0.27
+decay_setting_010,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_035,Five 1-km annuli,5.0,6.0,5.5,valid,0.58
+decay_setting_052,Five 1-km annuli,0.0,1.0,0.5,empty,
+decay_setting_013,Five 1-km annuli,30.0,31.0,30.5,valid,0.12
+decay_setting_024,Five 1-km annuli,30.0,31.0,30.5,valid,0.42
+decay_setting_069,Five 1-km annuli,60.0,61.0,60.5,valid,0.12
+decay_setting_014,2-km annuli,30.0,32.0,31.0,valid,0.23
+decay_setting_010,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_050,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_089,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_002,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_004,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.48
+decay_setting_094,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.38
+decay_setting_057,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_026,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_048,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_060,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.23
+decay_setting_052,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_066,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_079,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.48
+decay_setting_096,0.5-km annuli,0.0,0.5,0.25,valid,0.78
+decay_setting_015,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_069,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_003,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_061,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_068,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_055,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_014,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_017,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_077,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_079,2-km annuli,0.0,2.0,1.0,valid,0.73
+decay_setting_032,0.5-km annuli,30.0,30.5,30.25,valid,0.27
+decay_setting_057,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.27
+decay_setting_002,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_003,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_023,Seven 1-km annuli,45.0,46.0,45.5,valid,0.25
+decay_setting_067,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_063,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_099,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_056,2-km annuli,30.0,32.0,31.0,valid,0.38
+decay_setting_004,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_084,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_056,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_008,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_093,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_071,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_007,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_011,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_091,0.5-km annuli,5.0,5.5,5.25,valid,0.73
+decay_setting_048,0.5-km annuli,60.0,60.5,60.25,valid,0.35
+decay_setting_047,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_098,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_082,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_006,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_067,0.5-km annuli,5.0,5.5,5.25,valid,0.73
+decay_setting_021,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_031,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_082,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_049,0.5-km annuli,30.0,30.5,30.25,valid,0.28
+decay_setting_044,0.5-km annuli,0.0,0.5,0.25,valid,0.84
+decay_setting_080,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_077,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_032,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_062,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_070,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_048,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_047,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_036,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_058,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_037,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_067,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_053,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_008,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_074,2-km annuli,14.0,16.0,15.0,valid,0.58
+decay_setting_099,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_020,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.03
+decay_setting_001,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_100,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_068,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_059,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_070,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_025,2-km annuli,0.0,2.0,1.0,valid,0.86
+decay_setting_054,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_024,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.63
+decay_setting_057,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_014,0.5-km annuli,5.0,5.5,5.25,valid,0.45
+decay_setting_028,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.14
+decay_setting_055,0.5-km annuli,30.0,30.5,30.25,valid,0.22
+decay_setting_088,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_073,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_073,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_041,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_016,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_086,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_070,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_097,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_006,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_057,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_096,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_099,0.5-km annuli,30.0,30.5,30.25,valid,0.38
+decay_setting_074,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_089,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_011,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_088,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_044,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.64
+decay_setting_067,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_052,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_066,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_097,0.5-km annuli,5.0,5.5,5.25,valid,0.68
+decay_setting_009,2-km annuli,14.0,16.0,15.0,valid,0.37
+decay_setting_072,2-km annuli,30.0,32.0,31.0,valid,0.23
+decay_setting_036,2-km annuli,60.0,62.0,61.0,valid,0.22
+decay_setting_049,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_082,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.23
+decay_setting_022,Seven 1-km annuli,45.0,46.0,45.5,valid,0.18
+decay_setting_001,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_030,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_069,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_003,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_034,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_043,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_080,0.5-km annuli,15.0,15.5,15.25,valid,0.55
+decay_setting_093,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_047,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_081,0.5-km annuli,15.0,15.5,15.25,valid,0.37
+decay_setting_021,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_099,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_015,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_091,2-km annuli,14.0,16.0,15.0,valid,0.68
+decay_setting_048,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_025,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_031,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.05
+decay_setting_010,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_066,0.5-km annuli,30.0,30.5,30.25,valid,0.18
+decay_setting_097,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_090,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_038,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_031,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_032,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_051,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.04
+decay_setting_084,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_026,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_072,0.5-km annuli,5.0,5.5,5.25,valid,0.45
+decay_setting_072,Seven 1-km annuli,45.0,46.0,45.5,valid,0.34
+decay_setting_027,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_067,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_009,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.12
+decay_setting_045,0.5-km annuli,30.0,30.5,30.25,valid,0.32
+decay_setting_079,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_063,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_021,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_035,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_014,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_070,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_033,0.5-km annuli,30.0,30.5,30.25,valid,0.24
+decay_setting_036,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_015,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_019,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_051,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_056,Seven 1-km annuli,45.0,46.0,45.5,valid,0.25
+decay_setting_001,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_010,0.5-km annuli,5.0,5.5,5.25,valid,0.67
+decay_setting_062,0.5-km annuli,5.0,5.5,5.25,valid,0.64
+decay_setting_048,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_095,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_092,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_037,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_084,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_005,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_008,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_097,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_094,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_094,2-km annuli,30.0,32.0,31.0,valid,0.42
+decay_setting_089,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_033,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_021,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_095,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_011,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_076,Seven 1-km annuli,10.0,11.0,10.5,valid,0.37
+decay_setting_050,2-km annuli,30.0,32.0,31.0,valid,0.26
+decay_setting_056,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.65
+decay_setting_081,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_065,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_005,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_075,2-km annuli,14.0,16.0,15.0,valid,0.54
+decay_setting_092,0.5-km annuli,30.0,30.5,30.25,valid,0.27
+decay_setting_083,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.23
+decay_setting_086,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_051,0.5-km annuli,0.0,0.5,0.25,valid,0.83
+decay_setting_078,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_064,2-km annuli,30.0,32.0,31.0,valid,0.38
+decay_setting_013,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.03
+decay_setting_098,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_083,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.08
+decay_setting_002,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_091,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_012,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_085,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_071,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_046,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_087,2-km annuli,0.0,2.0,1.0,valid,0.62
+decay_setting_043,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.37
+decay_setting_016,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_075,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_027,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_045,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_092,0.5-km annuli,15.0,15.5,15.25,valid,0.63
+decay_setting_098,2-km annuli,14.0,16.0,15.0,valid,0.42
+decay_setting_091,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_100,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_058,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_067,0.5-km annuli,30.0,30.5,30.25,valid,0.32
+decay_setting_001,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_053,0.5-km annuli,5.0,5.5,5.25,valid,0.45
+decay_setting_050,2-km annuli,0.0,2.0,1.0,valid,0.55
+decay_setting_034,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_068,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_014,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_062,Seven 1-km annuli,45.0,46.0,45.5,valid,0.23
+decay_setting_024,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_052,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_042,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_072,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_055,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_030,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_017,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_080,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_094,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_030,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_077,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.15
+decay_setting_028,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_089,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_086,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_001,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_073,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_017,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_081,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_039,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.36
+decay_setting_054,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_044,2-km annuli,60.0,62.0,61.0,valid,0.25
+decay_setting_061,0.5-km annuli,5.0,5.5,5.25,valid,0.82
+decay_setting_029,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_050,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_014,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_031,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_059,0.5-km annuli,0.0,0.5,0.25,valid,0.78
+decay_setting_076,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_033,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_052,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_020,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_054,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_066,2-km annuli,60.0,62.0,61.0,valid,0.07
+decay_setting_044,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_046,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_084,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_012,2-km annuli,14.0,16.0,15.0,valid,0.55
+decay_setting_097,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_060,2-km annuli,30.0,32.0,31.0,valid,0.33
+decay_setting_017,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_079,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_006,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_043,2-km annuli,60.0,62.0,61.0,valid,0.28
+decay_setting_100,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_089,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_018,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_036,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.34
+decay_setting_009,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_054,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.36
+decay_setting_069,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_074,Seven 1-km annuli,45.0,46.0,45.5,valid,0.21
+decay_setting_079,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_019,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_038,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_085,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_057,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_052,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_061,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_090,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.18
+decay_setting_056,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.57
+decay_setting_070,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.75
+decay_setting_049,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_013,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_075,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_050,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_058,0.5-km annuli,30.0,30.5,30.25,valid,0.65
+decay_setting_072,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_008,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_056,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_007,2-km annuli,30.0,32.0,31.0,valid,0.34
+decay_setting_020,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_080,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_044,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_011,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_007,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_038,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_046,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.72
+decay_setting_037,0.5-km annuli,15.0,15.5,15.25,valid,0.57
+decay_setting_071,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_050,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_015,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_027,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_065,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_020,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_089,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_054,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_024,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_071,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_056,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_006,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_005,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_070,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_061,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_026,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_088,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_017,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_057,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_093,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.32
+decay_setting_091,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_046,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_017,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_017,0.5-km annuli,15.0,15.5,15.25,valid,0.62
+decay_setting_022,0.5-km annuli,30.0,30.5,30.25,valid,0.12
+decay_setting_005,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_042,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_100,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_082,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_049,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_018,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_044,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.43
+decay_setting_007,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_011,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_037,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_100,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_029,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_002,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_070,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_075,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_035,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_087,0.5-km annuli,30.0,30.5,30.25,valid,0.27
+decay_setting_086,0.5-km annuli,60.0,60.5,60.25,valid,0.32
+decay_setting_022,2-km annuli,4.0,6.0,5.0,valid,0.43
+decay_setting_018,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_034,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_091,0.5-km annuli,15.0,15.5,15.25,valid,0.63
+decay_setting_045,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_042,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_097,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_039,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_026,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_072,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_062,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_033,2-km annuli,30.0,32.0,31.0,valid,0.37
+decay_setting_045,Seven 1-km annuli,45.0,46.0,45.5,valid,0.28
+decay_setting_041,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_084,0.5-km annuli,0.0,0.5,0.25,valid,0.65
+decay_setting_064,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_025,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_049,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_054,0.5-km annuli,5.0,5.5,5.25,valid,0.42
+decay_setting_036,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_100,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_078,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_048,0.5-km annuli,15.0,15.5,15.25,valid,0.58
+decay_setting_036,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_012,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_070,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_069,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_090,2-km annuli,4.0,6.0,5.0,valid,0.34
+decay_setting_061,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_097,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_040,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_037,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_048,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_069,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_076,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_018,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_071,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_038,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_040,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_074,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_005,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_045,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_097,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_016,0.5-km annuli,30.0,30.5,30.25,valid,0.23
+decay_setting_100,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_089,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_045,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_042,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_035,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_055,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_019,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_026,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_013,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_012,2-km annuli,30.0,32.0,31.0,valid,0.37
+decay_setting_011,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_015,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_041,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.24
+decay_setting_040,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_048,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_024,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_068,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_006,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_016,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_005,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_095,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_070,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_079,0.5-km annuli,60.0,60.5,60.25,valid,0.22
+decay_setting_096,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_041,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_098,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_078,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_055,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_035,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_082,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_001,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_007,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.62
+decay_setting_092,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_037,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_076,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_019,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_039,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_039,0.5-km annuli,15.0,15.5,15.25,valid,0.63
+decay_setting_024,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_020,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.55
+decay_setting_049,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_003,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_099,Seven 1-km annuli,45.0,46.0,45.5,valid,0.23
+decay_setting_015,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_025,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_056,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_072,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_053,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_061,Seven 1-km annuli,45.0,46.0,45.5,valid,0.28
+decay_setting_087,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_045,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_044,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_031,2-km annuli,30.0,32.0,31.0,valid,0.15
+decay_setting_099,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_080,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_044,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_059,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_051,0.5-km annuli,60.0,60.5,60.25,valid,0.35
+decay_setting_048,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_027,2-km annuli,14.0,16.0,15.0,valid,0.72
+decay_setting_005,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_029,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.65
+decay_setting_023,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.07
+decay_setting_062,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_070,2-km annuli,60.0,62.0,61.0,valid,0.32
+decay_setting_088,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_099,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_033,Seven 1-km annuli,45.0,46.0,45.5,valid,0.42
+decay_setting_042,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_079,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_076,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_021,2-km annuli,14.0,16.0,15.0,valid,0.38
+decay_setting_058,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_008,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_081,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_003,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_017,2-km annuli,30.0,32.0,31.0,valid,0.37
+decay_setting_092,2-km annuli,60.0,62.0,61.0,valid,0.27
+decay_setting_046,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_088,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_066,0.5-km annuli,5.0,5.5,5.25,valid,0.43
+decay_setting_051,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_100,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_096,0.5-km annuli,30.0,30.5,30.25,valid,0.12
+decay_setting_003,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_064,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_091,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_092,0.5-km annuli,60.0,60.5,60.25,valid,0.17
+decay_setting_091,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_069,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_059,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.32
+decay_setting_003,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_028,Seven 1-km annuli,45.0,46.0,45.5,valid,0.22
+decay_setting_086,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_083,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_013,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.08
+decay_setting_087,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_055,2-km annuli,4.0,6.0,5.0,valid,0.42
+decay_setting_019,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_012,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.63
+decay_setting_031,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_077,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_013,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_037,2-km annuli,60.0,62.0,61.0,valid,0.37
+decay_setting_028,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_094,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_049,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_009,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.07
+decay_setting_002,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_026,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_060,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_070,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.54
+decay_setting_010,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_037,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_038,0.5-km annuli,0.0,0.5,0.25,valid,0.82
+decay_setting_060,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_002,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_058,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_014,2-km annuli,14.0,16.0,15.0,valid,0.32
+decay_setting_008,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_034,2-km annuli,14.0,16.0,15.0,valid,0.43
+decay_setting_064,0.5-km annuli,60.0,60.5,60.25,valid,0.18
+decay_setting_073,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_064,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_076,2-km annuli,30.0,32.0,31.0,valid,0.48
+decay_setting_012,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_062,2-km annuli,14.0,16.0,15.0,valid,0.27
+decay_setting_022,0.5-km annuli,60.0,60.5,60.25,valid,0.21
+decay_setting_046,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_055,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_060,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_010,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_068,0.5-km annuli,5.0,5.5,5.25,valid,0.73
+decay_setting_073,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_028,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.63
+decay_setting_010,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_054,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_039,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_075,2-km annuli,60.0,62.0,61.0,valid,0.14
+decay_setting_022,2-km annuli,30.0,32.0,31.0,valid,0.12
+decay_setting_027,0.5-km annuli,60.0,60.5,60.25,valid,0.32
+decay_setting_024,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_067,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_009,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_027,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_066,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_066,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_005,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_050,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_069,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_031,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_076,0.5-km annuli,5.0,5.5,5.25,valid,0.76
+decay_setting_075,0.5-km annuli,30.0,30.5,30.25,valid,0.23
+decay_setting_059,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_008,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_097,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_092,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_061,0.5-km annuli,30.0,30.5,30.25,valid,0.49
+decay_setting_030,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.23
+decay_setting_099,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_066,2-km annuli,0.0,2.0,1.0,valid,0.55
+decay_setting_035,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_023,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_054,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_079,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_092,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_098,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_081,2-km annuli,60.0,62.0,61.0,valid,0.16
+decay_setting_062,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_071,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_039,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.62
+decay_setting_065,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_013,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.15
+decay_setting_096,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_008,0.5-km annuli,15.0,15.5,15.25,valid,0.52
+decay_setting_007,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_066,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_028,2-km annuli,30.0,32.0,31.0,valid,0.55
+decay_setting_095,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_063,2-km annuli,0.0,2.0,1.0,valid,0.71
+decay_setting_057,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_016,2-km annuli,30.0,32.0,31.0,valid,0.12
+decay_setting_068,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_071,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_008,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_097,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_076,0.5-km annuli,15.0,15.5,15.25,valid,0.62
+decay_setting_038,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_063,0.5-km annuli,15.0,15.5,15.25,valid,0.62
+decay_setting_084,2-km annuli,30.0,32.0,31.0,valid,0.27
+decay_setting_015,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_005,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_031,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_088,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_009,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_050,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_086,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_006,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_043,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_081,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_060,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_095,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_096,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_001,2-km annuli,30.0,32.0,31.0,valid,0.23
+decay_setting_039,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_059,0.5-km annuli,15.0,15.5,15.25,valid,0.73
+decay_setting_036,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_064,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_073,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_040,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_001,0.5-km annuli,30.0,30.5,30.25,valid,0.17
+decay_setting_083,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_099,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_092,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_020,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_040,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_029,0.5-km annuli,30.0,30.5,30.25,valid,0.52
+decay_setting_019,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_075,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_028,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_013,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_100,2-km annuli,14.0,16.0,15.0,valid,0.32
+decay_setting_074,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_015,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_094,2-km annuli,4.0,6.0,5.0,valid,0.56
+decay_setting_065,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_001,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_036,Seven 1-km annuli,10.0,11.0,10.5,valid,0.74
+decay_setting_075,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_095,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.15
+decay_setting_030,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_034,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_066,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_060,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.34
+decay_setting_065,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_035,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_046,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_021,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_018,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_019,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_004,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_072,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_085,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_086,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.53
+decay_setting_063,0.5-km annuli,30.0,30.5,30.25,valid,0.45
+decay_setting_034,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_054,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_022,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_083,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_042,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.37
+decay_setting_094,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_087,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_065,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_006,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.55
+decay_setting_088,2-km annuli,0.0,2.0,1.0,valid,0.73
+decay_setting_065,Seven 1-km annuli,10.0,11.0,10.5,valid,0.4
+decay_setting_098,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.03
+decay_setting_002,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_079,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_019,0.5-km annuli,15.0,15.5,15.25,valid,0.47
+decay_setting_021,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_044,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_049,Seven 1-km annuli,45.0,46.0,45.5,valid,0.13
+decay_setting_095,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_028,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_084,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_029,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_090,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_071,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_048,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_034,2-km annuli,0.0,2.0,1.0,valid,0.73
+decay_setting_081,2-km annuli,30.0,32.0,31.0,valid,0.15
+decay_setting_039,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_097,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_080,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_089,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_003,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_098,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_034,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_035,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_065,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_079,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_068,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_013,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.55
+decay_setting_035,0.5-km annuli,0.0,0.5,0.25,valid,0.83
+decay_setting_023,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_067,0.5-km annuli,15.0,15.5,15.25,valid,0.52
+decay_setting_086,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.23
+decay_setting_071,2-km annuli,0.0,2.0,1.0,valid,0.78
+decay_setting_037,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_076,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_008,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.6
+decay_setting_015,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_085,Seven 1-km annuli,45.0,46.0,45.5,valid,0.18
+decay_setting_081,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_065,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_006,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.08
+decay_setting_018,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_004,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_042,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_059,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_029,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_093,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_014,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_092,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_010,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_064,0.5-km annuli,30.0,30.5,30.25,valid,0.27
+decay_setting_030,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_033,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_076,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_043,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_074,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_040,0.5-km annuli,30.0,30.5,30.25,valid,0.57
+decay_setting_095,0.5-km annuli,15.0,15.5,15.25,valid,0.37
+decay_setting_100,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_053,0.5-km annuli,15.0,15.5,15.25,valid,0.38
+decay_setting_050,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_072,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.37
+decay_setting_081,0.5-km annuli,60.0,60.5,60.25,valid,0.04
+decay_setting_019,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_041,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_078,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.22
+decay_setting_033,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_040,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_039,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_082,0.5-km annuli,30.0,30.5,30.25,valid,0.32
+decay_setting_096,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.37
+decay_setting_097,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_017,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_059,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_010,2-km annuli,0.0,2.0,1.0,valid,0.68
+decay_setting_037,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_079,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_061,0.5-km annuli,60.0,60.5,60.25,valid,0.22
+decay_setting_009,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_045,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_046,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_015,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.37
+decay_setting_042,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_043,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.75
+decay_setting_084,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_062,0.5-km annuli,30.0,30.5,30.25,valid,0.12
+decay_setting_020,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_052,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_063,0.5-km annuli,0.0,0.5,0.25,valid,0.87
+decay_setting_009,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_087,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_018,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_009,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_096,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_075,0.5-km annuli,15.0,15.5,15.25,valid,0.47
+decay_setting_085,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_002,Seven 1-km annuli,45.0,46.0,45.5,valid,0.37
+decay_setting_038,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_025,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_078,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_026,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.45
+decay_setting_009,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_078,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_012,0.5-km annuli,30.0,30.5,30.25,valid,0.18
+decay_setting_013,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_047,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_098,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_093,0.5-km annuli,15.0,15.5,15.25,valid,0.72
+decay_setting_063,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_042,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_005,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_049,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_008,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_026,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_063,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_026,Seven 1-km annuli,45.0,46.0,45.5,valid,0.22
+decay_setting_090,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_058,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_032,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.22
+decay_setting_079,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_036,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_070,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_040,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_071,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_086,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_087,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_011,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_016,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.22
+decay_setting_016,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_071,2-km annuli,30.0,32.0,31.0,valid,0.22
+decay_setting_093,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_078,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_057,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_096,Seven 1-km annuli,10.0,11.0,10.5,valid,0.57
+decay_setting_068,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_083,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_068,0.5-km annuli,15.0,15.5,15.25,valid,0.72
+decay_setting_064,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_008,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_069,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_033,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_039,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_057,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_042,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_048,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_017,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_082,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_013,2-km annuli,0.0,2.0,1.0,valid,0.38
+decay_setting_053,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_034,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_098,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_014,2-km annuli,0.0,2.0,1.0,valid,0.55
+decay_setting_093,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_007,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_026,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_025,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_004,2-km annuli,60.0,62.0,61.0,valid,0.27
+decay_setting_021,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_051,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_016,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_070,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_018,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_084,0.5-km annuli,5.0,5.5,5.25,valid,0.43
+decay_setting_028,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_052,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_029,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_018,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_087,2-km annuli,14.0,16.0,15.0,valid,0.38
+decay_setting_028,0.5-km annuli,30.0,30.5,30.25,valid,0.37
+decay_setting_052,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.57
+decay_setting_083,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_081,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_083,2-km annuli,14.0,16.0,15.0,valid,0.43
+decay_setting_098,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_041,0.5-km annuli,30.0,30.5,30.25,valid,0.4
+decay_setting_002,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_030,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_082,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_037,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_062,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.42
+decay_setting_015,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_067,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_093,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_042,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_003,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_029,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_032,Seven 1-km annuli,10.0,11.0,10.5,valid,0.43
+decay_setting_005,0.5-km annuli,15.0,15.5,15.25,valid,0.36
+decay_setting_022,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.05
+decay_setting_025,0.5-km annuli,15.0,15.5,15.25,valid,0.64
+decay_setting_041,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_075,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_042,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_079,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_036,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_084,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_004,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_048,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_024,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.17
+decay_setting_023,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.34
+decay_setting_090,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_035,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_065,2-km annuli,0.0,2.0,1.0,valid,0.62
+decay_setting_054,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_038,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_080,0.5-km annuli,30.0,30.5,30.25,valid,0.45
+decay_setting_083,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_094,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_058,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_043,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_086,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_085,0.5-km annuli,15.0,15.5,15.25,valid,0.46
+decay_setting_096,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_021,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_016,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_018,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_006,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_003,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_014,Seven 1-km annuli,45.0,46.0,45.5,valid,0.07
+decay_setting_025,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_007,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.21
+decay_setting_066,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_084,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_092,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_029,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_093,Seven 1-km annuli,10.0,11.0,10.5,valid,0.78
+decay_setting_024,Seven 1-km annuli,10.0,11.0,10.5,valid,0.63
+decay_setting_095,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_060,Seven 1-km annuli,10.0,11.0,10.5,valid,0.42
+decay_setting_038,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_057,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_051,2-km annuli,14.0,16.0,15.0,valid,0.42
+decay_setting_038,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_039,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_012,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_086,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_077,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.07
+decay_setting_041,0.5-km annuli,15.0,15.5,15.25,valid,0.43
+decay_setting_078,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_044,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_063,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_085,0.5-km annuli,30.0,30.5,30.25,valid,0.22
+decay_setting_088,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_083,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_012,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_035,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_028,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_059,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_070,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_034,0.5-km annuli,30.0,30.5,30.25,valid,0.32
+decay_setting_002,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_060,2-km annuli,4.0,6.0,5.0,valid,0.48
+decay_setting_097,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_001,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_020,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_077,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_027,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.65
+decay_setting_014,2-km annuli,4.0,6.0,5.0,valid,0.43
+decay_setting_022,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_031,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.19
+decay_setting_082,2-km annuli,60.0,62.0,61.0,valid,0.22
+decay_setting_031,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_061,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_032,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_031,0.5-km annuli,30.0,30.5,30.25,valid,0.12
+decay_setting_006,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_035,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_063,Seven 1-km annuli,45.0,46.0,45.5,valid,0.31
+decay_setting_044,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.23
+decay_setting_016,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_082,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_016,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_055,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_043,Seven 1-km annuli,45.0,46.0,45.5,valid,0.31
+decay_setting_072,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_017,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_009,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.07
+decay_setting_030,2-km annuli,30.0,32.0,31.0,valid,0.42
+decay_setting_034,Seven 1-km annuli,45.0,46.0,45.5,valid,0.18
+decay_setting_006,0.5-km annuli,30.0,30.5,30.25,valid,0.27
+decay_setting_053,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_100,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_064,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_058,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_021,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_098,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_073,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_059,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_004,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_079,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_001,Seven 1-km annuli,10.0,11.0,10.5,valid,0.47
+decay_setting_055,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_046,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_069,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.05
+decay_setting_069,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_062,Seven 1-km annuli,10.0,11.0,10.5,valid,0.4
+decay_setting_025,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_018,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_027,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_058,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_076,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_026,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_033,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.18
+decay_setting_041,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_074,2-km annuli,4.0,6.0,5.0,valid,0.73
+decay_setting_054,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_077,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_023,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_085,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_086,2-km annuli,60.0,62.0,61.0,valid,0.25
+decay_setting_090,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_060,Seven 1-km annuli,45.0,46.0,45.5,valid,0.28
+decay_setting_074,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_077,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.05
+decay_setting_090,0.5-km annuli,0.0,0.5,0.25,valid,0.78
+decay_setting_061,2-km annuli,0.0,2.0,1.0,valid,0.63
+decay_setting_078,2-km annuli,4.0,6.0,5.0,valid,0.68
+decay_setting_035,2-km annuli,14.0,16.0,15.0,valid,0.42
+decay_setting_093,0.5-km annuli,0.0,0.5,0.25,valid,0.82
+decay_setting_043,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_024,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_089,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_008,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_005,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_031,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_067,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.34
+decay_setting_068,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_065,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_077,2-km annuli,30.0,32.0,31.0,valid,0.15
+decay_setting_067,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_032,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_063,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.72
+decay_setting_038,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_008,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_093,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_086,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_053,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_045,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_037,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_014,0.5-km annuli,30.0,30.5,30.25,valid,0.12
+decay_setting_011,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_032,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_029,0.5-km annuli,60.0,60.5,60.25,valid,0.32
+decay_setting_093,2-km annuli,0.0,2.0,1.0,valid,0.68
+decay_setting_083,2-km annuli,60.0,62.0,61.0,valid,0.27
+decay_setting_076,Seven 1-km annuli,45.0,46.0,45.5,valid,0.23
+decay_setting_050,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.18
+decay_setting_051,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_082,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_021,Seven 1-km annuli,10.0,11.0,10.5,valid,0.55
+decay_setting_056,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_010,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_090,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_080,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_058,0.5-km annuli,15.0,15.5,15.25,valid,0.68
+decay_setting_032,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_057,0.5-km annuli,5.0,5.5,5.25,valid,0.35
+decay_setting_012,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_047,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_093,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_060,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_083,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_043,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_071,0.5-km annuli,30.0,30.5,30.25,valid,0.45
+decay_setting_050,2-km annuli,14.0,16.0,15.0,valid,0.32
+decay_setting_091,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_065,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_025,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_087,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_046,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_073,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_077,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_021,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_021,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_019,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_066,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_091,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_075,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_037,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_084,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_093,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_061,2-km annuli,14.0,16.0,15.0,valid,0.72
+decay_setting_046,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_099,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_040,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_003,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_099,0.5-km annuli,0.0,0.5,0.25,valid,0.78
+decay_setting_080,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_011,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_054,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_065,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_038,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_052,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_057,0.5-km annuli,30.0,30.5,30.25,valid,0.18
+decay_setting_088,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_020,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_071,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_031,2-km annuli,0.0,2.0,1.0,valid,0.45
+decay_setting_099,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_089,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_057,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_016,2-km annuli,4.0,6.0,5.0,valid,0.52
+decay_setting_058,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_098,Seven 1-km annuli,45.0,46.0,45.5,valid,0.28
+decay_setting_064,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.23
+decay_setting_069,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_027,0.5-km annuli,5.0,5.5,5.25,valid,0.85
+decay_setting_052,2-km annuli,4.0,6.0,5.0,valid,0.67
+decay_setting_010,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_064,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_040,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_020,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_059,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_064,2-km annuli,4.0,6.0,5.0,valid,0.47
+decay_setting_057,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_033,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_037,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_043,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_073,0.5-km annuli,5.0,5.5,5.25,valid,0.35
+decay_setting_068,0.5-km annuli,0.0,0.5,0.25,valid,0.72
+decay_setting_081,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.12
+decay_setting_031,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_053,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_020,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_018,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_092,Seven 1-km annuli,10.0,11.0,10.5,valid,0.63
+decay_setting_090,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.34
+decay_setting_002,Seven 1-km annuli,10.0,11.0,10.5,valid,0.47
+decay_setting_046,2-km annuli,30.0,32.0,31.0,valid,0.23
+decay_setting_023,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_088,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_067,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_030,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_009,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_013,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_053,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_072,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_100,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_046,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_022,2-km annuli,0.0,2.0,1.0,valid,0.35
+decay_setting_072,2-km annuli,60.0,62.0,61.0,valid,0.27
+decay_setting_095,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_083,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_007,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_085,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_012,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_010,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_098,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_075,Seven 1-km annuli,45.0,46.0,45.5,valid,0.24
+decay_setting_097,Seven 1-km annuli,10.0,11.0,10.5,valid,0.62
+decay_setting_041,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_090,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_032,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_072,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_058,2-km annuli,30.0,32.0,31.0,valid,0.65
+decay_setting_091,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.45
+decay_setting_003,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_084,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_015,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_091,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_040,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.75
+decay_setting_055,2-km annuli,30.0,32.0,31.0,valid,0.27
+decay_setting_026,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_096,2-km annuli,30.0,32.0,31.0,valid,0.15
+decay_setting_034,Seven 1-km annuli,10.0,11.0,10.5,valid,0.55
+decay_setting_047,0.5-km annuli,30.0,30.5,30.25,valid,0.45
+decay_setting_024,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_060,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_080,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_052,Seven 1-km annuli,10.0,11.0,10.5,valid,0.55
+decay_setting_028,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_064,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_076,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_013,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_012,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_058,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_068,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_023,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_068,0.5-km annuli,60.0,60.5,60.25,valid,0.25
+decay_setting_016,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_063,Seven 1-km annuli,10.0,11.0,10.5,valid,0.42
+decay_setting_024,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_095,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_054,0.5-km annuli,30.0,30.5,30.25,valid,0.23
+decay_setting_001,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_004,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_023,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_008,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_053,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_051,Seven 1-km annuli,45.0,46.0,45.5,valid,0.29
+decay_setting_079,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_004,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_033,0.5-km annuli,60.0,60.5,60.25,valid,0.08
+decay_setting_014,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.07
+decay_setting_068,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_047,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_014,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_089,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_058,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_060,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_065,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_062,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.13
+decay_setting_001,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_023,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_005,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_091,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.18
+decay_setting_068,0.5-km annuli,30.0,30.5,30.25,valid,0.37
+decay_setting_082,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_009,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_097,0.5-km annuli,15.0,15.5,15.25,valid,0.47
+decay_setting_035,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.32
+decay_setting_002,2-km annuli,30.0,32.0,31.0,valid,0.43
+decay_setting_067,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_018,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_066,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_027,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_080,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_022,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_085,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_007,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_012,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_019,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_091,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_088,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.32
+decay_setting_084,2-km annuli,0.0,2.0,1.0,valid,0.45
+decay_setting_081,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_033,2-km annuli,60.0,62.0,61.0,valid,0.27
+decay_setting_067,2-km annuli,14.0,16.0,15.0,valid,0.56
+decay_setting_018,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_089,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.58
+decay_setting_082,0.5-km annuli,15.0,15.5,15.25,valid,0.62
+decay_setting_025,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_048,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_009,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_099,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_076,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_063,0.5-km annuli,60.0,60.5,60.25,valid,0.22
+decay_setting_053,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_099,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_073,2-km annuli,14.0,16.0,15.0,valid,0.37
+decay_setting_015,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_036,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_052,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_075,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_057,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_025,0.5-km annuli,5.0,5.5,5.25,valid,0.85
+decay_setting_092,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_044,0.5-km annuli,30.0,30.5,30.25,valid,0.23
+decay_setting_014,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_042,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_030,2-km annuli,14.0,16.0,15.0,valid,0.58
+decay_setting_088,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_006,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_080,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_020,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_049,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_095,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_047,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_090,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_019,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_041,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_010,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_054,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_100,2-km annuli,30.0,32.0,31.0,valid,0.28
+decay_setting_078,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_018,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_099,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_066,0.5-km annuli,0.0,0.5,0.25,valid,0.72
+decay_setting_085,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_011,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_062,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_088,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_078,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.47
+decay_setting_023,0.5-km annuli,5.0,5.5,5.25,valid,0.78
+decay_setting_050,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_029,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_077,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_005,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_004,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_059,2-km annuli,4.0,6.0,5.0,valid,0.75
+decay_setting_062,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.23
+decay_setting_054,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_007,Seven 1-km annuli,10.0,11.0,10.5,valid,0.75
+decay_setting_077,2-km annuli,0.0,2.0,1.0,valid,0.47
+decay_setting_009,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_025,2-km annuli,30.0,32.0,31.0,valid,0.26
+decay_setting_025,Seven 1-km annuli,45.0,46.0,45.5,valid,0.18
+decay_setting_052,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_041,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_047,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_024,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_092,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_038,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_087,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_041,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_071,Seven 1-km annuli,10.0,11.0,10.5,valid,0.42
+decay_setting_004,Seven 1-km annuli,10.0,11.0,10.5,valid,0.47
+decay_setting_064,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_058,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_059,Seven 1-km annuli,45.0,46.0,45.5,valid,0.56
+decay_setting_013,2-km annuli,14.0,16.0,15.0,valid,0.26
+decay_setting_061,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_045,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.43
+decay_setting_027,0.5-km annuli,30.0,30.5,30.25,valid,0.65
+decay_setting_094,0.5-km annuli,0.0,0.5,0.25,valid,0.72
+decay_setting_002,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_022,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_084,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_061,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_025,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_055,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_020,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_094,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_045,2-km annuli,4.0,6.0,5.0,valid,0.48
+decay_setting_078,Seven 1-km annuli,45.0,46.0,45.5,valid,0.18
+decay_setting_092,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_060,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_015,0.5-km annuli,0.0,0.5,0.25,valid,0.78
+decay_setting_074,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_004,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_066,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_011,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_087,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.38
+decay_setting_070,0.5-km annuli,60.0,60.5,60.25,valid,0.35
+decay_setting_039,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_085,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_077,0.5-km annuli,15.0,15.5,15.25,valid,0.28
+decay_setting_069,2-km annuli,0.0,2.0,1.0,valid,0.45
+decay_setting_043,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_010,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_017,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_049,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_026,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_064,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_069,0.5-km annuli,0.0,0.5,0.25,valid,0.75
+decay_setting_048,0.5-km annuli,5.0,5.5,5.25,valid,0.75
+decay_setting_043,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_051,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_007,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_048,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_085,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_020,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_031,2-km annuli,4.0,6.0,5.0,valid,0.35
+decay_setting_011,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_020,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_017,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_030,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_075,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_032,2-km annuli,0.0,2.0,1.0,valid,0.48
+decay_setting_033,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_018,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_100,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_016,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_021,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.05
+decay_setting_091,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_022,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_081,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_017,2-km annuli,4.0,6.0,5.0,valid,0.52
+decay_setting_002,0.5-km annuli,30.0,30.5,30.25,valid,0.32
+decay_setting_006,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_052,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_078,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.06
+decay_setting_095,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_039,Seven 1-km annuli,45.0,46.0,45.5,valid,0.25
+decay_setting_047,2-km annuli,14.0,16.0,15.0,valid,0.62
+decay_setting_019,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_066,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_054,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_049,2-km annuli,0.0,2.0,1.0,valid,0.57
+decay_setting_056,0.5-km annuli,15.0,15.5,15.25,valid,0.72
+decay_setting_047,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_065,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_003,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_053,2-km annuli,30.0,32.0,31.0,valid,0.18
+decay_setting_074,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_002,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_005,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_003,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_093,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_050,0.5-km annuli,15.0,15.5,15.25,valid,0.35
+decay_setting_067,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_042,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_094,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.27
+decay_setting_049,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_043,0.5-km annuli,5.0,5.5,5.25,valid,0.85
+decay_setting_061,2-km annuli,30.0,32.0,31.0,valid,0.47
+decay_setting_074,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.22
+decay_setting_045,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.22
+decay_setting_053,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_073,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_094,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_082,2-km annuli,14.0,16.0,15.0,valid,0.43
+decay_setting_046,0.5-km annuli,0.0,0.5,0.25,valid,0.84
+decay_setting_078,0.5-km annuli,60.0,60.5,60.25,valid,0.05
+decay_setting_005,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_096,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_032,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_019,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_029,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_055,0.5-km annuli,15.0,15.5,15.25,valid,0.42
+decay_setting_022,Seven 1-km annuli,10.0,11.0,10.5,valid,0.34
+decay_setting_022,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.25
+decay_setting_015,Seven 1-km annuli,45.0,46.0,45.5,valid,0.23
+decay_setting_029,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_033,0.5-km annuli,5.0,5.5,5.25,valid,0.78
+decay_setting_047,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_073,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_090,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_090,0.5-km annuli,15.0,15.5,15.25,valid,0.43
+decay_setting_030,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_079,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.58
+decay_setting_042,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_055,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_083,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_034,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_089,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_030,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_094,0.5-km annuli,15.0,15.5,15.25,valid,0.38
+decay_setting_056,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_047,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_073,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_051,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_098,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_074,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_032,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_086,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_035,2-km annuli,0.0,2.0,1.0,valid,0.67
+decay_setting_039,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_006,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_024,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_069,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.02
+decay_setting_071,0.5-km annuli,15.0,15.5,15.25,valid,0.37
+decay_setting_030,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_024,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_061,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_085,2-km annuli,30.0,32.0,31.0,valid,0.17
+decay_setting_064,2-km annuli,14.0,16.0,15.0,valid,0.57
+decay_setting_025,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_031,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.05
+decay_setting_001,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_096,Seven 1-km annuli,45.0,46.0,45.5,valid,0.22
+decay_setting_081,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_028,0.5-km annuli,60.0,60.5,60.25,valid,0.23
+decay_setting_087,0.5-km annuli,5.0,5.5,5.25,valid,0.63
+decay_setting_035,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_023,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_019,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_091,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_050,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_050,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_020,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_046,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.06
+decay_setting_074,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_004,0.5-km annuli,60.0,60.5,60.25,valid,0.25
+decay_setting_047,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_071,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_034,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.43
+decay_setting_081,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_009,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_036,0.5-km annuli,30.0,30.5,30.25,valid,0.42
+decay_setting_053,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_098,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_001,0.5-km annuli,5.0,5.5,5.25,valid,0.63
+decay_setting_040,0.5-km annuli,60.0,60.5,60.25,valid,0.08
+decay_setting_087,Seven 1-km annuli,45.0,46.0,45.5,valid,0.25
+decay_setting_024,0.5-km annuli,60.0,60.5,60.25,valid,0.32
+decay_setting_088,2-km annuli,30.0,32.0,31.0,valid,0.18
+decay_setting_019,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_014,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.12
+decay_setting_090,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.55
+decay_setting_022,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_055,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_077,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_087,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_041,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.56
+decay_setting_086,2-km annuli,0.0,2.0,1.0,valid,0.73
+decay_setting_072,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_078,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_075,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_043,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_045,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_049,2-km annuli,60.0,62.0,61.0,valid,0.18
+decay_setting_068,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_073,Seven 1-km annuli,10.0,11.0,10.5,valid,0.35
+decay_setting_007,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_006,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_067,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_080,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_049,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_040,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.08
+decay_setting_051,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_059,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_096,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_023,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_062,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_088,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_075,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.15
+decay_setting_055,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_098,0.5-km annuli,0.0,0.5,0.25,valid,0.83
+decay_setting_001,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_094,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.55
+decay_setting_039,2-km annuli,14.0,16.0,15.0,valid,0.47
+decay_setting_085,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.42
+decay_setting_072,0.5-km annuli,15.0,15.5,15.25,valid,0.32
+decay_setting_041,0.5-km annuli,60.0,60.5,60.25,valid,0.08
+decay_setting_023,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_097,2-km annuli,0.0,2.0,1.0,valid,0.78
+decay_setting_061,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_040,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_056,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_045,0.5-km annuli,5.0,5.5,5.25,valid,0.73
+decay_setting_038,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.12
+decay_setting_036,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_013,Seven 1-km annuli,10.0,11.0,10.5,valid,0.42
+decay_setting_078,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_044,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_036,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.62
+decay_setting_012,2-km annuli,0.0,2.0,1.0,valid,0.85
+decay_setting_072,0.5-km annuli,30.0,30.5,30.25,valid,0.28
+decay_setting_056,0.5-km annuli,5.0,5.5,5.25,valid,0.71
+decay_setting_056,2-km annuli,4.0,6.0,5.0,valid,0.74
+decay_setting_027,0.5-km annuli,15.0,15.5,15.25,valid,0.72
+decay_setting_041,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_028,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_035,2-km annuli,60.0,62.0,61.0,valid,0.23
+decay_setting_089,2-km annuli,14.0,16.0,15.0,valid,0.45
+decay_setting_003,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_021,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_065,0.5-km annuli,30.0,30.5,30.25,valid,0.25
+decay_setting_008,Seven 1-km annuli,10.0,11.0,10.5,valid,0.57
+decay_setting_059,2-km annuli,60.0,62.0,61.0,valid,0.28
+decay_setting_033,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_016,2-km annuli,0.0,2.0,1.0,valid,0.62
+decay_setting_026,0.5-km annuli,15.0,15.5,15.25,valid,0.45
+decay_setting_096,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.07
+decay_setting_024,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_007,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_095,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_040,2-km annuli,30.0,32.0,31.0,valid,0.42
+decay_setting_003,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_027,2-km annuli,4.0,6.0,5.0,valid,0.72
+decay_setting_077,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_045,Seven 1-km annuli,10.0,11.0,10.5,valid,0.62
+decay_setting_056,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_006,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_043,0.5-km annuli,15.0,15.5,15.25,valid,0.65
+decay_setting_037,2-km annuli,0.0,2.0,1.0,valid,0.67
+decay_setting_085,Seven 1-km annuli,10.0,11.0,10.5,valid,0.45
+decay_setting_094,2-km annuli,0.0,2.0,1.0,valid,0.67
+decay_setting_074,2-km annuli,30.0,32.0,31.0,valid,0.35
+decay_setting_053,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_036,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.53
+decay_setting_060,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.18
+decay_setting_076,2-km annuli,4.0,6.0,5.0,valid,0.45
+decay_setting_095,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_032,0.5-km annuli,0.0,0.5,0.25,valid,0.72
+decay_setting_044,Seven 1-km annuli,45.0,46.0,45.5,valid,0.34
+decay_setting_063,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.47
+decay_setting_087,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_021,2-km annuli,60.0,62.0,61.0,valid,0.12
+decay_setting_049,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_051,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.32
+decay_setting_073,2-km annuli,30.0,32.0,31.0,valid,0.15
+decay_setting_062,0.5-km annuli,15.0,15.5,15.25,valid,0.37
+decay_setting_010,2-km annuli,60.0,62.0,61.0,valid,0.25
+decay_setting_083,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_011,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_057,2-km annuli,0.0,2.0,1.0,valid,0.43
+decay_setting_023,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_029,2-km annuli,30.0,32.0,31.0,valid,0.65
+decay_setting_045,2-km annuli,30.0,32.0,31.0,valid,0.45
+decay_setting_004,2-km annuli,30.0,32.0,31.0,valid,0.42
+decay_setting_047,0.5-km annuli,60.0,60.5,60.25,valid,0.12
+decay_setting_004,2-km annuli,0.0,2.0,1.0,valid,0.78
+decay_setting_058,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_081,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_051,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_034,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.25
+decay_setting_099,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_074,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_096,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_017,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_082,0.5-km annuli,5.0,5.5,5.25,valid,0.62
+decay_setting_037,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_030,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_011,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_002,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_080,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_033,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_082,Seven 1-km annuli,45.0,46.0,45.5,valid,0.25
+decay_setting_070,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_092,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_080,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_027,Seven 1-km annuli,10.0,11.0,10.5,valid,0.72
+decay_setting_050,0.5-km annuli,30.0,30.5,30.25,transport_or_http,
+decay_setting_038,2-km annuli,30.0,32.0,31.0,transport_or_http,
+decay_setting_029,2-km annuli,60.0,62.0,61.0,transport_or_http,
+decay_setting_077,0.5-km annuli,60.0,60.5,60.25,transport_or_http,
+decay_setting_094,2-km annuli,14.0,16.0,15.0,transport_or_http,
+decay_setting_051,2-km annuli,30.0,32.0,31.0,transport_or_http,
+decay_setting_015,Seven 1-km annuli,10.0,11.0,10.5,transport_or_http,
+decay_setting_090,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_069,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_087,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_032,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.34
+decay_setting_063,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_084,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.36
+decay_setting_007,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_076,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_011,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_010,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_046,0.5-km annuli,30.0,30.5,30.25,valid,0.35
+decay_setting_034,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.65
+decay_setting_063,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.35
+decay_setting_100,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.27
+decay_setting_074,2-km annuli,0.0,2.0,1.0,valid,0.75
+decay_setting_051,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_083,Seven 1-km annuli,45.0,46.0,45.5,valid,0.32
+decay_setting_026,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.12
+decay_setting_004,Seven 1-km annuli,45.0,46.0,45.5,valid,0.15
+decay_setting_010,2-km annuli,30.0,32.0,31.0,valid,0.55
+decay_setting_022,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_055,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.45
+decay_setting_044,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_027,1-km annuli to 100 km,50.0,51.0,50.5,valid,0.42
+decay_setting_013,2-km annuli,30.0,32.0,31.0,valid,0.12
+decay_setting_095,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_044,2-km annuli,30.0,32.0,31.0,valid,0.55
+decay_setting_073,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.35
+decay_setting_036,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_052,2-km annuli,14.0,16.0,15.0,valid,0.35
+decay_setting_038,Seven 1-km annuli,10.0,11.0,10.5,valid,0.65
+decay_setting_060,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_088,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_023,2-km annuli,0.0,2.0,1.0,valid,0.72
+decay_setting_030,2-km annuli,0.0,2.0,1.0,valid,0.65
+decay_setting_012,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_052,2-km annuli,60.0,62.0,61.0,valid,0.15
+decay_setting_032,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_047,0.5-km annuli,15.0,15.5,15.25,valid,0.62
+decay_setting_040,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.63
+decay_setting_007,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_016,Seven 1-km annuli,45.0,46.0,45.5,valid,0.12
+decay_setting_089,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_028,0.5-km annuli,5.0,5.5,5.25,valid,0.65
+decay_setting_053,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.05
+decay_setting_028,2-km annuli,60.0,62.0,61.0,valid,0.35
+decay_setting_086,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_089,2-km annuli,4.0,6.0,5.0,valid,0.55
+decay_setting_039,0.5-km annuli,60.0,60.5,60.25,valid,0.15
+decay_setting_012,Seven 1-km annuli,45.0,46.0,45.5,valid,0.27
+decay_setting_080,2-km annuli,4.0,6.0,5.0,valid,0.65
+decay_setting_013,0.5-km annuli,30.0,30.5,30.25,valid,0.15
+decay_setting_056,0.5-km annuli,60.0,60.5,60.25,valid,0.25
+decay_setting_011,0.5-km annuli,0.0,0.5,0.25,valid,0.85
+decay_setting_029,2-km annuli,14.0,16.0,15.0,valid,0.65
+decay_setting_069,2-km annuli,30.0,32.0,31.0,valid,0.25
+decay_setting_027,2-km annuli,30.0,32.0,31.0,valid,0.67
+decay_setting_093,0.5-km annuli,30.0,30.5,30.25,valid,0.67
+decay_setting_062,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_042,1-km annuli to 100 km,25.0,26.0,25.5,valid,0.35
+decay_setting_048,Seven 1-km annuli,45.0,46.0,45.5,valid,0.35
+decay_setting_100,1-km annuli to 100 km,99.0,100.0,99.5,valid,0.15
+decay_setting_017,0.5-km annuli,5.0,5.5,5.25,valid,0.72
+decay_setting_026,1-km annuli to 100 km,10.0,11.0,10.5,valid,0.75
+decay_setting_059,2-km annuli,30.0,32.0,31.0,valid,0.37

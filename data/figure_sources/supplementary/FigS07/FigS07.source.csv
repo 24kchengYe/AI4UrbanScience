@@ -1,0 +1,30 @@
+panel,factor,metric,estimate,ci_low,ci_high,control,requested_n
+a,Functional Mix,complete order,0.8157894736842105,0.665811419288686,0.9077823481477872,,
+a,Residential Density,complete order,1.0,0.9081901317744162,1.0000000000000002,,
+a,Short Blocks,complete order,1.0,0.9081901317744162,1.0000000000000002,,
+a,Aged Buildings,complete order,0.8421052631578947,0.6958318822077686,0.9255613658484106,,
+a,Tall Buildings,complete order,1.0,0.9081901317744162,1.0000000000000002,,
+b,,exact order agreement,0.9375,,,paraphrase,
+b,,exact order agreement,0.9375,,,alias_order,
+b,,exact order agreement,1.0,,,exact_repeat,
+b,,exact order agreement,1.0,,,irrelevant_number,
+c,,complete table rate,0.98,0.95,1.0,,20.0
+c,,complete table rate,0.98,0.95,1.0,,50.0
+c,,complete table rate,1.0,1.0,1.0,,100.0
+c,,complete table rate,0.88,0.81,0.94,,200.0
+c,,complete table rate,0.22,0.14,0.3002499999999963,,300.0
+d,,beta_residential_density_mean,0.6123635285147551,,,,20.0
+d,,beta_residential_density_mean,0.6413883095868749,,,,50.0
+d,,beta_residential_density_mean,0.5993276423326742,,,,100.0
+d,,beta_residential_density_mean,0.6076570009898796,,,,200.0
+d,,beta_residential_density_mean,0.5330431897450935,,,,300.0
+d,,beta_functional_mix_mean,0.2011190735759467,,,,20.0
+d,,beta_functional_mix_mean,0.1999668454244734,,,,50.0
+d,,beta_functional_mix_mean,0.1710734525158354,,,,100.0
+d,,beta_functional_mix_mean,0.156400333362996,,,,200.0
+d,,beta_functional_mix_mean,0.1901913338461357,,,,300.0
+d,,beta_short_blocks_mean,0.09121543167465,,,,20.0
+d,,beta_short_blocks_mean,0.1304078096630723,,,,50.0
+d,,beta_short_blocks_mean,0.1364579977551033,,,,100.0
+d,,beta_short_blocks_mean,0.1343614118145792,,,,200.0
+d,,beta_short_blocks_mean,0.1121421699175784,,,,300.0

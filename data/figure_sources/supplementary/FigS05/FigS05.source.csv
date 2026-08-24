@@ -1,0 +1,30 @@
+panel,model,metric,estimate,condition,rings,grid,ci_low,ci_high
+a,GPT-4o,alpha_hat_median,1.6912159124674249,,,,,
+a,GPT-4o,c_hat_median,0.0156286393936631,,,,,
+a,GPT-4o,D_hat_km_median,37.11386539210978,,,,,
+a,GPT-5.6,alpha_hat_median,1.9077714018830103,,,,,
+a,GPT-5.6,c_hat_median,0.0609209767651332,,,,,
+a,GPT-5.6,D_hat_km_median,37.01795962809415,,,,,
+b,,complete profile rate,1.0,N050-W1,50.0,,,
+b,,complete profile rate,0.95,N100-W1,100.0,,,
+b,,complete profile rate,0.23,N150-W1,150.0,,,
+b,,complete profile rate,0.21,N200-W0.5,200.0,,,
+b,,complete profile rate,1.0,N050-W2,50.0,,,
+c,,near-far ordering,0.8166666666666665,,,levels3_w1,0.76,0.87
+c,,near-far ordering,0.8160000000000001,,,levels5_w1,0.7719999999999999,0.858
+c,,near-far ordering,0.8099999999999998,,,levels7_w1,0.7785714285714285,0.8404880952380952
+c,,near-far ordering,0.922,,,max100_w1,0.898,0.945
+c,,near-far ordering,0.9510000000000002,,,width0.5,0.9360000000000004,0.9640000000000002
+c,,near-far ordering,0.875,,,width2,0.852,0.8960000000000002
+d,,strict decline,0.66,,,levels3_w1,,
+d,,non-increase,0.72,,,levels3_w1,,
+d,,strict decline,0.41,,,levels5_w1,,
+d,,non-increase,0.51,,,levels5_w1,,
+d,,strict decline,0.09,,,levels7_w1,,
+d,,non-increase,0.17,,,levels7_w1,,
+d,,strict decline,0.56,,,max100_w1,,
+d,,non-increase,0.8,,,max100_w1,,
+d,,strict decline,0.58,,,width0.5,,
+d,,non-increase,0.9,,,width0.5,,
+d,,strict decline,0.24,,,width2,,
+d,,non-increase,0.59,,,width2,,
