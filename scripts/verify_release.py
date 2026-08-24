@@ -44,8 +44,8 @@ TEXT_SUFFIXES = {
     ".gitignore",
 }
 CONTAINER_TEXT_SUFFIXES = TEXT_SUFFIXES | {".xml", ".rels", ".tsv"}
+VERSION_CONTROL_METADATA = ".git"
 GENERATED_DIRECTORIES = {
-    ".git",
     ".venv",
     ".pytest_cache",
     "__pycache__",
@@ -67,13 +67,36 @@ def digest(path: Path) -> str:
 def repository_files() -> list[Path]:
     paths: list[Path] = []
     for directory, dirnames, filenames in os.walk(ROOT):
+        directory_path = Path(directory)
         dirnames[:] = [
             name
             for name in dirnames
-            if name not in GENERATED_DIRECTORIES and not name.endswith(".egg-info")
+            if not (directory_path == ROOT and name == VERSION_CONTROL_METADATA)
+            and name not in GENERATED_DIRECTORIES
+            and not name.endswith(".egg-info")
         ]
-        paths.extend(Path(directory) / name for name in filenames)
+        paths.extend(
+            directory_path / name
+            for name in filenames
+            if not (directory_path == ROOT and name == VERSION_CONTROL_METADATA)
+        )
     return paths
+
+
+def _generated_residue_paths() -> list[str]:
+    residue: list[str] = []
+    for path in ROOT.rglob("*"):
+        relative = path.relative_to(ROOT)
+        if relative.parts and relative.parts[0] == VERSION_CONTROL_METADATA:
+            continue
+        if (
+            path.name in GENERATED_DIRECTORIES
+            or path.name == VERSION_CONTROL_METADATA
+            or path.name.endswith(".egg-info")
+            or path.suffix in {".pyc", ".pyo"}
+        ):
+            residue.append(relative.as_posix())
+    return residue
 
 
 def _load_json(path: Path) -> dict:
@@ -461,14 +484,7 @@ def verify() -> dict:
         for path in files
         if path.name.startswith(".env") and path.name != ".env.example"
     ]
-    generated_residue = [
-        path.relative_to(ROOT).as_posix()
-        for path in ROOT.rglob("*")
-        if path.name in GENERATED_DIRECTORIES
-        or path.name == ".venv"
-        or path.name.endswith(".egg-info")
-        or path.suffix in {".pyc", ".pyo"}
-    ]
+    generated_residue = _generated_residue_paths()
     _append_check(
         checks,
         "environment_and_generated_files",

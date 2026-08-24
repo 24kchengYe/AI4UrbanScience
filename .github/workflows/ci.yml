@@ -7,13 +7,17 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONPATH: src
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: python -m pip install --upgrade pip
-      - run: python -m pip install -e ".[test]"
+      - run: python -m pip install -r requirements/base.txt "pytest>=8,<9"
       - run: python scripts/build_manifest.py --check
       - run: python scripts/verify_release.py
-      - run: python -m pytest -q
+      - run: python -m pytest -q -p no:cacheprovider
+      - run: python scripts/verify_release.py

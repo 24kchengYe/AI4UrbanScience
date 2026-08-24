@@ -6,32 +6,39 @@ The repository does not claim that every original model call or every publicatio
 
 ## Quick start
 
-Python 3.10 or later is supported; Python 3.11 is used in continuous checks.
+Python 3.10 or later is supported; Python 3.11 is used in continuous checks. The release verifier is a clean-checkout gate: it intentionally rejects environments, caches, build products, and rendered outputs inside the repository. Create the environment beside the clone and run without writing bytecode or a pytest cache.
 
-```bash
-python -m venv .venv
+On Windows PowerShell:
+
+```powershell
+python -m venv ..\ai4us-venv
+$ai4usPython = (Resolve-Path '..\ai4us-venv\Scripts\python.exe').Path
+& $ai4usPython -m pip install -r requirements/base.txt 'pytest>=8,<9'
+$env:PYTHONDONTWRITEBYTECODE = '1'
+$env:PYTHONPATH = (Resolve-Path 'src').Path
+& $ai4usPython scripts/build_manifest.py --check
+& $ai4usPython scripts/verify_release.py
+& $ai4usPython -m pytest -q -p no:cacheprovider
+& $ai4usPython scripts/verify_release.py
 ```
 
-Activate the environment with `.venv\Scripts\activate` on Windows or `source .venv/bin/activate` on macOS/Linux. For the recommended compatible install, run:
+On macOS or Linux:
 
 ```bash
-python -m pip install -e ".[test]"
+python -m venv ../ai4us-venv
+AI4US_PYTHON=../ai4us-venv/bin/python
+"$AI4US_PYTHON" -m pip install -r requirements/base.txt 'pytest>=8,<9'
+export PYTHONDONTWRITEBYTECODE=1
+export PYTHONPATH=src
+"$AI4US_PYTHON" scripts/build_manifest.py --check
+"$AI4US_PYTHON" scripts/verify_release.py
+"$AI4US_PYTHON" -m pytest -q -p no:cacheprovider
+"$AI4US_PYTHON" scripts/verify_release.py
 ```
 
-For the exact package versions used in the clean Windows validation (CPython 3.13.3), use:
+For the exact dependency versions used in the clean Windows validation with CPython 3.13.3, install `requirements/locked.txt` instead of `requirements/base.txt` plus pytest.
 
-```bash
-python -m pip install -r requirements/locked.txt
-python -m pip install -e . --no-deps
-```
-
-Then verify the unchanged release and run its tests:
-
-```bash
-python scripts/build_manifest.py --check
-python scripts/verify_release.py
-python -m pytest -q
-```
+The examples below use `python`; run them with the same external interpreter (or activate that external environment). Run the clean-checkout verification before creating any `outputs/` directory.
 
 Render a smoke subset or the complete released-source set into a new output directory:
 

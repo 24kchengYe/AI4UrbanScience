@@ -38,7 +38,11 @@ def included_files() -> list[Path]:
         for filename in filenames:
             path = Path(directory) / filename
             relative = path.relative_to(ROOT)
-            if relative.as_posix() in EXCLUDED_FILES or path.suffix in {".pyc", ".pyo"}:
+            if (
+                relative.as_posix() == ".git"
+                or relative.as_posix() in EXCLUDED_FILES
+                or path.suffix in {".pyc", ".pyo"}
+            ):
                 continue
             files.append(path)
     return sorted(files, key=lambda item: item.relative_to(ROOT).as_posix())

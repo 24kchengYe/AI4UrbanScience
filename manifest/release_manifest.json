@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "algorithm": "sha256",
   "scope": "tracked release files excluding generated outputs and self-referential manifests",
-  "file_count": 116,
-  "total_bytes": 8868546,
-  "files_sha256": "49c79f99b8664ad69f3995c51c1bcc63201392ad51d8f486dfba749db840c4df",
+  "file_count": 118,
+  "total_bytes": 8872459,
+  "files_sha256": "fdec9b49c2d5221519828d9e096cb6b4708d1b90e6058d053aed60ee032f7049",
   "files": [
     {
       "path": ".env.example",
@@ -12,9 +12,14 @@
       "sha256": "f197395a5f5f8a8756473bd9dec810f9e44e1c26529365272837bc54fa9182c6"
     },
     {
+      "path": ".gitattributes",
+      "bytes": 94,
+      "sha256": "0c9a70dd5fd8a3daa7704e8a551b2be01674216d87e150775d9583a2ca76ebd3"
+    },
+    {
       "path": ".github/workflows/ci.yml",
-      "bytes": 444,
-      "sha256": "8c9a31b56a2b9b64760ec0e79e6da1d7f902d57bd980d97b9b7952408a37d993"
+      "bytes": 603,
+      "sha256": "1f996fa871b6aca72ce5785b0b9b5b33a3da540dde1b60728d086d6c45e5429f"
     },
     {
       "path": ".gitignore",
@@ -33,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4477,
-      "sha256": "0a3806291c35b8431475ffd7191318f9ceb347a82e096f912c6b034ea5d4dc08"
+      "bytes": 5381,
+      "sha256": "b0862f9de36d3402e6fe0b4fd7d67b3f44a62799d4c90aa38b1a65190e9cb715"
     },
     {
       "path": "data/figure_sources/main/figure2_relationships/Fig02_relationships_v07.source.csv",
@@ -478,8 +483,8 @@
     },
     {
       "path": "scripts/build_manifest.py",
-      "bytes": 3765,
-      "sha256": "c3f5245bc47ae5e5e3dd8519ef9ef6d0de719b447919b661f44a6176d3cc7bdc"
+      "bytes": 3862,
+      "sha256": "2a491597afce34973da9f1fe9698dd6e23ae8753fc60af602d5626eaaad2fedc"
     },
     {
       "path": "scripts/extract_source_data.py",
@@ -498,8 +503,8 @@
     },
     {
       "path": "scripts/verify_release.py",
-      "bytes": 20262,
-      "sha256": "5c05e855e6a9fb39a47a30160956ca9d947ed6c5b6d775274eae8bc7404c6014"
+      "bytes": 20843,
+      "sha256": "e59d46953644ae2b8ec3c51b0441a04fd82ad8dbea0d96841604318c584dd7f9"
     },
     {
       "path": "src/ai4us/__init__.py",
@@ -585,6 +590,11 @@
       "path": "tests/test_source_data.py",
       "bytes": 331,
       "sha256": "55bb6a8d77475e4f4b4adc817c8ab804a26d6c688485cc9d8d2943b3a4501ed3"
+    },
+    {
+      "path": "tests/test_verifier_residue.py",
+      "bytes": 2078,
+      "sha256": "d1e24ac443e8fe46a7132d71ae51ecd4a3088577787f1d45e5488b3ddf506dca"
     }
   ]
 }
