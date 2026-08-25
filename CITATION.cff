@@ -3,6 +3,22 @@ message: "If you use this repository, please cite the associated article."
 title: "GenAI Models Capture Urban Science but Oversimplify Complexity"
 type: software
 version: 2.0.0
+date-released: 2026-08-25
+repository-code: "https://github.com/24kchengYe/AI4UrbanScience"
+url: "https://github.com/24kchengYe/AI4UrbanScience"
+abstract: >-
+  AI4UrbanScience provides released source tables, diagnostic figure rerenders,
+  validation workflows and numerical recomputation for an empirical evaluation
+  of GenAI-generated urban data and controlled interventions across four urban-science cases.
+keywords:
+  - urban science
+  - generative artificial intelligence
+  - urban data
+  - synthetic data
+  - spatial analysis
+  - multimodal models
+  - model interpretability
+  - reproducible research
 authors:
   - family-names: Zhang
     given-names: Yecheng

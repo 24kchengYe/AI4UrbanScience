@@ -3,8 +3,8 @@
   "algorithm": "sha256",
   "scope": "tracked release files excluding generated outputs and self-referential manifests",
   "file_count": 118,
-  "total_bytes": 8872459,
-  "files_sha256": "fdec9b49c2d5221519828d9e096cb6b4708d1b90e6058d053aed60ee032f7049",
+  "total_bytes": 8879232,
+  "files_sha256": "7fa32b0c47675e5671d5ca65db9008217a8cd49902612ddc4a82e5987227e88a",
   "files": [
     {
       "path": ".env.example",
@@ -28,8 +28,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 902,
-      "sha256": "8b2880ceed1de877c68e4649ef7483ea2db05b62aabcd229d3f0516c4b4b113c"
+      "bytes": 1509,
+      "sha256": "c3e78ed73aedfbff7612a70aa7a896362009c1a120f6b7440e910df2cb833744"
     },
     {
       "path": "LICENSE",
@@ -38,8 +38,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5381,
-      "sha256": "b0862f9de36d3402e6fe0b4fd7d67b3f44a62799d4c90aa38b1a65190e9cb715"
+      "bytes": 11042,
+      "sha256": "2a4120142c279f44d28c952b8ea13f7edc754457834c820cce0a10736cdcda0e"
     },
     {
       "path": "data/figure_sources/main/figure2_relationships/Fig02_relationships_v07.source.csv",
@@ -418,13 +418,13 @@
     },
     {
       "path": "docs/perception_state_replacement.md",
-      "bytes": 782,
-      "sha256": "d48ff82a9c32556a4e30cb7ae9bcf98a27eb255de7b03632213885dc2b442bc6"
+      "bytes": 991,
+      "sha256": "b469a5ae644d6036f57ac011962f9e87980f1563f672bfb986d4d8ff4a3c8ec7"
     },
     {
       "path": "docs/reproduction_status.md",
-      "bytes": 1967,
-      "sha256": "f7c581413041e3db8923464b886d930dc2a9ad09e12bc314acd656d9e5e3a05d"
+      "bytes": 2263,
+      "sha256": "68b3b4af613114725ba6fd7fef3cad42bf7ffba533963b1b25fbade12edde56f"
     },
     {
       "path": "environment.yml",

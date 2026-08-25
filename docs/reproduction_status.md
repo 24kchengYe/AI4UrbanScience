@@ -6,7 +6,8 @@
 | Figure 1 | Frozen PDF | Exact author-supplied conceptual artwork | Not code-generated |
 | Figures 2–5 | `scripts/reproduce_figures.py` | Deterministic public rerender from released plotted-source cells | Not asserted to be pixel-identical to publication layouts |
 | Figures S1–S12 | Same renderer | Every released source row is rendered; labels retain the panel-specific identifying fields | Some panels summarize heterogeneous metrics in a generic diagnostic layout |
-| 7B Perception state replacement | `scripts/recompute_perception_state_replacement.py` | Correlation, bootstrap intervals, attenuation, specificity, sign-flip tests, and completeness checks | Starts from identifier-free released numerical matrices |
+| Primary Qwen2.5-VL-72B analysis | Released estimands, figure-source tables and the exact Figure 5 reference PDF | Supports inspection and diagnostic rerendering of the reported quantitative results | Raw inference, weights and hidden-state tensors are not released |
+| Qwen2.5-VL-7B Perception replication | `scripts/recompute_perception_state_replacement.py` | Correlation, bootstrap intervals, attenuation, specificity, sign-flip tests, and completeness checks | Starts from identifier-free released numerical matrices after model inference |
 | Raw model generation | None | Not part of the supported public workflow | Requires external services or weights and non-released raw assets |
 
 The exact Figure 1–5 PDFs are provided as visual references. A successful verification run demonstrates artifact integrity, workbook/source-table equality, public-boundary compliance, manifest consistency, tests, and rendering execution. It does not expand the release beyond the stated data boundary.
