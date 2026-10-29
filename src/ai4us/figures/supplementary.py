@@ -25,6 +25,47 @@ LABEL_COLUMNS = {
 }
 
 
+PANEL_TITLES = {
+    (2, "a"): "Prompt-component effects",
+    (2, "b"): "Requested generic cities: complete datasets",
+    (2, "c"): "Requested generic cities: scaling coefficients",
+    (2, "d"): "Changed input and response",
+    (3, "a"): "Distinct values: administrative-city reference",
+    (3, "b"): "Numerical range: administrative-city reference",
+    (3, "d"): "Changed input and response",
+    (7, "b"): "Functional Mix controls (16/20 valid in both requests)",
+    (12, "b"): "Reference-weighted reductions and control contrasts",
+}
+
+
+def _display_label(number: int, panel: str, column: str, value: object) -> str:
+    """Clarify display labels without modifying the released source records."""
+    raw = str(value).strip()
+    if number == 2 and column == "component" and panel == "a":
+        return {
+            "O": "City-system organization",
+            "R": "Numerical range",
+            "H": "Heterogeneity",
+        }.get(raw, raw)
+    if number == 2 and column == "requested_n" and panel in ("b", "c"):
+        return f"{float(raw):g} requested generic cities"
+    if number in (2, 3) and panel == "d" and column == "changed_input":
+        return {"road": "Road → GDP", "gdp": "GDP → Road"}.get(raw, raw)
+    if number == 3 and panel in ("a", "b") and column == "source":
+        return "Administrative cities" if raw == "Empirical" else raw
+    if number == 3 and panel == "c" and column == "empirical_definition":
+        return raw.replace("area gt 20", "area > 20 km²").replace("area gt 5", "area > 5 km²")
+    if number == 12 and panel == "b" and column == "condition":
+        return {
+            "All image states": "All image states (reduction)",
+            "High-change positions": "High-change states (reduction)",
+            "vs image-random": "High-change minus |random-image control|",
+            "vs low-change": "High-change minus |low-change control|",
+            "vs text-random": "High-change minus |random-text control|",
+        }.get(raw, raw)
+    return raw.replace("_", " ")
+
+
 def panel_row_labels(
     data: pd.DataFrame,
     number: int,
@@ -44,7 +85,7 @@ def panel_row_labels(
         for column in columns:
             if pd.isna(row[column]) or not str(row[column]).strip():
                 continue
-            value = str(row[column]).strip().replace("_", " ")
+            value = _display_label(number, str(row["panel"]), column, row[column])
             parts.append(value)
         labels.append(" | ".join(parts) or "estimate")
     if len(labels) != len(set(labels)):
@@ -170,9 +211,13 @@ def _estimate_figure(frame: pd.DataFrame, number: int, output_dir: Path) -> dict
             axis.set_xlim(-0.08, 1.08)
             axis.set_xticks([0, 1], ["Fail", "Pass"])
             axis.set_xlabel("Released pass criterion")
+        elif number == 12 and str(panel) == "b":
+            axis.set_xlabel("Reference-weighted reduction or contrast (logit units)")
+        elif number in (2, 3) and str(panel) == "d":
+            axis.set_xlabel("Log–log response slope")
         else:
             axis.set_xlabel("Released estimate with interval where available")
-        panel_title(axis, letter, f"Panel {panel}")
+        panel_title(axis, letter, PANEL_TITLES.get((number, str(panel)), f"Panel {panel}"))
     if plotted_rows != len(frame):
         raise ValueError(
             f"Figure S{number:02d} rendered {plotted_rows} of {len(frame)} released rows"

@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "label_review_date": "2026-10-26",
+  "public_sync_date": "2026-10-29",
+  "change_type": "reader_labels_only",
+  "base_commit": "38b2523ab8502d0830e4683b9d1f66016ab80a33",
+  "renderer": "ai4us.figures.supplementary",
+  "renderer_before": {
+    "artifact_id": "ai4us-artifact-sha256-629d7832059b3dd5019fd0a68bc1bac48cc38576bab66c265f1aec4b108be5cf",
+    "sha256": "629d7832059b3dd5019fd0a68bc1bac48cc38576bab66c265f1aec4b108be5cf"
+  },
+  "renderer_after": {
+    "artifact_id": "ai4us-artifact-sha256-11f986e8590ee26bd3fc5f877252344faf6b685d71aeb06537f5636ea74796c9",
+    "sha256": "11f986e8590ee26bd3fc5f877252344faf6b685d71aeb06537f5636ea74796c9"
+  },
+  "scope": {
+    "scientific_recomputation": false,
+    "source_tables_changed": false,
+    "estimates_and_intervals_changed": false,
+    "numeric_artist_positions_or_colors_changed": false,
+    "existing_main_figure_references_changed": false,
+    "public_render_layout": "Existing all-released-rows diagnostic layout",
+    "reference_pdf_layout": "Publication layout; not a pixel-identical public rerender"
+  },
+  "figures": [
+    {
+      "figure": "S02",
+      "source_rows": 23,
+      "source": {
+        "artifact_id": "ai4us-artifact-sha256-58cd15d4c7a6007e81b06b14dcebefe378ae54ef8dfb5e78c4cbe3745332588f",
+        "sha256": "58cd15d4c7a6007e81b06b14dcebefe378ae54ef8dfb5e78c4cbe3745332588f"
+      },
+      "reference_pdf": {
+        "artifact_id": "ai4us-artifact-sha256-6ca709a7faac3f8750f624c903669c946b5d7f8eb19f284a7514ca43a72678d9",
+        "sha256": "6ca709a7faac3f8750f624c903669c946b5d7f8eb19f284a7514ca43a72678d9"
+      },
+      "label_changes": [
+        "O/R/H displayed as City-system organization / Numerical range / Heterogeneity",
+        "Requested generic cities identified explicitly",
+        "Changed inputs and responses shown as Road to GDP and GDP to Road"
+      ],
+      "numeric_artist_sha256": "c2aec04f33923fddad2ae2498a75fbedaac3b89b13ba609aa08bfbcce43a7840"
+    },
+    {
+      "figure": "S03",
+      "source_rows": 24,
+      "source": {
+        "artifact_id": "ai4us-artifact-sha256-a65d3818b4e345f6b27529b9cdc80843e5e3d0c045a45a3626e66775fc53396b",
+        "sha256": "a65d3818b4e345f6b27529b9cdc80843e5e3d0c045a45a3626e66775fc53396b"
+      },
+      "reference_pdf": {
+        "artifact_id": "ai4us-artifact-sha256-25495c893f6b3d6fc85bf433759d0ee3f5c5062680ee430d82c3c44983c7fe0c",
+        "sha256": "25495c893f6b3d6fc85bf433759d0ee3f5c5062680ee430d82c3c44983c7fe0c"
+      },
+      "label_changes": [
+        "Panels a and b identify administrative-city references",
+        "Physical-city area thresholds include square-kilometre units",
+        "Changed inputs and responses shown as Road to GDP and GDP to Road"
+      ],
+      "numeric_artist_sha256": "443a98c733ae6774c14fdc5cdfee8267c87421aeb65aed4f00e360e9cedcbb0c"
+    },
+    {
+      "figure": "S07",
+      "source_rows": 29,
+      "source": {
+        "artifact_id": "ai4us-artifact-sha256-5093f6e4c1f0af6573a2045bd16ee29e0949e2620091a14663a52645b9446eb2",
+        "sha256": "5093f6e4c1f0af6573a2045bd16ee29e0949e2620091a14663a52645b9446eb2"
+      },
+      "reference_pdf": {
+        "artifact_id": "ai4us-artifact-sha256-27c7a130718c7e98f88f3067fb72b977353de0a26723b0264d8acfa76ba75c24",
+        "sha256": "27c7a130718c7e98f88f3067fb72b977353de0a26723b0264d8acfa76ba75c24"
+      },
+      "label_changes": [
+        "Panel b identifies Functional Mix controls",
+        "Panel b reports 16 of 20 settings valid in both requests"
+      ],
+      "numeric_artist_sha256": "71726071c436be05590138b70524b6e154db29a19cda9c889c89393d46416d1f"
+    },
+    {
+      "figure": "S12",
+      "source_rows": 59,
+      "source": {
+        "artifact_id": "ai4us-artifact-sha256-9a9ca73b9e2486862437f0a3107208ef138e1b13f157717aba699899475a9fc5",
+        "sha256": "9a9ca73b9e2486862437f0a3107208ef138e1b13f157717aba699899475a9fc5"
+      },
+      "reference_pdf": {
+        "artifact_id": "ai4us-artifact-sha256-7e840bd512f94ed181b7f87824fab8ee85c287cd536b2b68928949365beacbdb",
+        "sha256": "7e840bd512f94ed181b7f87824fab8ee85c287cd536b2b68928949365beacbdb"
+      },
+      "label_changes": [
+        "First two panel-b rows identify reductions",
+        "Last three rows identify high-change reduction minus absolute matched-control effects",
+        "The negative random-text contrast remains unchanged"
+      ],
+      "numeric_artist_sha256": "a525c18d5db27a5c0ca50f3dbfc86099b19f42231b37f681211131f14688c75a"
+    }
+  ],
+  "validation": {
+    "label_and_numeric_regression_tests": 10,
+    "test_status": "PASS",
+    "rendered_figures": 4,
+    "rendered_source_rows": 135,
+    "omitted_source_rows": 0,
+    "comparison_with_base_commit_numeric_artists": "identical for all four figures",
+    "visual_check": "no clipped or overlapping corrected labels observed",
+    "reference_pdf_private_path_scan": "PASS: metadata, extracted text and PDF objects",
+    "reference_pdf_pages": [1, 1, 1, 1],
+    "runtime": {"matplotlib": "3.10.8"},
+    "numeric_fingerprint_scope": "Figure size; axes positions and limits; data-line coordinates, markers and colours; interval collection paths and colours. Labels are excluded."
+  }
+}

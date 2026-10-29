@@ -1,0 +1,30 @@
+{
+  "release": "2.1.0",
+  "date": "2026-10-29",
+  "scope": "Byte-exact copies of revised explanatory workbooks; original workbooks preserved.",
+  "workbooks": [
+    {
+      "path": "data/publication/20261029/supplementary_data_1_prompts_and_inference.xlsx",
+      "sha256": "93c0070bfd4b1f8e27ab5276e4d1b240c65f4163f436965b574df0050d1dcd9c",
+      "original_path": "data/publication/supplementary_data_1_prompts_and_inference.xlsx",
+      "original_sha256": "cff9a0ae44e52259ae1bcb08856097c7582971d2ddca650920e4c87c981f3a42",
+      "changed_cells": [
+        {"sheet": "README", "cell": "B3", "description": "Article title at workbook revision date."},
+        {"sheet": "Inference settings", "cell": "F7", "description": "Task-specific temperature: 0.7 for Distance Decay, 0 for the other replicated numerical tasks."},
+        {"sheet": "Model provenance", "cell": "A2", "description": "Workbook update note."},
+        {"sheet": "Model provenance", "cell": "C17", "description": "ResNet-50 checkpoint label corrected from ImageNet1K_V2 to ImageNet1K_V1; checkpoint hash retained."}
+      ],
+      "unchanged": "All other cell values, sheet dimensions, prompt templates, rendered prompts and checkpoint hashes."
+    },
+    {
+      "path": "data/publication/20261029/supplementary_data_2_empirical_provenance.xlsx",
+      "sha256": "02eb76b065438550c7b1b4cfd1e67ab600c1a4f404ccd30b50045d1a33c99461",
+      "original_path": "data/publication/supplementary_data_2_empirical_provenance.xlsx",
+      "original_sha256": "6b7c0f69dd03c64ca92f77deb46d11a2098b51f5a40de964b793291c821ac92c",
+      "changed_cells": [
+        {"sheet": "README", "cell": "B3", "description": "Article title at workbook revision date."}
+      ],
+      "unchanged": "All other cell values and sheet dimensions, including empirical-source records and redistribution notes."
+    }
+  ]
+}

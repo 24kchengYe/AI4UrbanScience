@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-29",
+  "scope": "Public integration of two existing offline recomputations",
+  "source_archives": [
+    {"role": "controlled_scaling_example", "sha256": "dc33e74d1f0085c8030a79e3d77e5fbb39f26561329f875d0c5111c8ddc0b77f", "artifact_id": "ai4us-artifact-sha256-dc33e74d1f0085c8030a79e3d77e5fbb39f26561329f875d0c5111c8ddc0b77f", "availability": "accompanying archive; extracted public inputs listed below"},
+    {"role": "parsed_outputs_with_single_cue", "sha256": "77034eafc5fb633d87ee281c0a6698be237f4910f13e18873ebaa90722646886", "artifact_id": "ai4us-artifact-sha256-77034eafc5fb633d87ee281c0a6698be237f4910f13e18873ebaa90722646886", "availability": "accompanying archive; extracted public inputs listed below"}
+  ],
+  "artifacts": [
+    {"public_path": "examples/controlled_scaling/LICENSE", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/LICENSE", "source_sha256": "562dc46fa6a32d2919e98527c8494902b51ee30a7b2c0d294ba448fa1855f3f1", "byte_identical": true},
+    {"public_path": "examples/controlled_scaling/contract.json", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/contract.json", "source_sha256": "1bd4b39437e3e6d19b264500916b161d9b9de49cb1e44c3fb33eaf070a4bc527", "byte_identical": true},
+    {"public_path": "examples/controlled_scaling/prompt_template.json", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/prompt_template.json", "source_sha256": "105251e85dcf3583fa9ddb0553e518b8f656527cc69a91df33f102632d8b04cb", "byte_identical": true},
+    {"public_path": "examples/controlled_scaling/data/urban_scaling_intervention_outputs.csv", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/data/urban_scaling_intervention_outputs.csv", "source_sha256": "9faf570678d3e1b5b874948e22c962a6fb9306c86bee21f39ca786c73dd3cf46", "byte_identical": true},
+    {"public_path": "examples/controlled_scaling/data/figure4_source.csv", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/data/Fig04_conditional_interventions_v10.source.csv", "source_sha256": "4705898bcfba6b0ffbd7b3f109cbff3b380b0ec37f52138b9ec20cb24a638148", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/perception_single_cue_scores.csv", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/parsed_model_outputs/perception_single_cue_scores.csv", "source_sha256": "e30f86702ee4a0205bc1bb67b0d7a676274f96d8a2a8bfb8933867495a3ac91b", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/perception_single_cue_scene_estimands.csv", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/parsed_model_outputs/perception_single_cue_scene_estimands.csv", "source_sha256": "8aa3541ec4958508378b8da8e93d17befdb195e5c82510a25c2de5441513cbe2", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/perception_single_cue_summary.csv", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/parsed_model_outputs/perception_single_cue_summary.csv", "source_sha256": "3d78fb2138c166dc46bd9c1ce8ea8da2cf93b791d17371ffeadbacd048920cbb", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/perception_single_cue_qc.csv", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/parsed_model_outputs/perception_single_cue_qc.csv", "source_sha256": "ba728a390bd659bf7d506408fd3cf0abf336004a457bffb2c909a4f5c24b8319", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/single_cue_analysis_config.json", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/single_cue_analysis_config.json", "source_sha256": "5fc19dcfb259b1c310c2e4f018a5030b6c40258320ba998ff2fb2ae39ea98c06", "byte_identical": true},
+    {"public_path": "data/processed/single_cue/figure_s9_source.csv", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/figure_source_data/FigS09_source_data.csv", "source_sha256": "fc1e0d4d0149dbe87ad57acc8eea5b18e9cdefa8f23538e05c5af2bacf013ec5", "byte_identical": true},
+    {"public_path": "examples/controlled_scaling/run_example.py", "source_archive": "controlled_scaling_example", "source_member": "AI4US_Worked_Example/run_example.py", "source_sha256": "b3010bbb81ceb4b58f93845cddcc8f9fc4f3c29b94453741ff56cf85c9d40e2f", "byte_identical": false, "changes": "Repository-relative source-table name; output directory required outside checkout; updated entry-point documentation. Estimation formulas and selection unchanged."},
+    {"public_path": "scripts/recompute_single_cue.py", "source_archive": "parsed_outputs_with_single_cue", "source_member": "AI4US_Parsed_Model_Outputs/scripts/recompute_single_cue.py", "source_sha256": "960dc351121e719a846132e776ae7a5d7e15ebf4b3f87c5a4143138dd362ab9b", "byte_identical": false, "changes": "Repository-relative default data directory and input manifest; checks registered scene IDs. Estimands, primary-link ordering, random seed, bootstrap draws and interval calculations unchanged."}
+  ],
+  "numerical_contract": {
+    "scaling": {"settings": 100, "primary_rows": 500, "available_rows_all_conditions": 2100, "mean_road_exponent": 0.6815397449294656, "mean_gdp_exponent": 1.0338220034025647, "settings_gdp_greater_than_road": 99},
+    "single_cue": {"scenes": 12, "scored_images": 60, "scene_contrasts": 60, "primary_effects": 5, "bootstrap_seed": 20260728, "bootstrap_resamples": 10000, "interval": "Pointwise percentile 95%; no multiplicity adjustment"}
+  },
+  "prompt_source_mapping": {
+    "public_workbook": "data/publication/20261029/supplementary_data_1_prompts_and_inference.xlsx",
+    "workbook_sha256": "93c0070bfd4b1f8e27ab5276e4d1b240c65f4163f436965b574df0050d1dcd9c",
+    "sheet": "Prompt templates",
+    "excel_row_including_header": 13,
+    "public_key": "SCL-INT-PRIMARY_SCHEMA",
+    "all_eleven_record_fields_match": true,
+    "template_preserved_byte_exact": true
+  },
+  "validation": {
+    "status": "pass",
+    "new_model_calls": 0,
+    "tests": 20,
+    "test_command": "python -B -m pytest -q -p no:cacheprovider tests/test_recomputation_additions.py",
+    "original_input_hash_matches": 11,
+    "scaling_point_estimates_match": true,
+    "single_cue_means_and_intervals_match": true,
+    "private_surface_hits": 0,
+    "public_naming_hits": 0,
+    "checkout_generated_residue": 0
+  },
+  "publication_boundary": "Numerical records, template and offline analyses only. No source images, hidden-state arrays, private locations, credentials or original model-call traffic are included.",
+  "guide_impact": "No material change to experimental conclusions; two existing analyses gain public entry points."
+}

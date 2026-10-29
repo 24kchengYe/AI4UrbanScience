@@ -1,0 +1,17 @@
+{
+  "source_workbook": "AI4US_Supplementary_Data_1_Prompts_and_Inference.xlsx",
+  "source_sheet": "Prompt templates",
+  "record": {
+    "public_key": "SCL-INT-PRIMARY_SCHEMA",
+    "case": "Urban Scaling",
+    "experiment_role": "Conditional Intervention",
+    "variant": "Population intervention — primary",
+    "system_prompt": "You generate internally coherent quantitative records for fictional cities. Follow the requested JSON schema exactly and do not add commentary.",
+    "user_prompt": "Fictional city record:\n- ID: {carrier_id}\n- Region: {region}\n- Climate: {climate}\n- Topography: {topography}\n- Economic base: {economic_base}\n- Planning history: {planning_history}\n- Population: {population_people} people\n\nGenerate a plausible annual GDP and total road-network length for this fictional city. Return exactly one JSON object with these keys and numeric values: {{\"carrier_id\": \"{carrier_id}\", \"population_people\": {population_people}, \"gdp_million_currency_units\": NUMBER, \"road_length_km\": NUMBER}}. Do not add an explanation.",
+    "model_or_system": "GPT-4o",
+    "temperature": "0",
+    "token_limit": "not recorded in prompt contract",
+    "decoding_or_output": "One JSON object",
+    "reader_note": "Placeholders denote frozen fictional-city attributes and assigned Population."
+  }
+}

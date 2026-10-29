@@ -51,3 +51,9 @@ Each figure-source directory also has a `manifest.json` containing only current 
 | `perception_7b_replication_summary.csv` | Registered/usable unit counts | analysis component and completeness counts |
 
 The exact headers are authoritative. Public extract hashes are recorded in `data/release_manifests/parsed_model_outputs_manifest.csv`; the external archive identity is in `data/release_manifests/parsed_model_outputs_reference.json`; and public-safe lineage is in `provenance/artifact_lineage.csv`.
+
+## Additional recomputation inputs
+
+The original 32-file extract above is unchanged. `data/processed/single_cue/` separately contains 60 model-scored image records, scene-level contrasts, quality-control fields and the five prespecified summary effects for 12 pseudonymous scenes. See its [data description](../data/processed/single_cue/README.md) and [workflow](single_cue.md) for field definitions and the same-scene editing control.
+
+`examples/controlled_scaling/data/` contains the worked example's 100 controlled settings and released responses. The [worked-example guide](worked_example.md) connects these inputs with the prompt schema and the response comparison. These data describe generated responses, not empirical city records.

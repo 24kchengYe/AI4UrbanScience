@@ -8,9 +8,11 @@
 | Figures S1–S12 | Same renderer | Every released source row is rendered; labels retain the panel-specific identifying fields | Some panels summarize heterogeneous metrics in a generic diagnostic layout |
 | Primary Qwen2.5-VL-72B analysis | Released estimands, figure-source tables and the exact Figure 5 reference PDF | Supports inspection and diagnostic rerendering of the reported quantitative results | Raw inference, weights and hidden-state tensors are not released |
 | Qwen2.5-VL-7B Perception replication | `scripts/recompute_perception_state_replacement.py` | Correlation, bootstrap intervals, attenuation, specificity, sign-flip tests, and completeness checks | Starts from identifier-free released numerical matrices after model inference |
+| Controlled-scaling worked example | `examples/controlled_scaling/run_example.py` | Point estimates from 100 settings and 500 primary responses; prompt/input/output correspondence | No model calls; uses existing generated responses |
+| Single-cue streetscape edits | `scripts/recompute_single_cue.py` | Five prespecified effects and bootstrap intervals from 12 scenes | Uses model-scored image responses; does not generate images or collect human ratings |
 | Raw model generation | None | Not part of the supported public workflow | Requires external services or weights and non-released raw assets |
 
-The exact Figure 1–5 PDFs are provided as visual references. A successful verification run demonstrates artifact integrity, workbook/source-table equality, public-boundary compliance, manifest consistency, tests, and rendering execution. It does not expand the release beyond the stated data boundary.
+The exact Figure 1–5 PDFs and updated S2, S3, S7 and S12 PDFs are provided as visual references. Supplementary-label changes do not change the plotted-source values. A successful verification run demonstrates artifact integrity, workbook/source-table equality, public-boundary compliance, manifest consistency, tests, and rendering execution. It does not expand the release beyond the stated data boundary.
 
 Current reader manifests live beside the released data. Author-side lineage is represented publicly only by stable artifact IDs and SHA-256 values; the complete location crosswalk and snapshots are outside this repository.
 

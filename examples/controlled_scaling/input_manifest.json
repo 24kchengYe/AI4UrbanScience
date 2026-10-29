@@ -1,0 +1,10 @@
+{
+  "scope": "Immutable inputs for offline Scaling point-estimate recomputation",
+  "inputs": [
+    {"path": "data/urban_scaling_intervention_outputs.csv", "sha256": "9faf570678d3e1b5b874948e22c962a6fb9306c86bee21f39ca786c73dd3cf46"},
+    {"path": "data/figure4_source.csv", "sha256": "4705898bcfba6b0ffbd7b3f109cbff3b380b0ec37f52138b9ec20cb24a638148"},
+    {"path": "LICENSE", "sha256": "562dc46fa6a32d2919e98527c8494902b51ee30a7b2c0d294ba448fa1855f3f1"},
+    {"path": "prompt_template.json", "sha256": "105251e85dcf3583fa9ddb0553e518b8f656527cc69a91df33f102632d8b04cb"},
+    {"path": "contract.json", "sha256": "1bd4b39437e3e6d19b264500916b161d9b9de49cb1e44c3fb33eaf070a4bc527"}
+  ]
+}

@@ -40,7 +40,7 @@ def test_processed_data_uses_reader_oriented_namespace() -> None:
         for path in (ROOT / "data/processed").iterdir()
         if path.is_dir()
     }
-    assert directories == {"model_outputs"}
+    assert directories == {"model_outputs", "single_cue"}
     assert len(list((ROOT / "data/processed/model_outputs").glob("*.csv"))) == 32
 
 

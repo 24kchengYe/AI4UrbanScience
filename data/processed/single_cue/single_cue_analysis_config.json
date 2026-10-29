@@ -1,0 +1,59 @@
+{
+  "dimensions": [
+    "Beautiful",
+    "Depressing",
+    "Lively",
+    "Safe",
+    "Wealthy",
+    "Boring"
+  ],
+  "primary_links": [
+    {
+      "condition": "tree_canopy",
+      "dimension": "Beautiful",
+      "direction": "up"
+    },
+    {
+      "condition": "tree_canopy",
+      "dimension": "Depressing",
+      "direction": "down"
+    },
+    {
+      "condition": "visible_activity",
+      "dimension": "Lively",
+      "direction": "up"
+    },
+    {
+      "condition": "facade_repair",
+      "dimension": "Safe",
+      "direction": "up"
+    },
+    {
+      "condition": "facade_repair",
+      "dimension": "Wealthy",
+      "direction": "up"
+    }
+  ],
+  "bootstrap_unit": "scene",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260728,
+  "estimand": "(target score - baseline score) - (editing-control score - baseline score)",
+  "interval": "Pointwise percentile 95%; no multiplicity adjustment",
+  "condition_key": {
+    "sham": "Same-scene editing control"
+  },
+  "scene_ids": [
+    "singlecue_scene_001",
+    "singlecue_scene_002",
+    "singlecue_scene_003",
+    "singlecue_scene_004",
+    "singlecue_scene_005",
+    "singlecue_scene_006",
+    "singlecue_scene_007",
+    "singlecue_scene_008",
+    "singlecue_scene_009",
+    "singlecue_scene_010",
+    "singlecue_scene_011",
+    "singlecue_scene_012"
+  ]
+}

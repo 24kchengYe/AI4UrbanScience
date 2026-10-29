@@ -1,0 +1,11 @@
+{
+  "scope": "Immutable single-cue analysis inputs, copied byte-exact from the accompanying data archive",
+  "inputs": [
+    {"path": "perception_single_cue_scores.csv", "sha256": "e30f86702ee4a0205bc1bb67b0d7a676274f96d8a2a8bfb8933867495a3ac91b"},
+    {"path": "perception_single_cue_scene_estimands.csv", "sha256": "8aa3541ec4958508378b8da8e93d17befdb195e5c82510a25c2de5441513cbe2"},
+    {"path": "perception_single_cue_summary.csv", "sha256": "3d78fb2138c166dc46bd9c1ce8ea8da2cf93b791d17371ffeadbacd048920cbb"},
+    {"path": "perception_single_cue_qc.csv", "sha256": "ba728a390bd659bf7d506408fd3cf0abf336004a457bffb2c909a4f5c24b8319"},
+    {"path": "single_cue_analysis_config.json", "sha256": "5fc19dcfb259b1c310c2e4f018a5030b6c40258320ba998ff2fb2ae39ea98c06"},
+    {"path": "figure_s9_source.csv", "sha256": "fc1e0d4d0149dbe87ad57acc8eea5b18e9cdefa8f23538e05c5af2bacf013ec5"}
+  ]
+}
